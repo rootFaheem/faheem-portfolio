@@ -51,11 +51,17 @@ const footer = () => {
               </ul>
             </div>
             <div className="col-md-4">
-              <h4 className="text-uppercase mb-4">About Freelancer</h4>
+              <h4 className="text-uppercase mb-4">Contact Me</h4>
               <p className="lead mb-0">
-                Freelance is a free to use, open source Bootstrap theme created
-                by
-                <a href="http://startbootstrap.com">Start Bootstrap</a>.
+                Mobile No: +91-8929997976
+                <br />
+                email:{" "}
+                <a
+                  href="mailto:faheemtech1@gmail.com?Subject=Hello%20again"
+                  target="_top"
+                >
+                  Send Mail
+                </a>
               </p>
             </div>
           </div>
@@ -68,7 +74,6 @@ const footer = () => {
         </div>
       </div>
 
-      {/* <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) --> */}
       <div className="scroll-to-top d-lg-none position-fixed ">
         <a
           className="js-scroll-trigger d-block text-center text-white rounded"
