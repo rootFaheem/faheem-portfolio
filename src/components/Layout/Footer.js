@@ -21,23 +21,19 @@ const footer = () => {
                 <li className="list-inline-item">
                   <a
                     className="btn btn-outline-light btn-social text-center rounded-circle"
-                    href="#/"
+                    href="https://github.com/FaheemTech"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    <i className="fab fa-fw fa-facebook-f" />
+                    <i className="fab fa-fw fa-github" />
                   </a>
                 </li>
                 <li className="list-inline-item">
                   <a
                     className="btn btn-outline-light btn-social text-center rounded-circle"
-                    href="#/"
-                  >
-                    <i className="fab fa-fw fa-google-plus-g" />
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a
-                    className="btn btn-outline-light btn-social text-center rounded-circle"
-                    href="#/"
+                    href="https://twitter.com/rootfaheem"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-fw fa-twitter" />
                   </a>
@@ -45,17 +41,11 @@ const footer = () => {
                 <li className="list-inline-item">
                   <a
                     className="btn btn-outline-light btn-social text-center rounded-circle"
-                    href="#/"
+                    href="https://www.linkedin.com/in/faheem-ahmad-753705127/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-fw fa-linkedin-in" />
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a
-                    className="btn btn-outline-light btn-social text-center rounded-circle"
-                    href="#/"
-                  >
-                    <i className="fab fa-fw fa-dribbble" />
                   </a>
                 </li>
               </ul>
@@ -74,7 +64,7 @@ const footer = () => {
 
       <div className="copyright py-4 text-center text-white">
         <div className="container">
-          <small>Copyright &copy; Your Website 2019</small>
+          <small>Copyright &copy; {new Date().getFullYear()} faheem </small>
         </div>
       </div>
 
