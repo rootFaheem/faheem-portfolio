@@ -138,18 +138,22 @@ const landing = () => {
           <div className="row">
             <div className="col-lg-4 ml-auto">
               <p className="lead">
-                Freelancer is a free bootstrap theme created by Start Bootstrap.
-                The download includes the complete source files including HTML,
-                CSS, and JavaScript as well as optional LESS stylesheets for
-                easy customization.
+                I am faheem Ahmad. I do mess with Computers. Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Numquam, porro eius sit
+                dolorum necessitatibus eveniet magnam praesentium voluptas
+                facilis ratione architecto saepe inventore ex, ipsum pariatur et
+                laborum veritatis magni.
               </p>
             </div>
             <div className="col-lg-4 mr-auto">
               <p className="lead">
-                Whether you're a student looking to showcase your work, a
-                professional looking to attract clients, or a graphic artist
-                looking to share your projects, this template is the perfect
-                starting point!
+                I have completed my 10th with 82% of marks from Khair Technical
+                Hr. Secondary School in 2012. After that i have joined Jamia
+                Millia Islamia in New Delhi. And from there i have completed
+                Diploma in Computer Engineering in 2015 with 76% of marks. And
+                then i have joined GGSIP University in New Delhi and from there
+                i have completed Bachelor of Technology in 2018 with 73% of
+                marks.
               </p>
             </div>
           </div>
