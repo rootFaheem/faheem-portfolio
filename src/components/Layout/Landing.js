@@ -1,5 +1,13 @@
 import React from "react";
 
+import profile from "../../img/faheem.png";
+import cabin from "../../img/portfolio/cabin.png";
+import cake from "../../img/portfolio/cake.png";
+import circus from "../../img/portfolio/circus.png";
+import safe from "../../img/portfolio/safe.png";
+import submarine from "../../img/portfolio/submarine.png";
+import game from "../../img/portfolio/safe.png";
+
 const landing = () => {
   return (
     <div>
@@ -7,8 +15,8 @@ const landing = () => {
         <div className="container">
           <img
             className="img-fluid mb-5 d-block mx-auto"
-            src="img/profile.png"
-            alt=""
+            src={profile}
+            alt="profile_image"
           />
           <h1 className="text-uppercase mb-0">Faheem Ahmad</h1>
           <hr className="star-light" />
@@ -35,11 +43,7 @@ const landing = () => {
                     <i className="fas fa-search-plus fa-3x" />
                   </div>
                 </div>
-                <img
-                  className="img-fluid"
-                  src="img/portfolio/cabin.png"
-                  alt=""
-                />
+                <img className="img-fluid" src={cabin} alt="" />
               </a>
             </div>
             <div className="col-md-6 col-lg-4">
@@ -52,11 +56,7 @@ const landing = () => {
                     <i className="fas fa-search-plus fa-3x" />
                   </div>
                 </div>
-                <img
-                  className="img-fluid"
-                  src="img/portfolio/cake.png"
-                  alt=""
-                />
+                <img className="img-fluid" src={cake} alt="" />
               </a>
             </div>
             <div className="col-md-6 col-lg-4">
@@ -69,11 +69,7 @@ const landing = () => {
                     <i className="fas fa-search-plus fa-3x" />
                   </div>
                 </div>
-                <img
-                  className="img-fluid"
-                  src="img/portfolio/circus.png"
-                  alt=""
-                />
+                <img className="img-fluid" src={circus} alt="" />
               </a>
             </div>
             <div className="col-md-6 col-lg-4">
@@ -86,11 +82,7 @@ const landing = () => {
                     <i className="fas fa-search-plus fa-3x" />
                   </div>
                 </div>
-                <img
-                  className="img-fluid"
-                  src="img/portfolio/game.png"
-                  alt=""
-                />
+                <img className="img-fluid" src={game} alt="" />
               </a>
             </div>
             <div className="col-md-6 col-lg-4">
@@ -103,11 +95,7 @@ const landing = () => {
                     <i className="fas fa-search-plus fa-3x" />
                   </div>
                 </div>
-                <img
-                  className="img-fluid"
-                  src="img/portfolio/safe.png"
-                  alt=""
-                />
+                <img className="img-fluid" src={safe} alt="" />
               </a>
             </div>
             <div className="col-md-6 col-lg-4">
@@ -120,11 +108,7 @@ const landing = () => {
                     <i className="fas fa-search-plus fa-3x" />
                   </div>
                 </div>
-                <img
-                  className="img-fluid"
-                  src="img/portfolio/submarine.png"
-                  alt=""
-                />
+                <img className="img-fluid" src={submarine} alt="" />
               </a>
             </div>
           </div>
@@ -174,7 +158,7 @@ const landing = () => {
           <hr className="star-dark mb-5" />
           <div className="row">
             <div className="col-lg-8 mx-auto">
-              <form name="sentMessage" id="contactForm" novalidate="novalidate">
+              <form name="sentMessage" id="contactForm" noValidate="noValidate">
                 <div className="control-group">
                   <div className="form-group floating-label-form-group controls mb-0 pb-2">
                     <label>Name</label>
