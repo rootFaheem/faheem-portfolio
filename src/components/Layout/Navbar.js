@@ -4,7 +4,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav
-        className="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase"
+        className="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase navbar-shrink"
         id="mainNav"
       >
         <div className="container">

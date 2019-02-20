@@ -144,7 +144,7 @@ const landing = () => {
           <div className="text-center mt-4">
             <a className="btn btn-xl btn-outline-light" href="#/">
               <i className="fas fa-download mr-2" />
-              Download Now!
+              Download My Resume
             </a>
           </div>
         </div>
