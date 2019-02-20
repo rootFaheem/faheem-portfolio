@@ -9,6 +9,7 @@ import submarine from "../../assets/img/portfolio/submarine.png";
 import game from "../../assets/img/portfolio/safe.png";
 
 import resume from "../../assets/resume/Faheem_Resume.pdf";
+// import Modal1 from "../../components/Modals/Modal1";
 
 const landing = () => {
   return (
@@ -39,6 +40,7 @@ const landing = () => {
               <a
                 className="portfolio-item d-block mx-auto"
                 href="#portfolio-modal-1"
+                target="_parent"
               >
                 <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
                   <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -112,6 +114,46 @@ const landing = () => {
                 </div>
                 <img className="img-fluid" src={submarine} alt="" />
               </a>
+            </div>
+          </div>
+
+          <div className="portfolio-modal mfp-hide" id="portfolio-modal-1">
+            <div className="portfolio-modal-dialog bg-white">
+              <button
+                className="close-button d-none d-md-block portfolio-modal-dismiss"
+                data-target="#"
+              >
+                <i className="fa fa-3x fa-times" />
+              </button>
+              <div className="container text-center">
+                <div className="row">
+                  <div className="col-lg-8 mx-auto">
+                    <h2 className="text-secondary text-uppercase mb-0">
+                      Project Name
+                    </h2>
+                    <hr className="star-dark mb-5" />
+                    <img
+                      className="img-fluid mb-5"
+                      src="img/portfolio/cabin.png"
+                      alt=""
+                    />
+                    <p className="mb-5">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Mollitia neque assumenda ipsam nihil, molestias magnam,
+                      recusandae quos quis inventore quisquam velit asperiores,
+                      vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                      Nam.
+                    </p>
+                    <button
+                      className="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss"
+                      href="#"
+                    >
+                      <i className="fa fa-close" />
+                      Close Project
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
