@@ -1,12 +1,14 @@
 import React from "react";
 
-import profile from "../../img/faheem.png";
-import cabin from "../../img/portfolio/cabin.png";
-import cake from "../../img/portfolio/cake.png";
-import circus from "../../img/portfolio/circus.png";
-import safe from "../../img/portfolio/safe.png";
-import submarine from "../../img/portfolio/submarine.png";
-import game from "../../img/portfolio/safe.png";
+import profile from "../../assets/img/faheem.png";
+import cabin from "../../assets/img/portfolio/cabin.png";
+import cake from "../../assets/img/portfolio/cake.png";
+import circus from "../../assets/img/portfolio/circus.png";
+import safe from "../../assets/img/portfolio/safe.png";
+import submarine from "../../assets/img/portfolio/submarine.png";
+import game from "../../assets/img/portfolio/safe.png";
+
+import resume from "../../assets/resume/Faheem_Resume.pdf";
 
 const landing = () => {
   return (
@@ -142,7 +144,7 @@ const landing = () => {
             </div>
           </div>
           <div className="text-center mt-4">
-            <a className="btn btn-xl btn-outline-light" href="#/">
+            <a className="btn btn-xl btn-outline-light" href={resume} download>
               <i className="fas fa-download mr-2" />
               Download My Resume
             </a>
