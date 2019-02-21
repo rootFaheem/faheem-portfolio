@@ -11,6 +11,24 @@
     
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+    <style>
+          body, html{
+            height: 100%;
+            margin:0;
+            background-color: rgba(0, 0, 0, 2.7);
+          }
+          .bg {
+            background-image: url("./profile_background.gif");
+            height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            
+            opacity: 0.8;
+          }
+    </style>
+
     <!-- DEPENDENCIES ( BOOTSTRAP, JQUERY, FONTAWESOME, MAGNIFIC-POPUP, JQUERY-EASING ) -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -18,17 +36,15 @@
     <script src ="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.js"> </script>
 
-    <!-- Google Font (Monteserrat) -->
+    <!-- Google Font (Monteserrat & Lato) -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-
-
 
     <title>Faheem Ahmad | Porfolio</title>
   </head>
   <body >
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div class="bg" id="root"></div>
 
     <!-- BOOTSTRAP JAVASCRIPT DEPENDENCIES (CDN) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
