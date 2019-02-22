@@ -1,9 +1,15 @@
 import React from "react";
 
+import "./Landing.css";
+
 const landing = () => {
   return (
-    <div>
-      <h2 style={{ marginTop: "100vh" }}>this is default landing page</h2>
+    <div className="Landing">
+      <h1>Landing Page! </h1>
+      <hr />
+      <p>
+        This is my landing page where i want to put some links the basic details{" "}
+      </p>
     </div>
   );
 };

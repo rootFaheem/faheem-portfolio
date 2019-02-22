@@ -4,6 +4,7 @@ import { Route, NavLink } from "react-router-dom";
 import About from "../../About/About";
 import Portfolio from "../../Portfolio/Portfolio";
 import Blog from "../../Blog/Blog";
+import Landing from "../MainContent/Landing/Landing";
 import "./Navbar.css";
 
 const navbar = () => {
@@ -12,9 +13,9 @@ const navbar = () => {
       <header>
         <nav className="navbar navbar-expand-sm  fixed-top" id="myNavbar">
           <div className="container">
-            <a href="/" className="navbar-brand text-success">
+            <NavLink to="/" className="navbar-brand text-success">
               faheem
-            </a>
+            </NavLink>
             <button
               className="navbar-toggler "
               data-toggle="collapse"
@@ -110,6 +111,7 @@ const navbar = () => {
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/blog" component={Blog} />
+        <Route path="/" component={Landing} />
       </div>
     </div>
   );
