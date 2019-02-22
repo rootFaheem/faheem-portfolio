@@ -13,7 +13,7 @@ const navbar = () => {
       <header>
         <nav className="navbar navbar-expand-sm  fixed-top" id="myNavbar">
           <div className="container">
-            <NavLink to="/" className="navbar-brand text-success">
+            <NavLink to="/" exact className="navbar-brand text-danger">
               faheem
             </NavLink>
             <button
@@ -26,7 +26,7 @@ const navbar = () => {
             <div className="collapse navbar-collapse" id="navbarMenu">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <NavLink to="/about" exact className="nav-link text-success">
+                  <NavLink to="/about" exact className="nav-link text-danger">
                     About
                   </NavLink>
                 </li>
@@ -34,13 +34,13 @@ const navbar = () => {
                   <NavLink
                     to="/portfolio"
                     exact
-                    className="nav-link text-success"
+                    className="nav-link text-danger"
                   >
                     Portfolio
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/blog" exact className="nav-link text-success">
+                  <NavLink to="/blog" exact className="nav-link text-danger">
                     blog
                   </NavLink>
                 </li>
@@ -108,10 +108,10 @@ const navbar = () => {
         </nav>
       </header>
       <div>
-        <Route path="/about" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/blog" component={Blog} />
-        <Route path="/" component={Landing} />
+        <Route path="/about" exact component={About} />
+        <Route path="/portfolio" exact component={Portfolio} />
+        <Route path="/blog" exact component={Blog} />
+        <Route path="/" exact component={Landing} />
       </div>
     </div>
   );

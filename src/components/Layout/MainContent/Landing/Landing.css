@@ -1,11 +1,14 @@
 .Landing {
-  background: #e0ebe8;
-  min-height: 55vh;
+  /* background: #e0ebe8; */
+  position: relative;
+  overflow: scroll;
+  min-height: 100vh;
   margin-top: 80px;
   margin-left: 20px;
   margin-right: 20px;
   padding-left: 10px;
   padding-top: 10px;
+  color: aqua;
 }
 #bg {
   position: fixed;
@@ -18,4 +21,5 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* opacity: 0.9; */
 }

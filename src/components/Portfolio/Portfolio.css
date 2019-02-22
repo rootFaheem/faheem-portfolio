@@ -1,6 +1,8 @@
 .Portfolio {
   background: #e0ebe8;
-  min-height: 55vh;
+  position: relative;
+  overflow: scroll;
+  min-height: 100vh;
   margin-top: 80px;
   margin-left: 20px;
   margin-right: 20px;

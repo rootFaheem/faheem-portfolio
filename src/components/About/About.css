@@ -1,8 +1,8 @@
 .About {
   background: #e0ebe8;
   position: relative;
-  overflow: scroll;
-  min-height: 100vh;
+  /* overflow: scroll; */
+  min-height: 89vh;
   margin-top: 80px;
   margin-left: 20px;
   margin-right: 20px;
