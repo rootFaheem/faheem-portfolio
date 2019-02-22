@@ -7,3 +7,15 @@
   padding-left: 10px;
   padding-top: 10px;
 }
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  overflow: scroll;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
