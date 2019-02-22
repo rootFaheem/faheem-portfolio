@@ -36,6 +36,52 @@ const navbar = () => {
               </li>
             </ul>
           </div>
+          <div className="collapse navbar-collapse" id="#socialLinks">
+            <ul className="navbar-nav  ml-auto">
+              <li className="nav-item">
+                <a
+                  className="tw-ic mr-3 cir"
+                  role="button"
+                  href="https://twitter.com/rootfaheem"
+                >
+                  <i className="fab fa-lg fa-twitter" />
+                </a>
+              </li>
+              <li className="nav-item" href="www.google.com">
+                <a
+                  className="git-ic mr-3 cir"
+                  role="button"
+                  href="https://github.com/FaheemTech"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-lg fa-github" />
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="email-ic mr-3 cir"
+                  role="button"
+                  href="mailto:faheemtech1@gmail.com?Subject=Hello%20faheem"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="far fa-lg fa-envelope" />
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="dribbble-ic mr-3 cir"
+                  role="button"
+                  href="https://dribbble.com/faheemtech"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-lg fa-dribbble" />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </div>

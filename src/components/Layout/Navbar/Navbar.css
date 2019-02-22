@@ -7,22 +7,66 @@
   left: 50%;
   transform: translatex(-50%);
 }
-
-hnav {
-  float: right;
-  display: block;
-  font-size: 1.8rem;
-  position: static;
-  background: transparent;
-  width: auto;
+.email-ic {
+  background: #dd4b39;
+  color: white;
 }
-@media (max-width: 576px) {
-  .navbar {
-    height: inherit;
+.tw-ic {
+  background: #55acee;
+  color: white;
+}
+
+.git-ic {
+  background: white;
+  color: black;
+}
+
+.dribbble-ic {
+  background: #ea4c89;
+  color: white;
+}
+.nav-link {
+  margin-right: 30px;
+}
+.cir {
+  padding: 5px;
+  font-size: 20px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .nav-link {
+    margin-right: 0px;
   }
-  #navbarMenu {
-    position: relative;
-    left: 50%;
+  .cir {
+    position: left;
+    margin-left: 20px;
+    padding: 2px;
+    font-size: 15px;
+    width: 15px;
     text-align: center;
+    text-decoration: none;
+    margin: 5px 1px;
+    border-radius: 50%;
+  }
+  @media (max-width: 576px) {
+    .navbar {
+      height: inherit;
+    }
+    #navbarMenu {
+      position: relative;
+      left: 50%;
+      text-align: center;
+    }
+    #socialLinks {
+      position: relative;
+      left: auto;
+      text-align: center;
+      align-items: flex-start;
+      flex-direction: row;
+    }
   }
 }
