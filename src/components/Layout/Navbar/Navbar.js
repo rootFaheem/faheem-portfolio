@@ -43,6 +43,8 @@ const navbar = () => {
                   className="tw-ic mr-3 cir"
                   role="button"
                   href="https://twitter.com/rootfaheem"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fab fa-lg fa-twitter" />
                 </a>
@@ -63,10 +65,20 @@ const navbar = () => {
                   className="email-ic mr-3 cir"
                   role="button"
                   href="mailto:faheemtech1@gmail.com?Subject=Hello%20faheem"
-                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="far fa-lg fa-envelope" />
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="li-ic mr-3 cir"
+                  role="button"
+                  href="https://www.linkedin.com/in/faheem-ahmad-753705127/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-lg fa-linkedin-in" />
                 </a>
               </li>
               <li className="nav-item">

@@ -1,6 +1,9 @@
 .navbar {
   height: 80px;
 }
+a:hover {
+  opacity: 0.7;
+}
 
 #navbarMenu {
   position: absolute;
@@ -21,6 +24,10 @@
   color: black;
 }
 
+.li-ic {
+  background: #007bb5;
+  color: white;
+}
 .dribbble-ic {
   background: #ea4c89;
   color: white;
@@ -29,44 +36,80 @@
   margin-right: 30px;
 }
 .cir {
-  padding: 5px;
-  font-size: 20px;
+  padding: 10px;
+  font-size: 12px;
   width: 15px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 993px) {
   .nav-link {
     margin-right: 0px;
+    position: relative;
   }
   .cir {
-    position: left;
-    margin-left: 20px;
-    padding: 2px;
+    margin-left: 10px;
+    padding: 4px;
     font-size: 15px;
-    width: 15px;
+    width: 10px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 1px;
+    margin: 5px 0px;
     border-radius: 50%;
   }
-  @media (max-width: 576px) {
-    .navbar {
-      height: inherit;
-    }
-    #navbarMenu {
-      position: relative;
-      left: 50%;
+  @media (max-width: 775px) {
+    .cir {
+      margin-left: 10px;
+      padding: 3px;
+      font-size: 12px;
+      width: 10px;
       text-align: center;
+      text-decoration: none;
+      margin: 5px 1px;
+      border-radius: 50%;
     }
-    #socialLinks {
-      position: relative;
-      left: auto;
-      text-align: center;
-      align-items: flex-start;
-      flex-direction: row;
+    @media (max-width: 768px) {
+      .cir {
+        margin-left: 10px;
+        padding: 1px;
+        font-size: 10px;
+        width: 10px;
+        text-align: right;
+        text-decoration: none;
+        margin: 5px 0px;
+        border-radius: 50%;
+      }
+      @media (max-width: 576px) {
+        .cir {
+          margin-left: 10px;
+          padding: 1px;
+          font-size: 10px;
+          width: 10px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 1px;
+          border-radius: 50%;
+        }
+
+        .navbar {
+          height: inherit;
+        }
+        #navbarMenu {
+          position: relative;
+          left: 50%;
+          text-align: center;
+        }
+        #socialLinks {
+          position: relative;
+          left: auto;
+          text-align: center;
+          align-items: flex-start;
+          flex-direction: row;
+        }
+      }
     }
   }
 }
