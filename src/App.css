@@ -6,12 +6,19 @@ a:hover {
   text-decoration: none;
 }
 .brand {
-  font-family: "Monteserrat", cursive;
-  font-weight: bold;
-  font-size: 25px;
+  width: fit-content;
+  height: 50px;
+  /* border: 2px solid #ffffff; */
   position: center;
   margin-left: 48%;
   margin-top: 1%;
+  text-align: center;
+}
+
+.brand-name {
+  font-family: "Monteserrat", cursive;
+  font-weight: bold;
+  font-size: 25px;
   padding: 5px;
   color: #a58f60;
 }
