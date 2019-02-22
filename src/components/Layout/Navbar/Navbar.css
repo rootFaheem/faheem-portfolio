@@ -1,0 +1,28 @@
+.navbar {
+  height: 80px;
+}
+
+#navbarMenu {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+hnav {
+  float: right;
+  display: block;
+  font-size: 1.8rem;
+  position: static;
+  background: transparent;
+  width: auto;
+}
+@media (max-width: 576px) {
+  .navbar {
+    height: inherit;
+  }
+  #navbarMenu {
+    position: relative;
+    left: 50%;
+    text-align: center;
+  }
+}

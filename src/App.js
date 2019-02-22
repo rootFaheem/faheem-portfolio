@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Navbar from "./components/Layout/Navbar/Navbar";
+import Landing from "./components/Layout/MainContent/Landing/Landing";
 
 import "./App.css";
 
@@ -12,6 +13,7 @@ class App extends Component {
         <div>
           <h1>i am faheem</h1>
         </div>
+        <Landing />
       </div>
     );
   }
