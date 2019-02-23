@@ -1,11 +1,20 @@
 .About {
-  background: #e0ebe8;
+  /* background-color: mediumseagreen; */
+  color: #666666;
   position: relative;
-  /* overflow: scroll; */
   min-height: 89vh;
   margin-top: 80px;
-  margin-left: 20px;
+  text-align: center;
+  overflow: scroll;
+  /* margin-left: 20px;
   margin-right: 20px;
-  padding-left: 10px;
+  padding-left: 10px; */
   padding-top: 10px;
+}
+
+#mycol0 {
+  background-color: mediumseagreen;
+}
+#mycol1 {
+  background-color: orange;
 }
