@@ -8,9 +8,9 @@ const landing = () => {
       <img src={BackgroundImage} id="bg" alt="" />
 
       <div className="text-center bg-text">
-        <p className="h1 ">Hi, I am Faheem Ahmad </p>
+        <p>Hi, I am Faheem Ahmad</p>
         <hr />
-        <p className="h2">Full Stack Web Developer</p>
+        <p>Full Stack Web Developer</p>
       </div>
     </div>
   );

@@ -25,38 +25,42 @@
 .bg-text {
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.6);
-  color: white !important;
+  color: white;
   font-weight: bold;
   position: absolute;
-  top: 30%;
+  top: 27%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 80%;
+  width: 45%;
   padding: 20px;
+
+  font-size: 1.5em;
   text-align: center;
 
   box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.6);
-  transition: 0.3s;
-  border-radius: 10px;
+  transition: 0.5s;
+  border-radius: 10px 15px 100px 100px;
 }
 .bg-text:hover {
   box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.8);
+  font-size: 1.6em;
 }
-@media (max-width: 610px) {
+@media (max-width: 756px) {
   .bg-text {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.6);
     color: white !important;
     font-weight: bold;
     position: absolute;
-    top: 40%;
+    top: 28%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 80%;
+    width: 45%;
     padding: 20px;
     text-align: center;
+    border-radius: 10px 15px 100px 100px;
   }
   @media (max-width: 524px) {
     .bg-text {
@@ -65,13 +69,31 @@
       color: white !important;
       font-weight: bold;
       position: absolute;
-      top: 40%;
+      top: 28%;
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: 2;
-      width: 80%;
+      width: 45%;
       padding: 20px;
       text-align: center;
+      border-radius: 10px 15px 100px 100px;
+    }
+    @media (max-width: 475px) {
+      .bg-text {
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white !important;
+        font-weight: bold;
+        position: absolute;
+        top: 32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 45%;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px 15px 100px 100px;
+      }
     }
   }
 }
