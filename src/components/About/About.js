@@ -53,7 +53,9 @@ const about = () => {
                 that can solve my problem. I mostly work with MERN stack and
                 AWS, so always love to hear about them. <br /> Some other stuff
                 i like is <strong>Elon Musk vision</strong>, Blockchain,
-                InfoSec. There are lot of
+                InfoSec. There are lot of entertainment stuff i watch such as
+                The Big Bang Theory, Mr. Robot, Silicon Valley, Iron Man series.
+                And i do resarch about random things whatever comes in my mind.
               </div>
             </div>
           </div>
