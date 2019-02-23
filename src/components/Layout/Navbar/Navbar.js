@@ -16,7 +16,7 @@ const navbar = () => {
           id="myNavbar"
         >
           <div className="container">
-            <NavLink to="/" exact className="navbar-brand text-danger">
+            <NavLink to="/" exact className="navbar-brand text-white ">
               faheem
             </NavLink>
             <button
@@ -29,7 +29,7 @@ const navbar = () => {
             <div className="collapse navbar-collapse" id="navbarMenu">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <NavLink to="/about" exact className="nav-link text-danger">
+                  <NavLink to="/about" exact className="nav-link text-white  ">
                     About
                   </NavLink>
                 </li>
@@ -37,13 +37,13 @@ const navbar = () => {
                   <NavLink
                     to="/portfolio"
                     exact
-                    className="nav-link text-danger"
+                    className="nav-link text-white "
                   >
                     Portfolio
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/blog" exact className="nav-link text-danger">
+                  <NavLink to="/blog" exact className="nav-link text-white ">
                     blog
                   </NavLink>
                 </li>

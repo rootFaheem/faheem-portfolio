@@ -1,6 +1,9 @@
 .navbar {
   height: 80px;
-  /* background: green; */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  position: absolute;
 }
 a:hover {
   opacity: 0.7;
