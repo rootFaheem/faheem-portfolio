@@ -1,5 +1,6 @@
 .navbar {
   height: 80px;
+  /* background: green; */
 }
 a:hover {
   opacity: 0.7;

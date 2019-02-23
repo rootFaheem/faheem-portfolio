@@ -7,13 +7,10 @@ const landing = () => {
     <div>
       <img src={BackgroundImage} id="bg" alt="" />
 
-      <div className="Landing">
-        <h1>Landing Page! </h1>
+      <div className="text-center Landing">
+        <p className="h1 ">Hi, I am Faheem Ahmad </p>
         <hr />
-        <p>
-          This is my landing page where i want to put some links the basic
-          details{" "}
-        </p>
+        <p className="h2">Full Stack Web Developer</p>
       </div>
     </div>
   );

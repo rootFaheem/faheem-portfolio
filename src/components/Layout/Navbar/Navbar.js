@@ -11,7 +11,10 @@ const navbar = () => {
   return (
     <div>
       <header>
-        <nav className="navbar navbar-expand-sm  fixed-top" id="myNavbar">
+        <nav
+          className="navbar navbar-expand-sm navbar-dark  fixed-top"
+          id="myNavbar"
+        >
           <div className="container">
             <NavLink to="/" exact className="navbar-brand text-danger">
               faheem

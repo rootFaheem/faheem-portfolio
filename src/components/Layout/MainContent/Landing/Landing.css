@@ -1,8 +1,8 @@
 .Landing {
   /* background: #e0ebe8; */
   position: relative;
-  overflow: scroll;
-  min-height: 100vh;
+  /* overflow: scroll; */
+  min-height: 100%;
   margin-top: 80px;
   margin-left: 20px;
   margin-right: 20px;
@@ -16,7 +16,8 @@
   left: 0;
 
   height: 100%;
-  overflow: scroll;
+  width: 100%;
+  /* overflow: scroll; */
 
   background-position: center;
   background-repeat: no-repeat;
