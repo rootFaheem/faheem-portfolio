@@ -1,23 +1,18 @@
 .Landing {
-  /* background: #e0ebe8; */
   position: relative;
-  /* overflow: scroll; */
   min-height: 100%;
   margin-top: 80px;
   margin-left: 20px;
   margin-right: 20px;
   padding-left: 10px;
   padding-top: 10px;
-  /* background-color: #d24a27; */
 }
 #bg {
   position: fixed;
   top: 0;
   left: 0;
-
   height: 100%;
   width: 100%;
-  /* overflow: scroll; */
 
   filter: blur(1px);
   -webkit-filter: blur(1px);
@@ -25,21 +20,58 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* opacity: 0.9; */
 }
 
 .bg-text {
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.6);
   color: white !important;
   font-weight: bold;
-  /* border: 3px solid #f1f1f1; */
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 80%;
   padding: 20px;
   text-align: center;
+
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.bg-text:hover {
+  box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.8);
+}
+@media (max-width: 610px) {
+  .bg-text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white !important;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  @media (max-width: 524px) {
+    .bg-text {
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white !important;
+      font-weight: bold;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+    }
+  }
 }
