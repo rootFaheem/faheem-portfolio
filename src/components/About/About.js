@@ -31,10 +31,13 @@ const about = () => {
               </p>
               <hr />
               <div id="paddings">
-                Widget 2 Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Itaque aliquam id debitis repellendus, tenetur dignissimos
-                dolore aliquid expedita magnam modi officia nam doloribus
-                repudiandae, accusamus ex assumenda.
+                I have completed my High School from Khair Technical Hr.
+                Secondary School with 83% of marks. <br /> Then I have completed
+                Diploma in Computer Engineering from Jamia Millia Islamia with
+                76% of marks <br /> After that i have joined GGSIPU for my
+                Graduation. So, from GGSIPU I have completed my Bachelor of
+                Technology (B.Tech) in Computer Science and Engineering with
+                73%of marks.
               </div>
             </div>
           </div>
@@ -42,14 +45,15 @@ const about = () => {
             <div className="text-justify bg-danger">
               <p className="text-center h3" id="top">
                 {" "}
-                Skills
+                Interests
               </p>
               <hr />
               <div id="paddings">
-                Widget 1 Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Officiis at nam facilis omnis error expedita praesentium
-                blanditiis ipsa sunt sed voluptatem quisquam iusto ab veniam
-                sint, quo odio doloribus vel?
+                I enjoy learing about latest technolgy stacks and everything
+                that can solve my problem. I mostly work with MERN stack and
+                AWS, so always love to hear about them. <br /> Some other stuff
+                i like is <strong>Elon Musk vision</strong>, Blockchain,
+                InfoSec. There are lot of
               </div>
             </div>
           </div>
