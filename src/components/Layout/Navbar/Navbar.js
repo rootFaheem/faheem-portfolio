@@ -27,7 +27,7 @@ const navbar = () => {
               <span className="navbar-toggler-icon container"> </span>
             </button>
             <div className="collapse navbar-collapse" id="navbarMenu">
-              <ul className="navbar-nav">
+              <ul className="navbar-nav" id="myMargin">
                 <li className="nav-item">
                   <NavLink to="/about" exact className="nav-link text-white  ">
                     About
@@ -50,7 +50,7 @@ const navbar = () => {
               </ul>
             </div>
             <div className="collapse navbar-collapse" id="#socialLinks">
-              <ul className="navbar-nav  ml-auto">
+              <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                   <a
                     className="tw-ic mr-3 cir"
