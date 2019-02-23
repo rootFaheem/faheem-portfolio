@@ -1,6 +1,7 @@
 .About {
   /* background-color: mediumseagreen; */
   color: #666666;
+  background: #e0ebe8;
   position: relative;
   min-height: 89vh;
   margin-top: 80px;
@@ -17,4 +18,13 @@
 }
 #mycol1 {
   background-color: orange;
+}
+
+#paddings {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+#top {
+  padding-top: 10px;
 }
