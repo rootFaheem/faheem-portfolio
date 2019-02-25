@@ -106,7 +106,7 @@ const navbar = () => {
           </div>
         </nav>
       </header>
-      <div style={{ backgroundColor: "#eee" }}>
+      <div style={{ backgroundColor: "#e8e8e8" }}>
         <Route path="/about" exact component={About} />
         <Route path="/portfolio" exact component={Portfolio} />
         <Route path="/blog" exact component={Blog} />

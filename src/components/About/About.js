@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 const about = () => {
   return (
-    <div className="container" style={{ backgroundColor: "#eee" }}>
+    <div className="container">
       <div className="About">
         <p className="h2 head">ABOUT </p>
         <hr />
