@@ -8,7 +8,7 @@ const about = () => {
         <hr />
         <div className="container-fluid">
           <div className="row">
-            <div className="text-center col-md-4">
+            <div className="text-center col-md-4" id="bottom">
               <div className="text-justify bg-light">
                 <p className="text-center h4 " id="top">
                   {" "}
@@ -26,7 +26,7 @@ const about = () => {
                 </div>
               </div>
             </div>
-            <div className="text-center col-md-4">
+            <div className="text-center col-md-4" id="bottom">
               <div className="text-justify bg-light ">
                 <p className="text-center h4" id="top">
                   {" "}
@@ -44,7 +44,7 @@ const about = () => {
                 </div>
               </div>
             </div>
-            <div className="text-center col-md-4">
+            <div className="text-center col-md-4" id="bottom">
               <div className="text-justify bg-light">
                 <p className="text-center h4" id="top">
                   {" "}
@@ -67,7 +67,9 @@ const about = () => {
         </div>
       </div>
       <div id="skills">
-        <p className="h2 head">SKILLS </p>
+        <p className="h2 head" id="top">
+          SKILLS{" "}
+        </p>
         <hr />
         <p>
           Skills set is what you are recognised for. Skills and tools i have
@@ -75,7 +77,7 @@ const about = () => {
         </p>
         <div className="container-fluid">
           <div className="row">
-            <div className="text-center col-md-4">
+            <div className="text-center col-md-4" id="bottom">
               <div className="text-center bg-light">
                 <p className="text-center h4" id="top">
                   {" "}
@@ -114,7 +116,7 @@ const about = () => {
               </div>
             </div>
 
-            <div className="text-center col-md-4">
+            <div className="text-center col-md-4" id="bottom">
               <div className="text-center bg-light">
                 <p className="text-center h4" id="top">
                   {" "}
@@ -148,7 +150,7 @@ const about = () => {
               </div>
             </div>
 
-            <div className="text-center col-md-4">
+            <div className="text-center col-md-4" id="bottom">
               <div className="text-center bg-light">
                 <p className="text-center h4" id="top">
                   {" "}
