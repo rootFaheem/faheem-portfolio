@@ -58,8 +58,7 @@ const about = () => {
                   stuff i like is <strong>Elon Musk vision</strong>, Blockchain,
                   InfoSec. There are lot of entertainment stuff i watch such as
                   The Big Bang Theory, Mr. Robot, Silicon Valley, Iron Man
-                  series. And i do resarch about random things whatever comes in
-                  my mind.
+                  series. And i do resarch about random things.
                 </div>
               </div>
             </div>
