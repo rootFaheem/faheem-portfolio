@@ -17,7 +17,7 @@ const about = () => {
                 <hr />
                 <div id="paddings">
                   I'm a Full Stack web Developer based in New Delhi, India. I
-                  enjoy making some cool Full Stack web App. I do always see
+                  enjoy making some cool Full Stack web Apps. I do always see
                   everything as problem to be solved. When I am not coding then
                   you will find me on twitter, watching The Big Bang Theory or
                   Mr. Robot. I do use twitter a lot. Twitter has always been my
@@ -70,15 +70,13 @@ const about = () => {
         <p className="h1">SKILLS </p>
         <hr />
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In quis
-          deleniti quae, harum blanditiis aperiam. Excepturi consectetur
-          laboriosam sint iste dolore dicta officiis, nam animi nihil, sit quos
-          sapiente! Minus.
+          Skills set is what you are recognised for. Skills and tools i have
+          recently worked or currently working on.
         </p>
         <div className="container-fluid">
           <div className="row">
             <div className="text-center col-md-4">
-              <div className="text-justify bg-light">
+              <div className="text-center bg-light">
                 <p className="text-center h4" id="top">
                   {" "}
                   Front-end Developer
@@ -117,16 +115,17 @@ const about = () => {
             </div>
 
             <div className="text-center col-md-4">
-              <div className="text-justify bg-light">
+              <div className="text-center bg-light">
                 <p className="text-center h4" id="top">
                   {" "}
                   Back-end Developer
                 </p>
                 <hr />
                 <div id="paddings">
-                  I try to build things from start. My strategy is simple but
-                  powerful i.e. try to keep things simple, built them by using
-                  the best and latest tech stack.
+                  Back-end has been always interesting to me because writing
+                  server side code is always a challenging task to do. One
+                  things i like is you dont have to follow some design stuff
+                  instead you do follow logic.
                 </div>
 
                 <p className="text-center h4" id="top">
@@ -150,39 +149,29 @@ const about = () => {
             </div>
 
             <div className="text-center col-md-4">
-              <div className="text-justify bg-light">
+              <div className="text-center bg-light">
                 <p className="text-center h4" id="top">
                   {" "}
                   other stuff
                 </p>
                 <hr />
                 <div id="paddings">
-                  I try to build things from start. My strategy is simple but
-                  powerful i.e. try to keep things simple, built them by using
-                  the best and latest tech stack.
+                  There are some other stuff I do such as AWS cloud, Firebase,
+                  Penetration Testing, Linux, sometimes Dev Ops, Cooking.
                 </div>
 
                 <p className="text-center h4" id="top">
-                  Languages I speak
+                  AWS
                 </p>
                 <div id="paddings">
-                  HTML5, CSS3, Javascript, JQuery, Bootstrap, React, Redux, Git
+                  EC2, S3, Lambda, Load Balancers, auto scaling, VPC, Route53,
+                  CloudWatch, CLI, IAM roles, Security and Identity Compliance
                 </div>
                 <p className="text-center h4" id="top">
-                  Dev Tools:
+                  Firebase
                 </p>
                 <div id="paddings">
-                  <p>
-                    VS Code <br />
-                    Sublime <br />
-                    Codepen <br />
-                    npm <br />
-                    Chrome Dev Tools <br />
-                    React DevTool <br />
-                    Redux DevTools <br />
-                    Terminal (iTerm & Hyper) <br />
-                    Github <br />
-                  </p>
+                  Realtime Database, Authentication, Firebase Hosting
                 </div>
               </div>
             </div>
