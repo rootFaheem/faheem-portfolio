@@ -4,13 +4,13 @@ const about = () => {
   return (
     <div className="container">
       <div className="About ">
-        <p className="h2">ABOUT </p>
+        <p className="h2 head">ABOUT </p>
         <hr />
         <div className="container-fluid">
           <div className="row">
             <div className="text-center col-md-4">
               <div className="text-justify bg-light">
-                <p className="text-center h4" id="top">
+                <p className="text-center h4 " id="top">
                   {" "}
                   About me
                 </p>
@@ -67,7 +67,7 @@ const about = () => {
         </div>
       </div>
       <div id="skills">
-        <p className="h1">SKILLS </p>
+        <p className="h2 head">SKILLS </p>
         <hr />
         <p>
           Skills set is what you are recognised for. Skills and tools i have
@@ -88,14 +88,14 @@ const about = () => {
                   the best and latest tech stack.
                 </div>
 
-                <p className="text-center h4" id="top">
+                <p className="text-center h5 TopColor" id="top">
                   Languages I speak
                 </p>
                 <div id="paddings">
                   HTML/HTML5, CSS/CSS3, Javascript, NextGen JS, JQuery,
                   Bootstrap, React, Redux, Git
                 </div>
-                <p className="text-center h4" id="top">
+                <p className="text-center h5 TopColor" id="top">
                   Dev Tools:
                 </p>
                 <div id="paddings">
@@ -128,14 +128,14 @@ const about = () => {
                   instead you do follow logic.
                 </div>
 
-                <p className="text-center h4" id="top">
+                <p className="text-center h5 TopColor" id="top">
                   Languages I speak
                 </p>
                 <div id="paddings">
                   Node.js, Express.js,Pug, EJS, Handlebars, MongoDb, Mysql,
                   APIs, SysAdmin{" "}
                 </div>
-                <p className="text-center h4" id="top">
+                <p className="text-center h5 TopColor" id="top">
                   Dev Tools:
                 </p>
                 <div id="paddings">
@@ -160,14 +160,14 @@ const about = () => {
                   Penetration Testing, Linux, sometimes Dev Ops, Cooking.
                 </div>
 
-                <p className="text-center h4" id="top">
+                <p className="text-center h5 TopColor" id="top">
                   AWS
                 </p>
                 <div id="paddings">
                   EC2, S3, Lambda, Load Balancers, auto scaling, VPC, Route53,
                   CloudWatch, CLI, IAM roles, Security and Identity Compliance
                 </div>
-                <p className="text-center h4" id="top">
+                <p className="text-center h5 TopColor" id="top">
                   Firebase
                 </p>
                 <div id="paddings">

@@ -1,33 +1,28 @@
 .About {
-  /* background-color: mediumseagreen; */
-  color: #666666;
-  /* background: #e0ebe8; */
+  color: #293347;
   position: relative;
   min-height: 89vh;
-  /* min-height: 100vh; */
   margin-top: 80px;
   text-align: center;
   overflow: scroll;
-  /* margin-left: 20px;
-  margin-right: 20px;
-  padding-left: 10px; */
   padding-top: 10px;
 }
-
-#mycol0 {
-  background-color: mediumseagreen;
-}
-#mycol1 {
-  background-color: orange;
+.head {
+  font-weight: 600;
 }
 
 #paddings {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+  /* color: #293334; */
 }
 #top {
-  padding-top: 10px;
+  padding-top: 16px;
+  font-weight: 800;
+}
+.TopColor {
+  color: #8c43ff !important;
 }
 
 #skills {
