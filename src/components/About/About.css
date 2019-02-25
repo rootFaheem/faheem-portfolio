@@ -21,11 +21,16 @@
   padding-top: 16px;
   font-weight: 800;
 }
-.TopColor {
+/* .TopColor {
   color: #8c43ff !important;
-}
+  font-weight: 200;
+} */
 
 #skills {
   min-height: 97vh;
   text-align: center;
+}
+
+.bg-light {
+  border-radius: 20px;
 }

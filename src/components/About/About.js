@@ -2,8 +2,8 @@ import React from "react";
 import "./About.css";
 const about = () => {
   return (
-    <div className="container">
-      <div className="About ">
+    <div className="container" style={{ backgroundColor: "#eee" }}>
+      <div className="About">
         <p className="h2 head">ABOUT </p>
         <hr />
         <div className="container-fluid">
@@ -40,7 +40,7 @@ const about = () => {
                   Islamia with 76% of marks <br /> After that i have joined
                   GGSIPU for my Graduation. So, from GGSIPU I have completed my
                   Bachelor of Technology (B.Tech) in Computer Science and
-                  Engineering with 73%of marks.
+                  Engineering with 73% of marks.
                 </div>
               </div>
             </div>

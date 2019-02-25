@@ -34,11 +34,7 @@ const navbar = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink
-                    to="/portfolio"
-                    exact
-                    className="nav-link"
-                  >
+                  <NavLink to="/portfolio" exact className="nav-link">
                     Portfolio
                   </NavLink>
                 </li>
@@ -110,7 +106,7 @@ const navbar = () => {
           </div>
         </nav>
       </header>
-      <div>
+      <div style={{ backgroundColor: "#eee" }}>
         <Route path="/about" exact component={About} />
         <Route path="/portfolio" exact component={Portfolio} />
         <Route path="/blog" exact component={Blog} />
