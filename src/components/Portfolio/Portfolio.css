@@ -12,6 +12,7 @@
 .head {
   font-weight: 600;
 }
+
 #card1 {
   margin-top: 3em;
 }
@@ -32,4 +33,7 @@ img {
 img:hover {
   opacity: 1;
   filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.row {
+  margin-top: 3em;
 }

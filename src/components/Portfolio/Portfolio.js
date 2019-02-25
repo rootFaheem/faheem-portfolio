@@ -3,6 +3,8 @@ import React from "react";
 import "./Portfolio.css";
 
 import BurgerBuilder from "../../assets/porfolio/BurgerBuilder.png";
+import NodeShop from "../../assets/porfolio/nodeshop.png";
+import WSN from "../../assets/porfolio/wsn.png";
 
 const portfolio = () => {
   return (
@@ -19,7 +21,7 @@ const portfolio = () => {
             <a
               href="mailto:faheemtech1@gmail.com?Subject=Hello%20faheem"
               target="_top"
-              className="mail"
+              className="mail text-info"
             >
               {" "}
               Email me
@@ -41,13 +43,13 @@ const portfolio = () => {
               <div className="card-body bg-light" id="pad">
                 <h5 className="card-title">Burger Builder</h5>
                 <p className="card-text">
-                  Burger Builder is an online shop where you can build and
-                  customize your burger as per your need. You can Sign In and
-                  then order it.
+                  Burger Builder is an online shop where you can build,
+                  customize your burger as per your need. Also Sign In and
+                  Order.
                 </p>
                 <a
                   href="https://react-my-burger-ab967.firebaseapp.com/"
-                  className="btn btn-primary"
+                  className="btn btn-info"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -60,23 +62,17 @@ const portfolio = () => {
             <div className="card" id="circular">
               <div>
                 {" "}
-                <img
-                  className="card-img-top"
-                  src={BurgerBuilder}
-                  alt="Burger Builder"
-                />
+                <img className="card-img-top" src={WSN} alt="WSN" />
               </div>
 
               <div className="card-body bg-light" id="pad">
-                <h5 className="card-title">Burger Builder</h5>
+                <h5 className="card-title">An ECLA for WSN</h5>
                 <p className="card-text">
-                  Burger Builder is an online shop where you can build and
-                  customize your burger as per your need. You can Sign In and
-                  then order it.
+                  An-Enhanced-Certificate-less-Algorithm-for-Wireless-Sensor-Network
                 </p>
                 <a
-                  href="https://react-my-burger-ab967.firebaseapp.com/"
-                  className="btn btn-primary"
+                  href="https://github.com/FaheemTech/An-Enhanced-Certificate-less-Algorithm-for-Wireless-Sensor-Network-React"
+                  className="btn btn-info"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -89,23 +85,18 @@ const portfolio = () => {
             <div className="card" id="circular">
               <div>
                 {" "}
-                <img
-                  className="card-img-top"
-                  src={BurgerBuilder}
-                  alt="Burger Builder"
-                />
+                <img className="card-img-top" src={NodeShop} alt="Node Shop" />
               </div>
 
               <div className="card-body bg-light" id="pad">
-                <h5 className="card-title">Burger Builder</h5>
+                <h5 className="card-title">Node shop</h5>
                 <p className="card-text">
-                  Burger Builder is an online shop where you can build and
-                  customize your burger as per your need. You can Sign In and
-                  then order it.
+                  node-shop is an online store where you can buy things, add to
+                  cart, make payments.
                 </p>
                 <a
-                  href="https://react-my-burger-ab967.firebaseapp.com/"
-                  className="btn btn-primary"
+                  href="https://github.com/FaheemTech/node-shop"
+                  className="btn btn-info"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
