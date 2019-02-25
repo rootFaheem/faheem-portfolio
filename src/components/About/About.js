@@ -4,15 +4,13 @@ const about = () => {
   return (
     <div className="container">
       <div className="About ">
-        <p className="h1">ABOUT </p>
-        <hr />
-        <hr />
+        <p className="h2">ABOUT </p>
         <hr />
         <div className="container-fluid">
           <div className="row">
             <div className="text-center col-md-4">
               <div className="text-justify bg-light">
-                <p className="text-center h3" id="top">
+                <p className="text-center h4" id="top">
                   {" "}
                   About me
                 </p>
@@ -30,7 +28,7 @@ const about = () => {
             </div>
             <div className="text-center col-md-4">
               <div className="text-justify bg-light ">
-                <p className="text-center h3" id="top">
+                <p className="text-center h4" id="top">
                   {" "}
                   Education
                 </p>
@@ -48,7 +46,7 @@ const about = () => {
             </div>
             <div className="text-center col-md-4">
               <div className="text-justify bg-light">
-                <p className="text-center h3" id="top">
+                <p className="text-center h4" id="top">
                   {" "}
                   Interests
                 </p>
@@ -77,6 +75,119 @@ const about = () => {
           laboriosam sint iste dolore dicta officiis, nam animi nihil, sit quos
           sapiente! Minus.
         </p>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="text-center col-md-4">
+              <div className="text-justify bg-light">
+                <p className="text-center h4" id="top">
+                  {" "}
+                  Front-end Developer
+                </p>
+                <hr />
+                <div id="paddings">
+                  I try to build things from start. My strategy is simple but
+                  powerful i.e. try to keep things simple, built them by using
+                  the best and latest tech stack.
+                </div>
+
+                <p className="text-center h4" id="top">
+                  Languages I speak
+                </p>
+                <div id="paddings">
+                  HTML/HTML5, CSS/CSS3, Javascript, NextGen JS, JQuery,
+                  Bootstrap, React, Redux, Git
+                </div>
+                <p className="text-center h4" id="top">
+                  Dev Tools:
+                </p>
+                <div id="paddings">
+                  <p>
+                    VS Code <br />
+                    Sublime <br />
+                    Codepen <br />
+                    npm <br />
+                    Chrome Dev Tools <br />
+                    React DevTool <br />
+                    Redux DevTools <br />
+                    Terminal (iTerm & Hyper) <br />
+                    Github <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center col-md-4">
+              <div className="text-justify bg-light">
+                <p className="text-center h4" id="top">
+                  {" "}
+                  Back-end Developer
+                </p>
+                <hr />
+                <div id="paddings">
+                  I try to build things from start. My strategy is simple but
+                  powerful i.e. try to keep things simple, built them by using
+                  the best and latest tech stack.
+                </div>
+
+                <p className="text-center h4" id="top">
+                  Languages I speak
+                </p>
+                <div id="paddings">
+                  Node.js, Express.js,Pug, EJS, Handlebars, MongoDb, Mysql,
+                  APIs, SysAdmin{" "}
+                </div>
+                <p className="text-center h4" id="top">
+                  Dev Tools:
+                </p>
+                <div id="paddings">
+                  <p>
+                    Postman <br />
+                    Concurrently <br />
+                    etc <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center col-md-4">
+              <div className="text-justify bg-light">
+                <p className="text-center h4" id="top">
+                  {" "}
+                  other stuff
+                </p>
+                <hr />
+                <div id="paddings">
+                  I try to build things from start. My strategy is simple but
+                  powerful i.e. try to keep things simple, built them by using
+                  the best and latest tech stack.
+                </div>
+
+                <p className="text-center h4" id="top">
+                  Languages I speak
+                </p>
+                <div id="paddings">
+                  HTML5, CSS3, Javascript, JQuery, Bootstrap, React, Redux, Git
+                </div>
+                <p className="text-center h4" id="top">
+                  Dev Tools:
+                </p>
+                <div id="paddings">
+                  <p>
+                    VS Code <br />
+                    Sublime <br />
+                    Codepen <br />
+                    npm <br />
+                    Chrome Dev Tools <br />
+                    React DevTool <br />
+                    Redux DevTools <br />
+                    Terminal (iTerm & Hyper) <br />
+                    Github <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
