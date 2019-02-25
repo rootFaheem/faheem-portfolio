@@ -5,9 +5,8 @@
   overflow: scroll;
   min-height: 100vh;
   margin-top: 80px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-left: 10px;
+  text-align: justify;
+  overflow: scroll;
   padding-top: 10px;
 }
 .head {
@@ -15,4 +14,22 @@
 }
 #card1 {
   margin-top: 3em;
+}
+
+#bottom {
+  margin-bottom: 10px;
+}
+
+#circular {
+  border-radius: 15px;
+}
+
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }

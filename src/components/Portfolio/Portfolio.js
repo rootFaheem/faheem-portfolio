@@ -27,14 +27,18 @@ const portfolio = () => {
           </strong>
         </p>
         <div className="row">
-          <div className="col-sm-6">
-            <div className="card">
-              <img
-                className="card-img-top"
-                src={BurgerBuilder}
-                alt="Burger Builder"
-              />
-              <div className="card-body">
+          <div className="col-sm-4" id="bottom">
+            <div className="card" id="circular">
+              <div>
+                {" "}
+                <img
+                  className="card-img-top"
+                  src={BurgerBuilder}
+                  alt="Burger Builder"
+                />
+              </div>
+
+              <div className="card-body bg-light" id="pad">
                 <h5 className="card-title">Burger Builder</h5>
                 <p className="card-text">
                   Burger Builder is an online shop where you can build and
@@ -52,17 +56,60 @@ const portfolio = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-6">
-            <div className="card">
-              <img className="card-img-top" alt="Card cap" />
-              <div className="card-body">
-                <h5 className="card-title">Special title treatment</h5>
+          <div className="col-sm-4" id="bottom">
+            <div className="card" id="circular">
+              <div>
+                {" "}
+                <img
+                  className="card-img-top"
+                  src={BurgerBuilder}
+                  alt="Burger Builder"
+                />
+              </div>
+
+              <div className="card-body bg-light" id="pad">
+                <h5 className="card-title">Burger Builder</h5>
                 <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  Burger Builder is an online shop where you can build and
+                  customize your burger as per your need. You can Sign In and
+                  then order it.
                 </p>
-                <a href="/" className="btn btn-primary">
-                  Go somewhere
+                <a
+                  href="https://react-my-burger-ab967.firebaseapp.com/"
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  visit site
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-4" id="bottom">
+            <div className="card" id="circular">
+              <div>
+                {" "}
+                <img
+                  className="card-img-top"
+                  src={BurgerBuilder}
+                  alt="Burger Builder"
+                />
+              </div>
+
+              <div className="card-body bg-light" id="pad">
+                <h5 className="card-title">Burger Builder</h5>
+                <p className="card-text">
+                  Burger Builder is an online shop where you can build and
+                  customize your burger as per your need. You can Sign In and
+                  then order it.
+                </p>
+                <a
+                  href="https://react-my-burger-ab967.firebaseapp.com/"
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  visit site
                 </a>
               </div>
             </div>
