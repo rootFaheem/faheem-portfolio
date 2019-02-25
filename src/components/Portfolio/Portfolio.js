@@ -18,15 +18,16 @@ const portfolio = () => {
             {" "}
             want to discuss an idea or want to do a project togather lets meet,
             i will pay the bills for coffee ;)
-            <a
-              href="mailto:faheemtech1@gmail.com?Subject=Hello%20faheem"
-              target="_top"
-              className="mail text-info"
-            >
-              {" "}
-              Email me
-            </a>
           </strong>
+          <a
+            href="mailto:faheemtech1@gmail.com?Subject=Hello%20faheem"
+            target="_top"
+            className="mail text-info"
+            style={{ textDecoration: "none" }}
+          >
+            {" "}
+            <span className="badge badge-pill badge-info">email me</span>
+          </a>
         </p>
         <div className="row">
           <div className="col-sm-4" id="bottom">
