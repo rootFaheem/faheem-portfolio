@@ -23,6 +23,15 @@ class Article extends Component {
 
   d = new Date();
 
+  time =
+    this.monthNames[this.d.getMonth()] +
+    " " +
+    new Date().getDay() +
+    ", " +
+    new Date().getFullYear();
+
+  updated = "updated by " + this.time;
+
   componentDidMount() {
     let $ = window.$;
     $(document).ready(function() {
@@ -63,17 +72,19 @@ class Article extends Component {
                     data-toggle="tooltip"
                     data-placement="top"
                     title="He is a Great Guy"
+                    id="decoration"
                   >
                     @faheem
                   </a>
                   <br />
-                  <small>
-                    {this.monthNames[this.d.getMonth()] +
-                      " " +
-                      new Date().getDay() +
-                      ", " +
-                      new Date().getFullYear()}
-                  </small>{" "}
+                  <small
+                    data-toggle="tooltip"
+                    data-placement="top"
+                    title={this.updated}
+                    id="decoration"
+                  >
+                    {this.time}
+                  </small>
                 </p>
               </div>
             </div>
