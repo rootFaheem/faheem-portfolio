@@ -9,7 +9,7 @@ const about = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="text-center col-md-4" id="bottom">
-              <div className="text-justify bg-light">
+              <div className="text-justify bg-light" id="borderRadius">
                 <p className="text-center h4 " id="top">
                   {" "}
                   About me
@@ -27,7 +27,7 @@ const about = () => {
               </div>
             </div>
             <div className="text-center col-md-4" id="bottom">
-              <div className="text-justify bg-light ">
+              <div className="text-justify bg-light " id="borderRadius">
                 <p className="text-center h4" id="top">
                   {" "}
                   Education
@@ -45,7 +45,7 @@ const about = () => {
               </div>
             </div>
             <div className="text-center col-md-4" id="bottom">
-              <div className="text-justify bg-light">
+              <div className="text-justify bg-light" id="borderRadius">
                 <p className="text-center h4" id="top">
                   {" "}
                   Interests
@@ -77,7 +77,7 @@ const about = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="text-center col-md-4" id="bottom">
-              <div className="text-center bg-light">
+              <div className="text-center bg-light" id="borderRadius">
                 <p className="text-center h4" id="top">
                   {" "}
                   Front-end Developer
@@ -116,7 +116,7 @@ const about = () => {
             </div>
 
             <div className="text-center col-md-4" id="bottom">
-              <div className="text-center bg-light">
+              <div className="text-center bg-light" id="borderRadius">
                 <p className="text-center h4" id="top">
                   {" "}
                   Back-end Developer
@@ -150,7 +150,7 @@ const about = () => {
             </div>
 
             <div className="text-center col-md-4" id="bottom">
-              <div className="text-center bg-light">
+              <div className="text-center bg-light" id="borderRadius">
                 <p className="text-center h4" id="top">
                   {" "}
                   other stuff
