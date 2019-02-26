@@ -4,8 +4,6 @@ const about = () => {
   return (
     <div className="container">
       <div className="About">
-        <p className="h2 head">ABOUT </p>
-        <hr />
         <div className="container-fluid">
           <div className="row">
             <div className="text-center col-md-4" id="bottom">

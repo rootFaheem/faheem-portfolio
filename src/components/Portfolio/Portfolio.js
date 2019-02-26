@@ -10,8 +10,6 @@ const portfolio = () => {
   return (
     <div className="Portfolio">
       <div className="container">
-        <p className="text-center h1 head ">Portfolio</p>
-        <hr />
         <p className="text-center h5">
           Here are my recent work.{" "}
           <strong>

@@ -23,6 +23,13 @@ class Article extends Component {
 
   d = new Date();
 
+  componentDidMount() {
+    let $ = window.$;
+    $(document).ready(function() {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  }
+
   render() {
     return (
       <div>
@@ -50,7 +57,16 @@ class Article extends Component {
               <div>
                 <p id="subhead">
                   {" "}
-                  by @faheem <br />
+                  by{" "}
+                  <a
+                    href="/"
+                    data-toggle="tooltip"
+                    data-placement="top"
+                    title="He is a Great Guy"
+                  >
+                    @faheem
+                  </a>
+                  <br />
                   <small>
                     {this.monthNames[this.d.getMonth()] +
                       " " +

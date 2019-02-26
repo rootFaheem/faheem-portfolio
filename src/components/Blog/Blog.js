@@ -9,10 +9,8 @@ const blog = () => {
   return (
     <div>
       <div className="Blog">
-        <div>
-          <p className=" text-center h1">My Blog! </p>
-          <hr />
-        </div>
+        <Articles />
+        <Articles />
         <Articles />
       </div>
     </div>

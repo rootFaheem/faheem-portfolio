@@ -7,11 +7,9 @@
   margin-top: 80px;
   text-align: justify;
   overflow: scroll;
-  padding-top: 10px;
+  padding-top: 30px;
 }
-.h1 {
-  font-weight: 800;
-}
+
 #title {
   padding: 16px 16px 0 16px;
 }
