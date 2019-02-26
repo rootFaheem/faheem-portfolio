@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import "./Article.css";
 
+import "./Articles.css";
 import Test from "../../../assets/showcase.jpg";
 
 class Article extends Component {
@@ -22,10 +22,6 @@ class Article extends Component {
 
   d = new Date();
 
-  fullPost = () => {
-    return console.log("was clicked");
-  };
-
   render() {
     return (
       <div>
@@ -39,9 +35,7 @@ class Article extends Component {
                   How to set a boilerplate for MERN stack with GraphQL and
                   Next.js and Redux Thunk!
                 </p>
-                <button type="button" onClick={this.fullPost}>
-                  Full POST
-                </button>
+
                 <p className="text-muted" id="subhead">
                   In this article, we will go witht the every steps from
                   installation to setup. Lorem ipsum dolor sit amet consectetur

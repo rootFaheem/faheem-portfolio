@@ -1,0 +1,11 @@
+.FullArticle {
+  background: #ffffff;
+  color: #293347;
+  position: relative;
+  overflow: scroll;
+  min-height: 120vh;
+  margin-top: 80px;
+  text-align: justify;
+  overflow: scroll;
+  padding-top: 10px;
+}
