@@ -1,4 +1,31 @@
-.h1 {
+
+
+#ArticleListing {
+  /* background: #eee; */
+  background: green;
+}
+
+#ListByTags {
+  background: #cccccc;
+}
+#image-styles {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  /* margin-top: -47px;
+  margin-left: -15px; */
+  opacity: initial;
+}
+
+.main-content img {
+  float: left;
+  margin: 0 0 20px 20px;
+  height: 200px;
+  width: 300px;
+  opacity: initial;
+}
+
+/* .h1 {
   font-weight: 800;
 }
 #title {
@@ -20,13 +47,7 @@
   height: 200px;
   width: 100%;
 }
-.main-content img {
-  float: right;
-  margin: 0 0 20px 20px;
-  height: 200px;
-  width: 300px;
-  opacity: initial;
-}
+
 @media (max-width: 576px) {
   .main-content img {
     align-content: center;
@@ -36,4 +57,4 @@
     width: 100%;
     opacity: initial;
   }
-}
+} */

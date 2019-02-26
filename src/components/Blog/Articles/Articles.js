@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import "./Articles.css";
 import Test from "../../../assets/showcase.jpg";
@@ -41,55 +41,15 @@ class Article extends Component {
 
   render() {
     return (
-      <div>
-        <div className="container">
-          <div>
-            <div className="main-content bg-light">
-              <div>
-                <img src={Test} alt="Headshot pic" />
-                <Link to="/blog/react-intro" id="decoration">
-                  <p className="h5 font-weight-bold" id="title">
-                    {" "}
-                    How to set a boilerplate for MERN stack with GraphQL and
-                    Next.js and Redux Thunk!{" "}
-                  </p>
-
-                  <p className="text-muted" id="subhead">
-                    In this article, we will go witht the every steps from
-                    installation to setup. Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit.
-                  </p>
-                </Link>
-              </div>
-              <div />
-
-              <div>
-                <p id="subhead">
-                  {" "}
-                  by{" "}
-                  <a
-                    href="/"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="He is a Great Guy"
-                    id="decoration"
-                  >
-                    @faheem
-                  </a>
-                  <br />
-                  <small
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title={this.updated}
-                    id="decoration"
-                  >
-                    {this.time}
-                  </small>
-                </p>
-              </div>
+      <div className="container ">
+        <div className="row ">
+          <div className="col-sm-9 bg-light">
+            <div className="row">
+              <div className="col-sm-4" />
+              <div className="col-sm-8">col-sm-8 internal</div>
             </div>
-            <hr />
           </div>
+          <div className="col-sm-3 bg-dark">col-sm-3</div>
         </div>
       </div>
     );
