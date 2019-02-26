@@ -3,7 +3,13 @@
 }
 #title {
   padding: 16px 16px 0 16px;
+  color: #293347;
 }
+
+#decoration {
+  text-decoration: none;
+}
+
 #subhead {
   padding-left: 16px;
   padding-right: 16px;

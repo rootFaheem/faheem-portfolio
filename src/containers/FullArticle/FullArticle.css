@@ -1,5 +1,5 @@
 .FullArticle {
-  background: #ffffff;
+  background: #f8f9fa !important;
   color: #293347;
   position: relative;
   overflow: scroll;
@@ -7,5 +7,5 @@
   margin-top: 80px;
   text-align: justify;
   overflow: scroll;
-  padding-top: 10px;
+  padding-top: 40px;
 }

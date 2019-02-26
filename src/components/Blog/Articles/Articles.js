@@ -31,7 +31,7 @@ class Article extends Component {
             <div className="main-content bg-light">
               <div>
                 <img src={Test} alt="Headshot pic" />
-                <Link to="/blog/react-intro">
+                <Link to="/blog/react-intro" id="decoration">
                   <p className="h5 font-weight-bold" id="title">
                     {" "}
                     How to set a boilerplate for MERN stack with GraphQL and

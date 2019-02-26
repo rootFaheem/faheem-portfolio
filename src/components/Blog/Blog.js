@@ -3,7 +3,7 @@ import React from "react";
 
 // import FullArticle from "../../containers/FullArticle/FullArticle";
 
-import Article from "../Blog/Articles/Articles";
+import Articles from "../Blog/Articles/Articles";
 import "./Blog.css";
 const blog = () => {
   return (
@@ -13,18 +13,8 @@ const blog = () => {
           <p className=" text-center h1">My Blog! </p>
           <hr />
         </div>
-        {/* <Link to="/blog/react-introduction" exact> */}
-        <Article />
-        {/* </Link> */}
+        <Articles />
       </div>
-      {/* <div>
-        <Route
-          path="/blog/react-introduction"
-          exact
-          render={() => <h1>Hi there</h1>}
-        /> */}
-      {/* component={FullArticle} */}
-      {/* </div> */}
     </div>
   );
 };

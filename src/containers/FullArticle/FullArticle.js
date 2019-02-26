@@ -5,8 +5,12 @@ import "./FullArticle.css";
 class FullArticle extends Component {
   render() {
     return (
-      <div className="FullArticle">
-        <h1>export default class FullArticle</h1>
+      <div className="container FullArticle ">
+        <p className="h3">
+          How to set a boilerplate for MERN stack with GraphQL and Next.js and
+          Redux Thunk!
+        </p>
+        <hr />
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
           iste alias similique commodi? Dicta eius aperiam laborum neque vel,
