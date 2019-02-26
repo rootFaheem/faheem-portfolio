@@ -5,6 +5,8 @@ import About from "../../About/About";
 import Portfolio from "../../Portfolio/Portfolio";
 import Blog from "../../Blog/Blog";
 import Landing from "../MainContent/Landing/Landing";
+import FullArticle from "../../../containers/FullArticle/FullArticle";
+
 import "./Navbar.css";
 
 const navbar = () => {
@@ -111,6 +113,7 @@ const navbar = () => {
         <Route path="/portfolio" exact component={Portfolio} />
         <Route path="/blog" exact component={Blog} />
         <Route path="/" exact component={Landing} />
+        <Route path="/blog/react-intro" component={FullArticle} />
       </div>
     </div>
   );

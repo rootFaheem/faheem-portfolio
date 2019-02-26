@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import { Link } from "react-router-dom";
 
 import "./Articles.css";
 import Test from "../../../assets/showcase.jpg";
@@ -30,17 +31,19 @@ class Article extends Component {
             <div className="main-content bg-light">
               <div>
                 <img src={Test} alt="Headshot pic" />
-                <p className="h5 font-weight-bold" id="title">
-                  {" "}
-                  How to set a boilerplate for MERN stack with GraphQL and
-                  Next.js and Redux Thunk!
-                </p>
+                <Link to="/blog/react-intro">
+                  <p className="h5 font-weight-bold" id="title">
+                    {" "}
+                    How to set a boilerplate for MERN stack with GraphQL and
+                    Next.js and Redux Thunk!{" "}
+                  </p>
 
-                <p className="text-muted" id="subhead">
-                  In this article, we will go witht the every steps from
-                  installation to setup. Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit.
-                </p>
+                  <p className="text-muted" id="subhead">
+                    In this article, we will go witht the every steps from
+                    installation to setup. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit.
+                  </p>
+                </Link>
               </div>
               <div />
 
