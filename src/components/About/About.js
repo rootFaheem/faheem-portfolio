@@ -1,9 +1,26 @@
 import React from "react";
+
+import faheem from "../../assets/faheem.png";
+
 import "./About.css";
+
 const about = () => {
   return (
     <div className="container">
       <div className="About">
+        <div>
+          <img
+            src={faheem}
+            alt="geek here"
+            style={{
+              height: "200px",
+              width: "200px",
+              borderRadius: "50%",
+              marginTop: "20px",
+              marginBottom: "40px"
+            }}
+          />
+        </div>
         <div className="container-fluid">
           <div className="row">
             <div className="text-center col-md-4" id="bottom">

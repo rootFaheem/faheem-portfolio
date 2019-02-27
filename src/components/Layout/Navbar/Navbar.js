@@ -108,12 +108,13 @@ const navbar = () => {
           </div>
         </nav>
       </header>
-      <div style={{ backgroundColor: "#e8e8e8" }}>
+      <div>
         <Route path="/about" exact component={About} />
         <Route path="/portfolio" exact component={Portfolio} />
         <Route path="/blog" exact component={Blog} />
         <Route path="/" exact component={Landing} />
         <Route path="/blog/react-intro" component={FullArticle} />
+        <Route path="/blog/node-express-intro" component={FullArticle} />
       </div>
     </div>
   );
