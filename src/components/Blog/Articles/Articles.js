@@ -3,7 +3,7 @@ import React, { Component } from "react";
 // import { Link } from "react-router-dom";
 
 import "./Articles.css";
-import Test from "../../../assets/showcase.jpg";
+// import Test from "../../../assets/showcase.jpg";
 
 class Article extends Component {
   monthNames = [
@@ -41,15 +41,20 @@ class Article extends Component {
 
   render() {
     return (
-      <div className="container ">
-        <div className="row ">
-          <div className="col-sm-9 bg-light">
+      <div className="container my-container">
+        <div className="row my-row">
+          <div className="col-md-9 col-xs-auto my-col">
             <div className="row">
-              <div className="col-sm-4" />
-              <div className="col-sm-8">col-sm-8 internal</div>
+              <div className="col-md-3"> in row 1 col 1 its row 1 col 1</div>
+              <div className="col-md-6"> in row 1 col 1 row 1 col 2</div>
             </div>
           </div>
-          <div className="col-sm-3 bg-dark">col-sm-3</div>
+
+          <div className="col-md-3 col-xs-auto my-col">row 1 col 2</div>
+        </div>
+        <div className="row my-row">
+          <div className="col-sm-4 my-col">row 2 col 1</div>
+          <div className="col-sm-8 my-col">row 2 col 2</div>
         </div>
       </div>
     );

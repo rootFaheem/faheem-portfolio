@@ -27,7 +27,7 @@ const portfolio = () => {
             <span className="badge badge-pill badge-info">email me</span>
           </a>
         </p>
-        <div className="row">
+        <div className="row topMargin">
           <div className="col-sm-4" id="bottom">
             <div className="card" id="circular">
               <div>
