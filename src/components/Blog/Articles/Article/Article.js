@@ -4,6 +4,30 @@ import { Link } from "react-router-dom";
 import react from "../../../../assets/Article/react.png";
 
 class Article extends Component {
+  monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ];
+
+  d = new Date();
+
+  updatedDate =
+    this.monthNames[this.d.getMonth()] +
+    " " +
+    new Date().getDay() +
+    ", " +
+    new Date().getFullYear();
+
   render() {
     return (
       <div>

@@ -4,6 +4,15 @@ import Article from "./Article/Article";
 import "./Articles.css";
 
 class Articles extends Component {
+  state = {
+    ArticleData: {
+      header: "An introduction to React, Setting-up a Reac Project",
+      topic: "React",
+      age: 50,
+      eyeColor: "blue"
+    }
+  };
+
   render() {
     return (
       <div className="container my-container">
