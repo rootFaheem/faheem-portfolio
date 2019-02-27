@@ -33,7 +33,7 @@ const portfolio = () => {
               <div>
                 {" "}
                 <img
-                  className="card-img-top"
+                  className="card-img-top imgStyle"
                   src={BurgerBuilder}
                   alt="Burger Builder"
                 />
@@ -61,7 +61,7 @@ const portfolio = () => {
             <div className="card" id="circular">
               <div>
                 {" "}
-                <img className="card-img-top" src={WSN} alt="WSN" />
+                <img className="card-img-top imgStyle" src={WSN} alt="WSN" />
               </div>
 
               <div className="card-body bg-light" id="pad">
@@ -84,7 +84,7 @@ const portfolio = () => {
             <div className="card" id="circular">
               <div>
                 {" "}
-                <img className="card-img-top" src={NodeShop} alt="Node Shop" />
+                <img className="card-img-top imgStyle" src={NodeShop} alt="Node Shop" />
               </div>
 
               <div className="card-body bg-light" id="pad">

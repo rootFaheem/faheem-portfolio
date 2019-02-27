@@ -29,12 +29,12 @@
   border-radius: 15px;
 }
 
-img {
+.imgStyle {
   opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-img:hover {
+.imgStyle:hover {
   opacity: 1;
   filter: alpha(opacity=100); /* For IE8 and earlier */
 }

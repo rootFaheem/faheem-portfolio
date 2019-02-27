@@ -1,5 +1,14 @@
+.heading {
+  text-decoration: none;
+  color: #293347;
+}
+.imgShowcase {
+  width: 100%;
+  padding: 0;
+}
 .my-container {
   border: 1px solid green;
+  color: #293347;
 }
 
 .my-row {

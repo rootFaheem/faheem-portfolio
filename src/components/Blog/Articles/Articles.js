@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./Articles.css";
-// import Test from "../../../assets/showcase.jpg";
+import Test from "../../../assets/showcase.jpg";
 
 class Article extends Component {
   monthNames = [
@@ -23,14 +23,12 @@ class Article extends Component {
 
   d = new Date();
 
-  time =
+  updatedDate =
     this.monthNames[this.d.getMonth()] +
     " " +
     new Date().getDay() +
     ", " +
     new Date().getFullYear();
-
-  updated = "updated by " + this.time;
 
   componentDidMount() {
     let $ = window.$;
@@ -45,8 +43,33 @@ class Article extends Component {
         <div className="row my-row">
           <div className="col-md-9 col-xs-auto my-col">
             <div className="row">
-              <div className="col-md-3"> in row 1 col 1 its row 1 col 1</div>
-              <div className="col-md-6"> in row 1 col 1 row 1 col 2</div>
+              <div className="col-md-4">
+                <img
+                  src={Test}
+                  alt="article showcase"
+                  className="imgShowcase"
+                />
+              </div>
+              <div className="col-md-8">
+                <div className="row">
+                  <Link to="/blog/react-intro">
+                    {" "}
+                    <p className="h3 heading">
+                      An introduction to React with Redux and axios i.e a http
+                      client
+                    </p>{" "}
+                  </Link>
+                </div>
+                <div className="row justify-content-between">
+                  <div className="col-auto">
+                    {" "}
+                    <small>in TOPIC</small>
+                  </div>
+                  <div className="col-auto">
+                    <small>{this.updatedDate}</small>{" "}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
