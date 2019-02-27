@@ -1,79 +1,13 @@
 .heading {
   text-decoration: none;
   color: #293347;
+  text-align: left;
 }
 .imgShowcase {
   width: 100%;
+  height: 100%;
   padding: 0;
 }
 .my-container {
-  border: 1px solid green;
   color: #293347;
 }
-
-.my-row {
-  border: 2px solid red;
-}
-
-.my-col {
-  border: 2px dotted blue;
-}
-
-#ArticleListing {
-  /* background: #eee; */
-  background: green;
-}
-
-#ListByTags {
-  background: #cccccc;
-}
-#image-styles {
-  display: block;
-  height: auto;
-  max-width: 100%;
-  /* margin-top: -47px;
-  margin-left: -15px; */
-  opacity: initial;
-}
-
-.main-content img {
-  float: left;
-  margin: 0 0 20px 20px;
-  height: 200px;
-  width: 300px;
-  opacity: initial;
-}
-
-/* .h1 {
-  font-weight: 800;
-}
-#title {
-  padding: 16px 16px 0 16px;
-  color: #293347;
-}
-
-#decoration {
-  text-decoration: none;
-  color: #293347;
-}
-
-#subhead {
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
-.main-content {
-  height: 200px;
-  width: 100%;
-}
-
-@media (max-width: 576px) {
-  .main-content img {
-    align-content: center;
-    margin-left: 0;
-    float: none;
-    height: auto;
-    width: 100%;
-    opacity: initial;
-  }
-} */
