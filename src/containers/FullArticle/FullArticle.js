@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import "./FullArticle.css";
 import react from "../../assets/Article/react.png";
+import Footer from "../../components/Layout/Footer/Footer";
 
 class FullArticle extends Component {
   render() {
@@ -57,6 +58,7 @@ class FullArticle extends Component {
             itaque
           </p>
         </div>
+        <Footer />
       </div>
     );
   }

@@ -6,7 +6,6 @@ import Portfolio from "../../Portfolio/Portfolio";
 import Blog from "../../Blog/Blog";
 import Landing from "../MainContent/Landing/Landing";
 import FullArticle from "../../../containers/FullArticle/FullArticle";
-import Footer from "../Footer/Footer";
 
 import "./Navbar.css";
 
@@ -118,7 +117,6 @@ const navbar = () => {
         <Route path="/blog/react-intro" component={FullArticle} />
         <Route path="/blog/node-express-intro" component={FullArticle} />
       </div>
-      <Footer />
     </div>
   );
 };

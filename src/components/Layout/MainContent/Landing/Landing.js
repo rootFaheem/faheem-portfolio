@@ -5,7 +5,7 @@ import "./Landing.css";
 const landing = () => {
   return (
     <div>
-      <img src={BackgroundImage} id="bg" alt="" />
+      <img src={BackgroundImage} id="bg" alt=" shocase loading" />
 
       <div className="text-center bg-text">
         <p>Hi, I am Faheem Ahmad</p>

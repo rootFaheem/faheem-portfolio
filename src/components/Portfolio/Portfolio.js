@@ -5,6 +5,7 @@ import "./Portfolio.css";
 import BurgerBuilder from "../../assets/porfolio/BurgerBuilder.png";
 import NodeShop from "../../assets/porfolio/nodeshop.png";
 import WSN from "../../assets/porfolio/wsn.png";
+import Footer from "../Layout/Footer/Footer";
 
 const portfolio = () => {
   return (
@@ -118,6 +119,7 @@ const portfolio = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
