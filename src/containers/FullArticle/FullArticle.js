@@ -7,7 +7,7 @@ class FullArticle extends Component {
   render() {
     return (
       <div className="container FullArticle">
-        <div>
+        <div className="row">
           <p className="h3 articlehead">
             An introduction to React, Build a React App from Scratch. And how to
             setup a dev environment for React.
