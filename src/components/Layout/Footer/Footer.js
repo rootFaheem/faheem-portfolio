@@ -5,10 +5,19 @@ const footer = () => {
   return (
     <div>
       <div className="stickyfooter">
-        <footer className="page-footer font-small bg-dark pt-4 ">
-          <div className="container" />
-          <div className="row align-items-center">
-            <div className="col text-center ">
+        <footer className="bg-dark">
+          <div
+            className="row flex-column-reverse flex-md-row justify-content-center align-items-center"
+            id="spacing"
+          >
+            <div className="col-md-6 col-auto" id="spacingTop">
+              <div className="text-center" id="footerlinks">
+                <a className="text-center" id="footerlinks" href="/">
+                  <small>&copy; {new Date().getFullYear()} faheem</small>
+                </a>
+              </div>
+            </div>
+            <div className="col-md-6 col-auto">
               <a
                 href="https://twitter.com/rootfaheem"
                 id="textdecoration"
@@ -55,11 +64,6 @@ const footer = () => {
                 <i className="fa fa-dribbble" />
               </a>
             </div>
-          </div>
-          <div className="footer-copyright text-center" id="footerlinks">
-            <a className="footerlinks  text-center" id="footerlinks" href="/">
-              <small>&copy; {new Date().getFullYear()} faheem</small>
-            </a>
           </div>
         </footer>
       </div>
