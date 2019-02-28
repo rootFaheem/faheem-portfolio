@@ -1,17 +1,24 @@
 import React, { Component } from "react";
 
 import "./FullArticle.css";
+import react from "../../assets/Article/react.png";
 
 class FullArticle extends Component {
   render() {
     return (
-      <div className="container FullArticle ">
-        <p className="h3">
-          How to set a boilerplate for MERN stack with GraphQL and Next.js and
-          Redux Thunk!
-        </p>
+      <div className="container FullArticle">
+        <div>
+          <p className="h3 articlehead">
+            An introduction to React, Build a React App from Scratch. And how to
+            setup a dev environment for React.
+          </p>
+        </div>
         <hr />
-        <p>
+
+        <div>
+          <img className=" responsiveImg" src={react} alt="article" />
+        </div>
+        <p className="articleText">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
           iste alias similique commodi? Dicta eius aperiam laborum neque vel,
           at, quae, accusamus dolorum natus exercitationem error asperiores nam
@@ -45,7 +52,7 @@ class FullArticle extends Component {
           consectetur vitae? Ducimus quaerat magni, consequuntur eligendi
           deleniti maxime, possimus velit ab eum hic eaque minima expedita vel
           odit accusamus id ut officia animi amet debitis quasi. Velit illum quo
-          aliquid, perferendis quam itaque.
+          aliquid, perferendis quam itaque
         </p>
       </div>
     );

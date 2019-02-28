@@ -1,11 +1,36 @@
 .FullArticle {
-  background: #f8f9fa !important;
+  /* background: #f8f9fa !important; */
   color: #293347;
   position: relative;
   overflow: scroll;
   min-height: 120vh;
   margin-top: 80px;
-  text-align: justify;
   overflow: scroll;
   padding-top: 40px;
+  width: 60%;
+}
+.articlehead {
+  font-weight: 400;
+  margin-top: 25px;
+}
+.articleText {
+  font-size: 21px;
+}
+.responsiveImg {
+  height: 400px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 790px) {
+  .FullArticle {
+    width: 95%;
+  }
+  .responsiveImg {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 }
