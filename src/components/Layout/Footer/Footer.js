@@ -12,7 +12,9 @@ const footer = () => {
                 <a
                   className="btn-floating btn-tw mx-1"
                   id="footerlinks"
-                  href="www.twitter.com"
+                  href="https://twitter.com/rootfaheem"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fab fa-twitter"> </i>
                 </a>
@@ -21,7 +23,9 @@ const footer = () => {
                 <a
                   className="btn-floating btn-github mx-1"
                   id="footerlinks"
-                  href="www.twitter.com"
+                  href="https://github.com/FaheemTech"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fab fa-github"> </i>
                 </a>
@@ -30,7 +34,8 @@ const footer = () => {
                 <a
                   className="btn-floating btn-google mx-1"
                   id="footerlinks"
-                  href="www.twitter.com"
+                  href="mailto:faheemtech1@gmail.com?Subject=Hello%20faheem"
+                  rel="noopener noreferrer"
                 >
                   <i className="fab fa-google"> </i>
                 </a>
@@ -39,7 +44,9 @@ const footer = () => {
                 <a
                   className="btn-floating btn-li mx-1"
                   id="footerlinks"
-                  href="www.twitter.com"
+                  href="https://www.linkedin.com/in/faheem-ahmad-753705127/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fab fa-linkedin-in"> </i>
                 </a>
@@ -48,7 +55,9 @@ const footer = () => {
                 <a
                   className="btn-floating btn-dribbble mx-1"
                   id="footerlinks"
-                  href="www.twitter.com"
+                  href="https://dribbble.com/faheemtech"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fab fa-dribbble"> </i>
                 </a>
