@@ -1,8 +1,9 @@
 import React from "react";
 
-import faheem from "../../assets/faheem.png";
-
 import "./About.css";
+
+import faheem from "../../assets/faheem.png";
+import resume from "../../assets/resume/Faheem_Resume.pdf";
 
 const about = () => {
   return (
@@ -12,7 +13,7 @@ const about = () => {
           className="row justify-content-around align-items-center"
           style={{ marginBottom: "10px" }}
         >
-          <div className="col-md-6 col-auto text-start">
+          <div className="col-md-6 col-auto">
             <img
               src={faheem}
               alt="geek here"
@@ -20,13 +21,15 @@ const about = () => {
                 height: "250px",
                 width: "250px",
                 borderRadius: "50%",
-                marginTop: "20px",
-                marginBottom: "20px"
+                marginTop: "10px",
+                marginBottom: "10px"
               }}
             />
           </div>
           <div className="col-md-6 col-auto">
-            <button className="btn-success btn-lg">Download my Resume</button>
+            <a href={resume} download>
+              <button className="btn-success btn-lg">Download my Resume</button>
+            </a>
           </div>
         </div>
 
