@@ -1,0 +1,10 @@
+.stickyfooter {
+  width: 100%;
+  height: 80px;
+  margin-top: 50px;
+}
+
+#footerlinks {
+  color: white;
+  text-decoration: none;
+}

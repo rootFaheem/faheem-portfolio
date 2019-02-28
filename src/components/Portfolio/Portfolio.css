@@ -30,12 +30,12 @@
 
 .imgStyle {
   opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
+  filter: alpha(opacity=50);
 }
 
 .imgStyle:hover {
   opacity: 1;
-  filter: alpha(opacity=100); /* For IE8 and earlier */
+  filter: alpha(opacity=100);
 }
 .topMargin {
   margin-top: 3em;

@@ -1,11 +1,11 @@
 .About {
   color: #293347;
   position: relative;
-  min-height: 89vh;
+  min-height: 100%;
   margin-top: 80px;
   text-align: center;
   overflow: scroll;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .head {
   font-weight: 600;
@@ -26,10 +26,12 @@
 }
 
 #skills {
-  min-height: 97vh;
+  margin-top: 20px;
+  min-height: 100%;
   text-align: center;
 }
 
 #borderRadius {
   border-radius: 15px;
 }
+
