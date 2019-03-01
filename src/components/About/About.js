@@ -37,9 +37,11 @@ class About extends Component {
                   }}
                 />
               </div>
+
               <div className="col-md-6 col-auto">
                 <a href={resume} download>
                   <button className="btn-success btn-lg">
+                    <span class="fa fa-download" aria-hidden="true" />
                     Download my Resume
                   </button>
                 </a>
