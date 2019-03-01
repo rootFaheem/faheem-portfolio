@@ -64,7 +64,7 @@ class About extends Component {
                       I do use twitter a lot. Twitter has always been my source
                       of my daily updates. what i can't do is hit the zym on
                       daily basis because you know, it's tough for lazy guy like
-                      me.
+                      me. I am addict of Twitter and coffee.
                     </div>
                   </div>
                 </div>
@@ -129,9 +129,10 @@ class About extends Component {
                     </p>
                     <hr />
                     <div id="paddings">
-                      I try to build things from start. My strategy is simple
-                      but powerful i.e. try to keep things simple, built them by
-                      using the best and latest tech stack.
+                      I try to build things from scratch. My strategy is simple
+                      but powerful i.e. try to keep things simple and break them
+                      into smaller modules, built them by using the best and
+                      latest tech stack.
                     </div>
 
                     <p className="text-center h5 TopColor" id="top">
@@ -186,9 +187,15 @@ class About extends Component {
                     </p>
                     <div id="paddings">
                       <p>
+                        VS Code <br />
+                        Sublime <br />
+                        Codepen <br />
+                        npm <br />
+                        Chrome Dev Tools <br />
                         Postman <br />
                         Concurrently <br />
-                        etc <br />
+                        Terminal (iTerm & Hyper) <br />
+                        Github <br />
                       </p>
                     </div>
                   </div>
@@ -198,7 +205,7 @@ class About extends Component {
                   <div className="text-center bg-light" id="borderRadius">
                     <p className="text-center h4" id="top">
                       {" "}
-                      other stuff
+                      Other Stuff
                     </p>
                     <hr />
                     <div id="paddings">
@@ -221,6 +228,14 @@ class About extends Component {
                     <div id="paddings">
                       Realtime Database, Authentication, Firebase Hosting
                     </div>
+                    <p className="text-center h5 TopColor" id="top">
+                      CMS
+                    </p>
+                    <div id="paddings">Drupal and Wordpress</div>
+                    <p className="text-center h5 TopColor" id="top">
+                      Helpers
+                    </p>
+                    <div id="paddings">localtunnel</div>
                   </div>
                 </div>
               </div>
