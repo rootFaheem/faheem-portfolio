@@ -39,3 +39,8 @@
 .padding-10 {
   margin-right: 5px;
 }
+@media (max-width: 770px) {
+  .buttonpad {
+    margin-bottom: 20px;
+  }
+}

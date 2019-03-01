@@ -24,7 +24,7 @@ class About extends Component {
               className="row justify-content-around align-items-center"
               style={{ marginBottom: "10px" }}
             >
-              <div className="col-md-6 col-auto ">
+              <div className="col-md-6 col-auto">
                 <img
                   src={faheem}
                   alt="geek here"
@@ -38,10 +38,10 @@ class About extends Component {
                 />
               </div>
 
-              <div className="col-md-6 col-auto">
+              <div className="col-md-6 col-auto buttonpad ">
                 <a href={resume} download>
                   <button className="btn-success btn-lg">
-                    <span class="fa fa-download" aria-hidden="true" />
+                    <span className="fa fa-download" aria-hidden="true" />
                     Download my Resume
                   </button>
                 </a>
