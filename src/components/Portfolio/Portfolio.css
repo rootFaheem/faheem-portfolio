@@ -8,35 +8,49 @@
   overflow: scroll;
   padding-top: 10px;
 }
-.badge-info {
-  font-weight: 100;
-  font-size: 16px;
-}
-.head {
-  font-weight: 600;
+
+.imgcontainer {
+  position: relative;
+  width: 50%;
 }
 
-#card1 {
-  margin-top: 3em;
+.image {
+  display: block;
+  width: 100%;
+  min-height: 230px;
+  height: auto;
 }
 
-#bottom {
-  margin-bottom: 10px;
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
-#circular {
-  border-radius: 15px;
+.imgcontainer:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 
-.imgStyle {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-}
-
-.imgStyle:hover {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-.topMargin {
-  margin-top: 3em;
+.imgtext {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
