@@ -29,15 +29,7 @@ const footer = () => {
                   <i className="fa fa-twitter" />
                 </a>
                 <a
-                  href="mailto:faheemtech1@gmail.com?Subject=Hello%20faheem"
-                  id="textdecoration"
-                  role="button"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fa fa-google"> </i>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/faheem-ahmad-753705127/"
+                  href="https://github.com/FaheemTech"
                   id="textdecoration"
                   role="button"
                   target="_blank"
@@ -45,6 +37,15 @@ const footer = () => {
                 >
                   <i className="fa fa-github" />
                 </a>
+                <a
+                  href="mailto:faheemtech1@gmail.com?Subject=Hello%20faheem"
+                  id="textdecoration"
+                  role="button"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-google"> </i>
+                </a>
+
                 <a
                   href="https://www.linkedin.com/in/faheem-ahmad-753705127/"
                   id="textdecoration"
