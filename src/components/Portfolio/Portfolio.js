@@ -49,9 +49,12 @@ const portfolio = () => {
                       <p className="fontRaleway">React+Redux</p>
                     </div>
                     <div>
-                      <button className="btn  visitbutton">
-                        visit the website
-                      </button>
+                      <a href="/">
+                        <button className="btn visitbutton" href="/">
+                          {" "}
+                          visit the website
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -60,6 +63,9 @@ const portfolio = () => {
 
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">
               <div>
+                <img src={NodeShop} className="image" alt="burger builder" />
+              </div>
+              <div>
                 <div className="overlay">
                   <div className="imgtext">
                     <div>
@@ -67,15 +73,15 @@ const portfolio = () => {
                       <p className="fontRaleway">React+Redux</p>
                     </div>
                     <div>
-                      <button className="btn  visitbutton">
-                        visit the website
-                      </button>
+                      <a href="/">
+                        <button className="btn visitbutton" href="/">
+                          {" "}
+                          visit the website
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div>
-                <img src={NodeShop} className="image" alt="burger builder" />
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">
@@ -90,9 +96,12 @@ const portfolio = () => {
                       <p className="fontRaleway">React+Redux</p>
                     </div>
                     <div>
-                      <button className="btn  visitbutton">
-                        visit the website
-                      </button>
+                      <a href="/">
+                        <button className="btn visitbutton" href="/">
+                          {" "}
+                          visit the website
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -109,9 +118,12 @@ const portfolio = () => {
                     <p className="fontRaleway">React+Redux</p>
                   </div>
                   <div>
-                    <button className="btn  visitbutton">
-                      visit the website
-                    </button>
+                    <a href="/">
+                      <button className="btn visitbutton" href="/">
+                        {" "}
+                        visit the website
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -125,9 +137,12 @@ const portfolio = () => {
                     <p className="fontRaleway">React+Redux</p>
                   </div>
                   <div>
-                    <button className="btn  visitbutton">
-                      visit the website
-                    </button>
+                    <a href="/">
+                      <button className="btn visitbutton" href="/">
+                        {" "}
+                        visit the website
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -141,9 +156,12 @@ const portfolio = () => {
                     <p className="fontRaleway">React+Redux</p>
                   </div>
                   <div>
-                    <button className="btn  visitbutton">
-                      visit the website
-                    </button>
+                    <a href="/">
+                      <button className="btn visitbutton" href="/">
+                        {" "}
+                        visit the website
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -154,17 +172,17 @@ const portfolio = () => {
             <p className="text-center h5">
               <strong>
                 {" "}
-                want to discuss an idea or want to do a project together lets
-                meet, i will pay the bills for coffee ;)
+                want to discuss an idea? do a project together?
+                <br /> lets meet, i will pay the bill for coffee ;)
               </strong>
               <a
                 href="mailto:faheemtech1@gmail.com?Subject=Hello%20faheem"
                 target="_top"
-                className="mail text-info"
+                className="mail"
                 style={{ textDecoration: "none" }}
               >
                 {" "}
-                <span className="badge badge-pill badge-info">email me</span>
+                <span className="badge badge-pill badge-danger">email me</span>
               </a>
             </p>
           </div>
