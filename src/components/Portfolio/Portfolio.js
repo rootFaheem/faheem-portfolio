@@ -49,7 +49,9 @@ const portfolio = () => {
                       <p className="fontRaleway">React+Redux</p>
                     </div>
                     <div>
-                      <button className="btn visitbutton">VISIT WEBSITE</button>
+                      <button className="btn  visitbutton">
+                        visit the website
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -61,10 +63,13 @@ const portfolio = () => {
                 <div className="overlay">
                   <div className="imgtext">
                     <div>
-                      <p>Burger Builder</p>
+                      <p className="Rbold">Burger Builder</p>
+                      <p className="fontRaleway">React+Redux</p>
                     </div>
                     <div>
-                      <button className="btn-info">visit the website</button>
+                      <button className="btn  visitbutton">
+                        visit the website
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -81,10 +86,13 @@ const portfolio = () => {
                 <div className="overlay">
                   <div className="imgtext">
                     <div>
-                      <p>Burger Builder</p>
+                      <p className="Rbold">Burger Builder</p>
+                      <p className="fontRaleway">React+Redux</p>
                     </div>
                     <div>
-                      <button className="btn-info">visit the website</button>
+                      <button className="btn  visitbutton">
+                        visit the website
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -97,10 +105,13 @@ const portfolio = () => {
               <div className="overlay">
                 <div className="imgtext">
                   <div>
-                    <p>Burger Builder</p>
+                    <p className="Rbold">Burger Builder</p>
+                    <p className="fontRaleway">React+Redux</p>
                   </div>
                   <div>
-                    <button className="btn-info">visit the website</button>
+                    <button className="btn  visitbutton">
+                      visit the website
+                    </button>
                   </div>
                 </div>
               </div>
@@ -110,10 +121,13 @@ const portfolio = () => {
               <div className="overlay">
                 <div className="imgtext">
                   <div>
-                    <p>Burger Builder</p>
+                    <p className="Rbold">Burger Builder</p>
+                    <p className="fontRaleway">React+Redux</p>
                   </div>
                   <div>
-                    <button className="btn-info">visit the website</button>
+                    <button className="btn  visitbutton">
+                      visit the website
+                    </button>
                   </div>
                 </div>
               </div>
@@ -123,10 +137,13 @@ const portfolio = () => {
               <div className="overlay">
                 <div className="imgtext">
                   <div>
-                    <p>Burger Builder</p>
+                    <p className="Rbold">Burger Builder</p>
+                    <p className="fontRaleway">React+Redux</p>
                   </div>
                   <div>
-                    <button className="btn-info">visit the website</button>
+                    <button className="btn  visitbutton">
+                      visit the website
+                    </button>
                   </div>
                 </div>
               </div>
