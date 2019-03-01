@@ -24,7 +24,7 @@ class About extends Component {
               className="row justify-content-around align-items-center"
               style={{ marginBottom: "10px" }}
             >
-              <div className="col-md-6 col-auto">
+              <div className="col-md-6 col-auto ">
                 <img
                   src={faheem}
                   alt="geek here"
