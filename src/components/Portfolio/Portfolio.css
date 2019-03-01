@@ -54,3 +54,30 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.visitbutton {
+  margin-top: 50px;
+  border: 1.3px solid #e31b6d;
+  font-family: "Raleway", sans-serif;
+  background: inherit;
+  font-size: 11pt;
+  font-weight: 100;
+  color: #1b242f;
+  width: 170px;
+  line-height: 18pt;
+  text-align: center;
+}
+.visitbutton:hover {
+  background: #e31b6d;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.fontRaleway {
+  font-family: "Raleway", sans-serif;
+  color: #e31b6d;
+  font-size: 18px;
+  margin-top: -15px;
+}
+.Rbold {
+  font-family: "Raleway-bold", sans-serif;
+  color: #1b242f;
+}
