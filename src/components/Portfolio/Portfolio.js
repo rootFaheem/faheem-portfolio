@@ -192,7 +192,7 @@ const portfolio = () => {
             </div>
           </div>
 
-          <div style={{ marginTop: "200px" }}>
+          <div style={{ marginTop: "200px", marginBottom: "200px" }}>
             <p className="text-center h4">
               {" "}
               want to discuss an idea? or do a project together?
