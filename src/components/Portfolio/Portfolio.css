@@ -87,8 +87,8 @@
   background: #e31b6d;
   color: white;
   margin: 20px 20px;
-  line-height: 50px;
-  padding: 3px 15px;
+  line-height: 60px;
+  padding: 7px 13px;
 }
 .badgeStyle:hover {
   text-decoration: none;

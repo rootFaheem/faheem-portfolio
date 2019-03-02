@@ -77,7 +77,11 @@ const portfolio = () => {
                       <p className="fontRaleway">Node.js + Express.js</p>
                     </div>
                     <div>
-                      <a href="/" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="https://github.com/FaheemTech/node-shop"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <button className="btn visitbutton" href="/">
                           {" "}
                           visit the website
@@ -100,7 +104,11 @@ const portfolio = () => {
                       <p className="fontRaleway">MERN stack</p>
                     </div>
                     <div>
-                      <a href="/" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="https://github.com/FaheemTech/An-Enhanced-Certificate-less-Algorithm-for-Wireless-Sensor-Network-React"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <button className="btn visitbutton" href="/">
                           {" "}
                           visit the website
@@ -118,11 +126,15 @@ const portfolio = () => {
               <div className="overlay">
                 <div className="imgtext">
                   <div>
-                    <p className="Rbold">Burger Builder</p>
-                    <p className="fontRaleway">React+Redux</p>
+                    <p className="Rbold">An ECA for WSN</p>
+                    <p className="fontRaleway">MERN stack</p>
                   </div>
                   <div>
-                    <a href="/" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://github.com/FaheemTech/An-Enhanced-Certificate-less-Algorithm-for-Wireless-Sensor-Network-React"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <button className="btn visitbutton" href="/">
                         {" "}
                         visit the website
@@ -141,7 +153,11 @@ const portfolio = () => {
                     <p className="fontRaleway">React+Redux</p>
                   </div>
                   <div>
-                    <a href="/" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://react-my-burger-ab967.firebaseapp.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <button className="btn visitbutton" href="/">
                         {" "}
                         visit the website
@@ -156,11 +172,15 @@ const portfolio = () => {
               <div className="overlay">
                 <div className="imgtext">
                   <div>
-                    <p className="Rbold">Burger Builder</p>
-                    <p className="fontRaleway">React+Redux</p>
+                    <p className="Rbold">Node Shop</p>
+                    <p className="fontRaleway">Node.js + Express.js</p>
                   </div>
                   <div>
-                    <a href="/" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://github.com/FaheemTech/node-shop"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <button className="btn visitbutton" href="/">
                         {" "}
                         visit the website
@@ -172,13 +192,11 @@ const portfolio = () => {
             </div>
           </div>
 
-          <div style={{ marginTop: "100px" }}>
-            <p className="text-center h5">
-              <strong>
-                {" "}
-                want to discuss an idea? or do a project together?
-                <br /> Let's meet, i will pay for coffee.
-              </strong>
+          <div style={{ marginTop: "200px" }}>
+            <p className="text-center h4">
+              {" "}
+              want to discuss an idea? or do a project together?
+              <br /> Let's meet, i will pay for coffee.
               <a
                 href="mailto:faheemtech1@gmail.com?Subject=Hello%20faheem"
                 className="mail badge-lg badgeStyle badge-pill"
@@ -189,6 +207,7 @@ const portfolio = () => {
           </div>
         </div>
       </div>
+
       <Footer />
     </div>
   );
