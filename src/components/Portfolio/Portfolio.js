@@ -69,8 +69,8 @@ const portfolio = () => {
                 <div className="overlay">
                   <div className="imgtext">
                     <div>
-                      <p className="Rbold">Burger Builder</p>
-                      <p className="fontRaleway">React+Redux</p>
+                      <p className="Rbold">Node Shop</p>
+                      <p className="fontRaleway">Node.js + Express</p>
                     </div>
                     <div>
                       <a href="/">
@@ -92,8 +92,8 @@ const portfolio = () => {
                 <div className="overlay">
                   <div className="imgtext">
                     <div>
-                      <p className="Rbold">Burger Builder</p>
-                      <p className="fontRaleway">React+Redux</p>
+                      <p className="Rbold">An ECA for WSN</p>
+                      <p className="fontRaleway">MERN stack</p>
                     </div>
                     <div>
                       <a href="/">
@@ -172,17 +172,14 @@ const portfolio = () => {
             <p className="text-center h5">
               <strong>
                 {" "}
-                want to discuss an idea? do a project together?
-                <br /> lets meet, i will pay the bill for coffee ;)
+                want to discuss an idea? or do a project together?
+                <br /> Let's meet, i will pay for coffee.
               </strong>
               <a
                 href="mailto:faheemtech1@gmail.com?Subject=Hello%20faheem"
-                target="_top"
-                className="mail"
-                style={{ textDecoration: "none" }}
+                className="mail badge-lg badgeStyle badge-pill"
               >
-                {" "}
-                <span className="badge badge-pill badge-danger">email me</span>
+                e-mail Me
               </a>
             </p>
           </div>

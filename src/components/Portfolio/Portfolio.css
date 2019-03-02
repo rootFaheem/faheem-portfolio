@@ -81,3 +81,17 @@
   font-family: "Raleway-bold", sans-serif;
   color: #1b242f;
 }
+.badgeStyle {
+  font-family: "Raleway", sans-serif;
+  font-weight: "100";
+  background: #e31b6d;
+  color: white;
+  margin: 20px 20px;
+  line-height: 50px;
+  padding: 3px 10px;
+}
+.badgeStyle:hover {
+  text-decoration: none;
+  background: #e31b6d;
+  color: white;
+}
