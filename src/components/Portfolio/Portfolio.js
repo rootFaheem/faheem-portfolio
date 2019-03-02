@@ -49,7 +49,11 @@ const portfolio = () => {
                       <p className="fontRaleway">React+Redux</p>
                     </div>
                     <div>
-                      <a href="/">
+                      <a
+                        href="https://react-my-burger-ab967.firebaseapp.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <button className="btn visitbutton" href="/">
                           {" "}
                           visit the website
@@ -70,10 +74,10 @@ const portfolio = () => {
                   <div className="imgtext">
                     <div>
                       <p className="Rbold">Node Shop</p>
-                      <p className="fontRaleway">Node.js + Express</p>
+                      <p className="fontRaleway">Node.js + Express.js</p>
                     </div>
                     <div>
-                      <a href="/">
+                      <a href="/" target="_blank" rel="noopener noreferrer">
                         <button className="btn visitbutton" href="/">
                           {" "}
                           visit the website
@@ -96,7 +100,7 @@ const portfolio = () => {
                       <p className="fontRaleway">MERN stack</p>
                     </div>
                     <div>
-                      <a href="/">
+                      <a href="/" target="_blank" rel="noopener noreferrer">
                         <button className="btn visitbutton" href="/">
                           {" "}
                           visit the website
@@ -118,7 +122,7 @@ const portfolio = () => {
                     <p className="fontRaleway">React+Redux</p>
                   </div>
                   <div>
-                    <a href="/">
+                    <a href="/" target="_blank" rel="noopener noreferrer">
                       <button className="btn visitbutton" href="/">
                         {" "}
                         visit the website
@@ -137,7 +141,7 @@ const portfolio = () => {
                     <p className="fontRaleway">React+Redux</p>
                   </div>
                   <div>
-                    <a href="/">
+                    <a href="/" target="_blank" rel="noopener noreferrer">
                       <button className="btn visitbutton" href="/">
                         {" "}
                         visit the website
@@ -156,7 +160,7 @@ const portfolio = () => {
                     <p className="fontRaleway">React+Redux</p>
                   </div>
                   <div>
-                    <a href="/">
+                    <a href="/" target="_blank" rel="noopener noreferrer">
                       <button className="btn visitbutton" href="/">
                         {" "}
                         visit the website
@@ -179,7 +183,7 @@ const portfolio = () => {
                 href="mailto:faheemtech1@gmail.com?Subject=Hello%20faheem"
                 className="mail badge-lg badgeStyle badge-pill"
               >
-                e-mail Me
+                E-mail Me
               </a>
             </p>
           </div>
