@@ -17,7 +17,7 @@ class About extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ background: "#e6ecf0" }}>
         <div className="container">
           <div className="About">
             <div

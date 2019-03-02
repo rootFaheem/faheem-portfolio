@@ -9,7 +9,7 @@ import Footer from "../Layout/Footer/Footer";
 
 const portfolio = () => {
   return (
-    <div>
+    <div style={{ background: "#e6ecf0" }}>
       <div className="Portfolio">
         <div className="container">
           <div>

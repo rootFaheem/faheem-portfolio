@@ -20,7 +20,6 @@ const navbar = () => {
         >
           <div className="container">
             <NavLink to="/" exact className="navbar-brand">
-              {/* faheem */}
               <img
                 src={logo}
                 alt="brand"
