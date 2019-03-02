@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Article from "./Article/Article";
 import "./Articles.css";
 
+import nextgenjs from "../../../assets/Article/nextgenjs.jpeg";
 import react from "../../../assets/../assets/Article/react.png";
 import node from "../../../assets/../assets/Article/nodeexpress.png";
 
@@ -33,6 +34,15 @@ class Articles extends Component {
 
   state = {
     article0: {
+      heading: "What the heck is Next-Generation Javascript?",
+      category: "Javascript",
+      subheading:
+        "In this article you will learn about next-generation javascript feature. There features are shown by example.",
+      uploadedDate: this.updatedDate,
+      imgURL: nextgenjs,
+      link: "/blog/react-intro"
+    },
+    article1: {
       heading:
         "An introduction to React, Build a React App from Scratch. And how to setup a dev environment for React",
       category: "React",
@@ -42,7 +52,7 @@ class Articles extends Component {
       imgURL: react,
       link: "/blog/react-intro"
     },
-    article1: {
+    article2: {
       heading:
         "An introduction to Node.js and Express. Build a Node App from Scratch.",
       category: "Node",
@@ -68,20 +78,20 @@ class Articles extends Component {
               link={this.state.article0.link}
             />
             <Article
-              heading={this.state.article0.heading}
-              category={this.state.article0.category}
-              subheading={this.state.article0.subheading}
-              uploadedDate={this.state.article0.uploadedDate}
-              imgURL={this.state.article0.imgURL}
-              link={this.state.article0.link}
-            />
-            <Article
               heading={this.state.article1.heading}
               category={this.state.article1.category}
               subheading={this.state.article1.subheading}
               uploadedDate={this.state.article1.uploadedDate}
               imgURL={this.state.article1.imgURL}
               link={this.state.article1.link}
+            />
+            <Article
+              heading={this.state.article2.heading}
+              category={this.state.article2.category}
+              subheading={this.state.article2.subheading}
+              uploadedDate={this.state.article2.uploadedDate}
+              imgURL={this.state.article2.imgURL}
+              link={this.state.article2.link}
             />
           </div>
 

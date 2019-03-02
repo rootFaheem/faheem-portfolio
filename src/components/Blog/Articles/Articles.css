@@ -5,8 +5,22 @@
 }
 .imgShowcase {
   width: 100%;
+  height: 160px;
   padding: 0;
 }
 .my-container {
   color: #293347;
+}
+
+@media (max-width: 1000px) {
+  .imgShowcase {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 772px) {
+  .imgShowcase {
+    padding-bottom: 10px;
+  }
 }
