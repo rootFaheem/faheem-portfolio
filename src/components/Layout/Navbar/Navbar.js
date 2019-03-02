@@ -6,6 +6,7 @@ import Portfolio from "../../Portfolio/Portfolio";
 import Blog from "../../Blog/Blog";
 import Landing from "../MainContent/Landing/Landing";
 import FullArticle from "../../../containers/FullArticle/FullArticle";
+import logo from "../../../assets/logo.png";
 
 import "./Navbar.css";
 
@@ -19,7 +20,14 @@ const navbar = () => {
         >
           <div className="container">
             <NavLink to="/" exact className="navbar-brand">
-              faheem
+              {/* faheem */}
+              <img
+                src={logo}
+                alt="brand"
+                style={{
+                  height: "70px"
+                }}
+              />
             </NavLink>
             <button
               className="navbar-toggler "
