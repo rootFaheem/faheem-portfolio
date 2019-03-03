@@ -67,8 +67,7 @@ class About extends Component {
                       MERN for my tech stack. When I am not coding then you will
                       find me on twitter, watching The Big Bang Theory or Mr.
                       Robot. I do use twitter a lot. Twitter has always been my
-                      source of my daily updates. yes! I am addict of Twitter
-                      and coffee.
+                      source of my daily updates. Twitter and coffee addict.
                     </div>
                   </div>
                 </div>
