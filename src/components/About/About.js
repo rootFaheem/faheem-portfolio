@@ -59,14 +59,16 @@ class About extends Component {
                     <hr />
                     <div id="paddings">
                       I'm a Full Stack Developer, based in New Delhi, India. I
-                      enjoy making some cool Full Stack web Apps. I do always
-                      see everything as a problem to be solved. I do use MERN
-                      for my tech stack. When I am not coding then you will find
-                      me on twitter, watching The Big Bang Theory or Mr. Robot.
-                      I do use twitter a lot. Twitter has always been my source
-                      of my daily updates. what i can't do is hit the zym on
-                      daily basis because you know, it's tough for lazy guy like
-                      me. I am addict of Twitter and coffee.
+                      write <strong>efficient</strong> and{" "}
+                      <strong>clean code</strong>. I stick with{" "}
+                      <strong>DRY</strong> principle. I always. I do always see
+                      everything as a problem to be solved. I do use MERN for my
+                      tech stack. When I am not coding then you will find me on
+                      twitter, watching The Big Bang Theory or Mr. Robot. I do
+                      use twitter a lot. Twitter has always been my source of my
+                      daily updates. what i can't do is hit the zym on daily
+                      basis because you know, it's tough for lazy guy like me. I
+                      am addict of Twitter and coffee.
                     </div>
                   </div>
                 </div>
