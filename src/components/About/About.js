@@ -61,12 +61,14 @@ class About extends Component {
                       I'm a Full Stack Developer, based in New Delhi, India. I
                       write <strong>efficient</strong> and{" "}
                       <strong>clean code</strong>. I stick with{" "}
-                      <strong>DRY</strong> principle. I do always see everything
-                      as a problem to be solved. I do use MERN for my tech
-                      stack. When I am not coding then you will find me on
-                      twitter, watching The Big Bang Theory or Mr. Robot. I do
-                      use twitter a lot. Twitter has always been my source of my
-                      daily updates. yes! I am addict of Twitter and coffee.
+                      <strong>DRY</strong> principle. I believe code reusability
+                      is on of the most important thing for developer. is I do
+                      always see everything as a problem to be solved. I do use
+                      MERN for my tech stack. When I am not coding then you will
+                      find me on twitter, watching The Big Bang Theory or Mr.
+                      Robot. I do use twitter a lot. Twitter has always been my
+                      source of my daily updates. yes! I am addict of Twitter
+                      and coffee.
                     </div>
                   </div>
                 </div>
