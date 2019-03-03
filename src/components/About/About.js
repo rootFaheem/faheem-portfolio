@@ -83,11 +83,26 @@ class About extends Component {
                       I have completed my High School from Khair Technical Hr.
                       Secondary School with 83% of marks in 2012. <br /> After
                       that, I have completed Diploma in Computer Engineering
-                      from Jamia Millia Islamia with 76% of marks in 2015 <br />{" "}
-                      Then I have joined GGSIPU for my Graduation. So, from
-                      GGSIPU I have completed my Bachelor of Technology (B.Tech)
-                      in Computer Science and Engineering with 73% of marks in
-                      2018.
+                      from{" "}
+                      <a
+                        href="https://www.jmi.ac.in/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Jamia Millia Islamia
+                      </a>
+                      , New Delhi with 76% of marks in 2015 <br /> Then I have
+                      joined{" "}
+                      <a
+                        href="http://www.ipu.ac.in/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        GGSIPU
+                      </a>{" "}
+                      Delhi for my Graduation. So, from GGSIPU I have completed
+                      my Bachelor of Technology (B.Tech) in Computer Science and
+                      Engineering with 73% of marks in 2018.
                     </div>
                   </div>
                 </div>
