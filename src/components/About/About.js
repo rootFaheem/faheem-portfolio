@@ -210,6 +210,8 @@ class About extends Component {
                         Codepen <br />
                         npm <br />
                         Chrome Dev Tools <br />
+                        nodemon
+                        <br />
                         Postman <br />
                         Concurrently <br />
                         Terminal (iTerm & Hyper) <br />
