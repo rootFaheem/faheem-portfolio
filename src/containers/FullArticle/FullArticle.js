@@ -36,8 +36,15 @@ class FullArticle extends Component {
             </ol>
             Two new keywords has been introduced that are <strong>let</strong>{" "}
             and <strong>const</strong>. Previously <strong>var</strong> keyword
-            is used for the variable definition. But there were something that
-            developer requires to make their 
+            is used for the variable declaration. let behaves the same as the
+            var that is variable declaration. But there are some core
+            differences such as :<br />
+            <strong>var has no block scope</strong>
+            <br />
+            consider the following code
+            <pre > if(true) {
+              var apple=true;}
+              alert(apple); </pre>
           </p>
         </div>
         <Footer />
