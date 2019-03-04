@@ -13,7 +13,7 @@
   margin-top: 25px;
 }
 .articleText {
-  font-size: 21px;
+  font-size: 18px;
 }
 .responsiveImg {
   height: 400px;
@@ -34,12 +34,12 @@
 }
 @media (max-width: 572px) {
   .articleText {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 .subhead {
   /* background: rgba(0, 0, 0, 0.05); */
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .imgstyle {
