@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import "./FullArticle.css";
 import nextgenjs from "../../assets/Article/nextgenjs.jpeg";
 import Footer from "../../components/Layout/Footer/Footer";
+import letandvar from "../../assets/Article/letandvar.png";
 
 class FullArticle extends Component {
   render() {
@@ -34,7 +35,7 @@ class FullArticle extends Component {
             <ol>
               <li className="subhead h3 bold"> let and const: </li>
             </ol>
-            Two new keywords has been introduced that are <strong>let</strong>{" "}
+            Two new keywords has been introduced that are <strong>let</strong>
             and <strong>const</strong>. Previously <strong>var</strong> keyword
             is used for the variable declaration. let behaves the same as the
             var that is variable declaration. But there are some core
@@ -42,9 +43,11 @@ class FullArticle extends Component {
             <strong>var has no block scope</strong>
             <br />
             consider the following code
-            <pre > if(true) {
-              var apple=true;}
-              alert(apple); </pre>
+            <br />
+            <div className="imgstyle">
+              <img src={letandvar} alt="let and var" />
+            </div>
+            it will return true because
           </p>
         </div>
         <Footer />
