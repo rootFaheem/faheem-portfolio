@@ -46,3 +46,9 @@
   text-align: center;
   margin: 20px 0;
 }
+.highlight {
+  background: #f5f2f0;
+  padding: 10px 10px;
+  font-size: 18px;
+  margin: 10px 10px;
+}
