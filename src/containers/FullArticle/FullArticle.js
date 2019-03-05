@@ -69,16 +69,16 @@ class FullArticle extends Component {
             It will return true because var will ignore the block scope and
             behaves as global apple. <br />
             Let't try for the loop scope:
-            <div className="imgstyle">
-              <img src={letandvar1} alt="let and var" />
+            <div className="imgCenter">
+              <img className="imgstyle" src={letandvar1} alt="let and var" />
             </div>
             we will get 10 because the scope will be global for the i.
             <br />
             <strong>"var" processed at start of function</strong>
             <br />
             Let try the following code: <br />
-            <div className="imgstyle">
-              <img src={letandvar2} alt="let and var" />
+            <div className="imgCenter">
+              <img className="imgstyle" src={letandvar2} alt="let and var" />
             </div>
             The outcome will be Hi Elon Musk, because the var are processed at
             the start of the function either it is placed or not at the start of
@@ -86,8 +86,8 @@ class FullArticle extends Component {
             <br />
             <strong>hoisting</strong> is always important to remember, conside
             the following code:
-            <div className="imgstyle">
-              <img src={letandvar3} alt="let and var" />
+            <div className="imgCenter">
+              <img className="imgstyle" src={letandvar3} alt="let and var" />
             </div>
             It will also return the same rusult i.e. Hi Elon Musk becasue as we
             know the var are processed start of the function whether they are
@@ -107,12 +107,16 @@ class FullArticle extends Component {
             solves some problem found in the normal type of the function.
             <br /> To define a normal type of function we use something like
             following approach:
-            <div className="imgstyle">
-              <img src={normalfunction} alt="let and var" />
+            <div className="imgCenter">
+              <img
+                className="imgstyle"
+                src={normalfunction}
+                alt="let and var"
+              />
             </div>
             But the arrow functions are a bit different:
-            <div className="imgstyle">
-              <img src={arrowfunction} alt="let and var" />
+            <div className="imgCenter">
+              <img className="imgstyle" src={arrowfunction} alt="let and var" />
             </div>
             <strong>So, why we need arrow function?</strong>
             <br />
@@ -144,8 +148,12 @@ class FullArticle extends Component {
               </strong>{" "}
               It will be taken from outside. See the following example
             </div>
-            <div className="imgstyle">
-              <img src={arrowfunction1} alt="let and var" />
+            <div className="imgCenter">
+              <img
+                className="imgstyle"
+                src={arrowfunction1}
+                alt="let and var"
+              />
             </div>
             As we can see the context has taken from outside from the arrow
             function. If we run the same code without the arrow function then it
@@ -157,16 +165,24 @@ class FullArticle extends Component {
             It means it is very useful in such cases where we want to send the
             current this and arguments. Because it will maintain the same
             context and state. Let's consider the following example
-            <div className="imgstyle">
-              <img src={arrowfunction2} alt="let and var" />
+            <div className="imgCenter">
+              <img
+                className="imgstyle"
+                src={arrowfunction2}
+                alt="let and var"
+              />
             </div>
             As we can see in changedCEO(), we are getting a function and it will
             returns the outcome after 3 miliseconds.
             <br />
             Last point is arrow functions dont have their super. Consider the
             following example:
-            <div className="imgstyle">
-              <img src={arrowfunction3} alt="let and var" />
+            <div className="imgCenter">
+              <img
+                className="imgstyle"
+                src={arrowfunction3}
+                alt="let and var"
+              />
             </div>
             As we can see that in Elon class we calling super, and delay is 2
             miliseconds. So it will take the outer super to call the teslaCEO()

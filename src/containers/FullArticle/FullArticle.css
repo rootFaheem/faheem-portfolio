@@ -41,10 +41,6 @@
   margin: 20px 0;
 }
 
-.imgstyle {
-  text-align: center;
-  margin: 20px 0;
-}
 .highlight {
   background: #f5f2f0;
   padding: 10px 10px;
@@ -58,6 +54,23 @@
   margin: 10px 10px;
 }
 
+.imgstyle {
+  text-align: center;
+  margin: 20px 0;
+}
+
 .imgCenter {
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  .imgstyle {
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+  }
+  .imgCenter {
+    text-align: center;
+  }
 }
