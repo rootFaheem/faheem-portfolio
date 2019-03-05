@@ -38,7 +38,6 @@
   }
 }
 .subhead {
-  /* background: rgba(0, 0, 0, 0.05); */
   margin: 20px 0;
 }
 
@@ -57,4 +56,8 @@
   padding: 0 5px;
   font-size: 18px;
   margin: 10px 10px;
+}
+
+.imgCenter {
+  text-align: center;
 }
