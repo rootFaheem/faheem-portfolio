@@ -9,6 +9,9 @@ import letandvar2 from "../../assets/Article/letandvar2.png";
 import letandvar3 from "../../assets/Article/letandvar3.png";
 import normalfunction from "../../assets/Article/normalfunction.png";
 import arrowfunction from "../../assets/Article/arrowfunction.png";
+import arrowfunction1 from "../../assets/Article/arrowfunction1.png";
+import arrowfunction2 from "../../assets/Article/arrowfunction2.png";
+import arrowfunction3 from "../../assets/Article/arrowfunction3.png";
 
 class FullArticle extends Component {
   render() {
@@ -125,6 +128,72 @@ class FullArticle extends Component {
             <li>Arrow function have no arguments</li>
             <li>Arrow functions dont have super</li>
           </ul>
+          Let's see this by practical examples: <br /> In the above list the
+          first point is arrow functions are shorthand to write funcions as you
+          can see above pictures.
+          <br /> Second point is that arrow function dont have their this
+          keyword. So, by using arrow function there is no issues with the this
+          keyword. As we know there are lot of cases where we neen to maintain
+          the context of this of class and method. <br />
+          <div className="highlight">
+            <strong>
+              {" "}
+              What happens if we try to access this in arrow function?
+            </strong>{" "}
+            It will be taken from outside. See the following example
+          </div>
+          <div className="imgstyle">
+            <img src={arrowfunction1} alt="let and var" />
+          </div>
+          As we can see the context has taken from outside from the arrow
+          function. If we run the same code without the arrow function then it
+          will show an error. <br /> Lets move on to next point that is arrow
+          funcions cant be called with new keyword. It is so because they dont
+          have the this keyword, se they can't be used as constructor. So they
+          cant be called with new.
+          <br /> Next point is that Arrow Functions don't have any arguments. It
+          means it is very useful in such cases where we want to send the
+          current this and arguments. Because it will maintain the same context
+          and state. Let's consider the following example
+          <div className="imgstyle">
+            <img src={arrowfunction2} alt="let and var" />
+          </div>
+          As we can see in changedCEO(), we are getting a function and it will
+          returns the outcome after 3 miliseconds.
+          <br />
+          Last point is arrow functions dont have their super. Consider the
+          following example:
+          <div className="imgstyle">
+            <img src={arrowfunction3} alt="let and var" />
+          </div>
+          As we can see that in Elon class we calling super, and delay is 2
+          miliseconds. So it will take the outer super to call the teslaCEO()
+          method from the parent class.
+          <p className="subhead h3">
+            <strong>1. Exports and Imports</strong>
+            <br />
+          </p>
+          We write a simple program in a single file. But if we need to build a
+          big web app, we need to break it into simple and smaller files. Where
+          each file is called a Module.
+          <br />
+          <div className="highlight">
+            {" "}
+            <strong>
+              {" "}
+              Note: Every file or Module runs seperately on their own.{" "}
+            </strong>
+          </div>
+          So, there should be some linking done because our modules must be
+          connected in order to work as an application. For this linking the
+          concept of Export and Import introduced. <br />{" "}
+          <div className="highlight">
+            {" "}
+            "export" keyword is used to Export the code such as varibales,
+            functions, classes .<br /> "import" keyword is used to import and
+            use the exported code from other file.
+          </div>
+          <br /> Let's consider following:
         </div>
 
         <Footer />
