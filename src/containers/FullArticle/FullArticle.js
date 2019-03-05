@@ -33,8 +33,8 @@ class FullArticle extends Component {
               web-pages.Like other languages e.g. Java, PHP, Python etc. are
               evolving and keep adding new features, fixing issues from previous
               experience. Javascript is also doing the same. <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By the
-              way ECMAScript is standard that is used to define the Javascript
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By the way
+              ECMAScript is standard that is used to define the Javascript
               fetures. ECMAScript 5.1 was introduced in 2012. And the 6th major
               upgrade was done in 2015 i.e ECMAScript6. And after this
               ECMAScript releases their upgrade on yearly basis. so in 2018 the
@@ -188,7 +188,7 @@ class FullArticle extends Component {
             miliseconds. So it will take the outer super to call the teslaCEO()
             method from the parent class.
             <p className="subhead h3">
-              <strong>1. Exports and Imports</strong>
+              <strong>3. Exports and Imports</strong>
               <br />
             </p>
             We write a simple program in a single file. But if we need to build
@@ -214,7 +214,67 @@ class FullArticle extends Component {
             <br /> Let's consider the following:
             <br />
             <br />
-            <strong>elon.js</strong>
+            <strong>
+              {" "}
+              <u>Tesla.js</u>
+            </strong>
+            &nbsp; file looks like this: <br />
+            <br />
+            <iframe
+              title="Tesla file"
+              width="100%"
+              height="170"
+              src="//jsfiddle.net/FaheemTech/1zoys6j7/10/embedded/js,html,css/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
+            <strong>
+              {" "}
+              <u>SpaceX.js</u>
+            </strong>
+            &nbsp; file looks like this: <br />
+            <br />
+            <iframe
+              title="SpaceX file"
+              width="100%"
+              height="170"
+              src="//jsfiddle.net/FaheemTech/1zoys6j7/17/embedded/js,html,css/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
+            <strong>
+              {" "}
+              <u>Elon.js</u>
+            </strong>
+            &nbsp; file looks like this: <br />
+            <br />
+            <iframe
+              title="Elon File"
+              width="100%"
+              height="240"
+              src="//jsfiddle.net/FaheemTech/1zoys6j7/34/embedded/js,html,css/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
+            <strong>Explaination:</strong> So, there are three files Tesla.js,
+            SpaceX.js and Elon.js. In Tesla.js we have a Javascript object i.e
+            name and we are using the default type of export. It means if we
+            import the file in some other file then we will get the default
+            export. <br />
+            &nbsp;&nbsp;&nbsp;&nbsp; In SpaceX.js we are exporting one function
+            and a variable but both are not a default export so we have to
+            import them by calling their names in the curly braces, as done in
+            the Elon.js. One thing more that if you have multiple exports in
+            some file and you want to import all of them in one go. so you can
+            do that as comment out in the Elon.js file.{" "}
+            <p className="subhead h3">
+              <strong>4. Spread and Rest operator (...)</strong>
+              <br />
+            </p>
+            
           </div>
         </div>
         <Footer />
