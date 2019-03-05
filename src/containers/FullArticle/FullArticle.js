@@ -274,7 +274,45 @@ class FullArticle extends Component {
               <strong>4. Spread and Rest operator (...)</strong>
               <br />
             </p>
-            
+            <div className="highlight">
+              Spread is used to split up array elements or object properties.
+            </div>{" "}
+            For example: suppose you want to copy all elements from one array to
+            another array. So, spread is very handy way to do this. see below
+            code:
+            <iframe
+              title="Spread operator"
+              width="100%"
+              height="400"
+              src="//jsfiddle.net/FaheemTech/1zoys6j7/55/embedded/js,html,css/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
+            So as you can see in the above code, we have oldArray that has three
+            elements and we want to merge it into the newArray that has already
+            two elements. And if we see the result then we will get 1,2,3,4,5.
+            <br /> &nbsp;&nbsp;&nbsp;&nbsp; Similarly the property from object
+            elon copied to newElon.
+            <div className="highlight">
+              Rest is used to merge a list of function arguments into an array.
+              In other words we can say{" "}
+              <strong>
+                a function can be called with any number of arguments.
+              </strong>
+            </div>{" "}
+            <iframe
+              title="Rest operator "
+              width="100%"
+              height="280"
+              src="//jsfiddle.net/FaheemTech/64ura23q/9/embedded/js,html,css/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
+            As we can see the above code we have showName() that accepts the
+            first, last name and we have used Rest operator, technically it can
+            accept any number of arguments.
           </div>
         </div>
         <Footer />
