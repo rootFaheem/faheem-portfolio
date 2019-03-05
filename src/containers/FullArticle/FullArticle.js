@@ -313,6 +313,10 @@ class FullArticle extends Component {
             As we can see the above code we have showName() that accepts the
             first, last name and we have used Rest operator, technically it can
             accept any number of arguments.
+            <p className="subhead h3">
+              <strong>5. Destructuring </strong>
+              <br />
+            </p>
           </div>
         </div>
         <Footer />
