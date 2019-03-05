@@ -7,6 +7,8 @@ import letandvar from "../../assets/Article/letandvar.png";
 import letandvar1 from "../../assets/Article/letandvar1.png";
 import letandvar2 from "../../assets/Article/letandvar2.png";
 import letandvar3 from "../../assets/Article/letandvar3.png";
+import normalfunction from "../../assets/Article/normalfunction.png";
+import arrowfunction from "../../assets/Article/arrowfunction.png";
 
 class FullArticle extends Component {
   render() {
@@ -39,8 +41,9 @@ class FullArticle extends Component {
             <strong>1. let and const: </strong>
             <br />
           </p>
-          Two new keywords has been introduced that are <strong>let </strong>
-          and <strong>const</strong>.
+          Two new keywords has been introduced that are{" "}
+          <strong className="highlightkeywords">let </strong>
+          and <strong className="highlightkeywords">const</strong>.
           <div className="highlight">
             {" "}
             let and const is a way to define a variable in javascript. let
@@ -94,6 +97,34 @@ class FullArticle extends Component {
             <strong>2. Arrow function: </strong>
             <br />
           </p>
+          Functions are the heart of Javascript, or in other words it is the
+          cream of Javascript. Arrow function are new type of functions that
+          solves some problem found in the normal type of the function.
+          <br /> To define a normal type of function we use something like
+          following approach:
+          <div className="imgstyle">
+            <img src={normalfunction} alt="let and var" />
+          </div>
+          But the arrow functions are a bit different:
+          <div className="imgstyle">
+            <img src={arrowfunction} alt="let and var" />
+          </div>
+          <strong>So, why we need arrow function?</strong>
+          <br />
+          Javascript is a language where we need to write a function and execute
+          it somewhere else, right? So the point is that if we pass the fucntion
+          to somewhere else then we need to maintain the context to get the
+          appropriate results. But it is nightmare for we the developers to
+          maintian the context. This is where the arrow function that solves
+          problem and makes our lives happier. <br /> Arrow function has the 5
+          advantages over normal functions:{" "}
+          <ul className="circle">
+            <li>Arrow Functions are shorthand to write the functions</li>
+            <li>Arrow functions dont have their "this" keyword</li>
+            <li>It can't be called with new keyword</li>
+            <li>Arrow function have no arguments</li>
+            <li>Arrow functions dont have super</li>
+          </ul>
         </div>
 
         <Footer />
