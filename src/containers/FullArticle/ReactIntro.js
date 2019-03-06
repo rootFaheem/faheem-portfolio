@@ -17,7 +17,7 @@ class NextGenJs extends Component {
           <hr />
           <div>
             <p className="h2 text-center" style={{ marginTop: "15%" }}>
-              comming soom...
+              comming soon...
             </p>
           </div>
         </div>
