@@ -10,7 +10,7 @@ class FullArticle extends Component {
       <div>
         <div className="container FullArticle">
           <div className="row">
-            <p className="h3 articlehead">
+            <p className="h3 font-weight-bold articlehead">
               What the heck is Next-Generation Javascript?
             </p>
           </div>
@@ -21,19 +21,17 @@ class FullArticle extends Component {
           <div>
             <p className="articleText">
               First thing first, as we know Javascript is scripting language for
-              web-pages.Like other languages e.g. Java, PHP, Python etc. are
+              web-pages. Like other languages e.g. Java, PHP, Python etc. are
               evolving and keep adding new features, fixing issues from previous
               experience. Javascript is also doing the same. <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By the way
-              ECMAScript is standard that is used to define the Javascript
-              fetures. ECMAScript 5.1 was introduced in 2012. And the 6th major
-              upgrade was done in 2015 i.e ECMAScript6. And after this
-              ECMAScript releases their upgrade on yearly basis. so in 2018 the
-              upgrade was done and in this article we will be taling about the
-              same. <br />
-              So let's start from very first one:
+              &nbsp;&nbsp;&nbsp;&nbsp;By the way ECMAScript is standard that is
+              used to define the Javascript fetures. ECMAScript 5.1 was
+              introduced in 2012. And the 6th major upgrade was done in 2015 i.e
+              ECMAScript6. And after that ECMAScript releases their upgrade on
+              yearly basis. so in 2018 the upgrade was done and in this article
+              we will be talking about the latest features added.
             </p>
-            <p className="subhead h3">
+            <p className="subhead h4">
               <strong>1. let and const: </strong>
               <br />
             </p>
@@ -42,19 +40,25 @@ class FullArticle extends Component {
             and <strong className="highlightkeywords">const</strong>.
             <div className="highlight">
               {" "}
-              let and const is a way to define a variable in javascript. let
-              behaves the same as the var. const is like constant that will
-              never change. <br /> let is used for those variable where you need
-              to change the it later.
+              <strong className="highlightkeywords">let </strong>
+              and <strong className="highlightkeywords">const</strong> is a way
+              to define a variable in javascript.{" "}
+              <strong className="highlightkeywords">let </strong> behaves the
+              same as the <strong className="highlightkeywords">var</strong>.{" "}
+              <strong className="highlightkeywords">const</strong> is like
+              constant that will never change. <br />{" "}
+              <strong className="highlightkeywords">let </strong> is used for
+              those variable where you need to change the it later.
             </div>{" "}
-            But const is the type of variable which you have decided not to
-            change it. But there are some core differences such as :
+            But <strong className="highlightkeywords">const</strong> is the type
+            of variable which you have decided not to change it. But there are
+            some core differences such as:
             <br />
-            <strong>var has no block scope</strong>
             <br />
-            consider the following code
-            <br />
+            <p className="weight">"var" has no block scope</p>
+            consider the following code:
             <iframe
+              className="fiddlestyle"
               title="var"
               width="100%"
               height="170"
@@ -63,10 +67,12 @@ class FullArticle extends Component {
               allowpaymentrequest
               frameborder="0"
             />
-            It will return true because var will ignore the block scope and
-            behaves as global apple. <br />
-            Let't try for the loop scope:
+            It will return "true" because{" "}
+            <strong className="highlightkeywords">var</strong> will ignore the
+            block scope and behaves as global apple. <br />
+            Let's try for the loop scope:
             <iframe
+              className="fiddlestyle"
               title="var"
               width="100%"
               height="200"
@@ -75,12 +81,14 @@ class FullArticle extends Component {
               allowpaymentrequest
               frameborder="0"
             />
-            we will get 10 because the scope will be global for the i.
+            we will get "10" because the scope will be global for the{" "}
+            <strong className="highlightkeywords">i</strong>.
             <br />
-            <strong>"var" processed at start of function</strong>
             <br />
+            <p className="weight">"var" processed at start of the function</p>
             Let try the following code: <br />
             <iframe
+              className="fiddlestyle"
               title="var "
               width="100%"
               height="240"
@@ -89,13 +97,19 @@ class FullArticle extends Component {
               allowpaymentrequest
               frameborder="0"
             />
-            The outcome will be Hi Elon Musk, because the var are processed at
+            The outcome will be "Hi Elon Musk", because the{" "}
+            <strong className="highlightkeywords">var</strong> are processed at
             the start of the function either it is placed or not at the start of
             the function.
             <br />
-            <strong>hoisting</strong> is always important to remember, conside
-            the following code:
+            This behaviour is called{" "}
+            <strong className="highlightkeywords">hoisting</strong> It means
+            raising at top. All the variables are{" "}
+            <strong className="highlightkeywords">hoisted</strong> at the top of
+            the function when function starts it's execution. Consider the
+            following code:
             <iframe
+              className="fiddlestyle"
               title="var "
               width="100%"
               height="280"
@@ -104,25 +118,32 @@ class FullArticle extends Component {
               allowpaymentrequest
               frameborder="0"
             />
-            It will also return the same rusult i.e. Hi Elon Musk becasue as we
-            know the var are processed start of the function whether they are
-            placed into code block or somewhere else.
+            It will also return the same rusult i.e. "Hi Elon Musk" becasue as
+            we know the <strong className="highlightkeywords">var</strong> are
+            processed at start of the function whether they are placed into code
+            block or somewhere else.
             <br />
-            <strong>conclusion:</strong> So, I think you have got a grasp of
-            const, var and let and their core differences. let and const has
-            block level scope and var has the function level scope. So, you have
-            to be very carefull if you are using var, because it will give you
-            unpredictable results.
-            <p className="subhead h3">
+            <br />
+            <strong>Conclusion:</strong> I think you have got a grasp of
+            <strong className="highlightkeywords">const</strong>,{" "}
+            <strong className="highlightkeywords">var</strong> and{" "}
+            <strong className="highlightkeywords">let </strong> and their core
+            differences. <strong className="highlightkeywords">let </strong> and{" "}
+            <strong className="highlightkeywords">const</strong> has block level
+            scope and <strong className="highlightkeywords">var</strong> has the
+            function level scope. So, you have to be very carefull if you are
+            using <strong className="highlightkeywords">var</strong>, because it
+            will give you unpredictable results.
+            <p className="subhead h4">
               <strong>2. Arrow function: </strong>
               <br />
             </p>
             Functions are the heart of Javascript, or in other words it is the
             cream of Javascript. Arrow function are new type of functions that
             solves some problem found in the normal type of the function.
-            <br /> To define a normal type of function we use something like
-            following approach:
+            <br /> To define a normal function we use following approach:
             <iframe
+              className="fiddlestyle"
               title="normal function"
               width="100%"
               height="170"
@@ -131,8 +152,10 @@ class FullArticle extends Component {
               allowpaymentrequest
               frameborder="0"
             />
-            But the arrow functions are a bit different:
+            But the arrow functions are a bit different and we use following
+            approach:
             <iframe
+              className="fiddlestyle"
               title="arrow function"
               width="100%"
               height="170"
@@ -141,25 +164,43 @@ class FullArticle extends Component {
               allowpaymentrequest
               frameborder="0"
             />
-            <strong>So, why we need arrow function?</strong>
-            <br />
-            Javascript is a language where we need to write a function and
-            execute it somewhere else, right? So the point is that if we pass
-            the fucntion to somewhere else then we need to maintain the context
-            to get the appropriate results. But it is nightmare for we the
-            developers to maintian the context. This is where the arrow function
-            that solves problem and makes our lives happier. <br /> Arrow
-            function has the 5 advantages over normal functions:{" "}
+            <strong className="weight">
+              So, why do we need arrow function? Can we not just use normal
+              functions?
+            </strong>
+            <div className="highlight">
+              Javascript is a language where we need to write a function and
+              execute it somewhere else, right? So the point is that if we pass
+              the fucntion to somewhere else then we need to maintain the
+              context to get the appropriate results. But it is nightmare for we
+              the developers to maintian the context. This is where the arrow
+              function that solves problem and makes our lives happier.
+            </div>
+            <strong>
+              Arrow function has the 5 advantages over normal functions:
+            </strong>{" "}
             <ul className="circle">
               <li>Arrow Functions are shorthand to write the functions</li>
-              <li>Arrow functions dont have their "this" keyword</li>
-              <li>It can't be called with new keyword</li>
-              <li>Arrow function have no arguments</li>
-              <li>Arrow functions dont have super</li>
+              <li>
+                Arrow functions dont have their{" "}
+                <strong className="highlightkeywords">this</strong> keyword
+              </li>
+              <li>
+                It can't be called with{" "}
+                <strong className="highlightkeywords">new</strong> keyword
+              </li>
+              <li>
+                Arrow function have no{" "}
+                <strong className="highlightkeywords">arguments</strong>
+              </li>
+              <li>
+                Arrow functions dont have{" "}
+                <strong className="highlightkeywords">super</strong>
+              </li>
             </ul>
-            Let's see this by practical examples: <br /> In the above list the
-            first point is arrow functions are shorthand to write funcions as
-            you can see above pictures.
+            <strong>Let's do this by practical examples:</strong> In the above
+            list the first point is arrow functions are shorthand to write
+            funcions as you can see above pictures.
             <br /> Second point is that arrow function dont have their this
             keyword. So, by using arrow function there is no issues with the
             this keyword. As we know there are lot of cases where we neen to
@@ -172,6 +213,7 @@ class FullArticle extends Component {
               It will be taken from outside. See the following example
             </div>
             <iframe
+              className="fiddlestyle"
               title="arrow function"
               width="100%"
               height="280"
@@ -191,6 +233,7 @@ class FullArticle extends Component {
             current this and arguments. Because it will maintain the same
             context and state. Let's consider the following example
             <iframe
+              className="fiddlestyle"
               title="arrow function"
               width="100%"
               height="290"
@@ -205,6 +248,7 @@ class FullArticle extends Component {
             Last point is arrow functions dont have their super. Consider the
             following example:
             <iframe
+              className="fiddlestyle"
               title="arrow parent call"
               width="100%"
               height="380"
@@ -250,6 +294,7 @@ class FullArticle extends Component {
             &nbsp; file looks like this: <br />
             <br />
             <iframe
+              className="fiddlestyle"
               title="Tesla file"
               width="100%"
               height="170"
@@ -265,6 +310,7 @@ class FullArticle extends Component {
             &nbsp; file looks like this: <br />
             <br />
             <iframe
+              className="fiddlestyle"
               title="SpaceX file"
               width="100%"
               height="170"
@@ -280,6 +326,7 @@ class FullArticle extends Component {
             &nbsp; file looks like this: <br />
             <br />
             <iframe
+              className="fiddlestyle"
               title="Elon File"
               width="100%"
               height="240"
@@ -310,6 +357,7 @@ class FullArticle extends Component {
             another array. So, spread is very handy way to do this. see below
             code:
             <iframe
+              className="fiddlestyle"
               title="Spread operator"
               width="100%"
               height="400"
@@ -331,6 +379,7 @@ class FullArticle extends Component {
               </strong>
             </div>{" "}
             <iframe
+              className="fiddlestyle"
               title="Rest operator "
               width="100%"
               height="280"
@@ -352,6 +401,7 @@ class FullArticle extends Component {
             and then store them in variables. Then we can work with individual
             elements rather than whole array or object.
             <iframe
+              className="fiddlestyle"
               title="Array & object destructuring"
               width="100%"
               height="400"
