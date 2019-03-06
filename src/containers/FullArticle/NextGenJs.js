@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-import "./FullArticle.css";
+import "./NextGenJs.css";
 import nextgenjs from "../../assets/Article/nextgenjs.jpeg";
 import Footer from "../../components/Layout/Footer/Footer";
 
-class FullArticle extends Component {
+class NextGenJs extends Component {
   render() {
     return (
       <div>
@@ -473,4 +473,4 @@ class FullArticle extends Component {
   }
 }
 
-export default FullArticle;
+export default NextGenJs;

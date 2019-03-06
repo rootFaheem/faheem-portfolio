@@ -40,7 +40,7 @@ class Articles extends Component {
         "In this article you will learn about next-generation javascript feature. There features are shown by example.",
       uploadedDate: this.updatedDate,
       imgURL: nextgenjs,
-      link: "/blog/react-intro"
+      link: "/blog/next-generation-javascript"
     },
     article1: {
       heading:
@@ -50,7 +50,7 @@ class Articles extends Component {
         "In this article you will learn a very basics of React. And also how to setup a React project from scratch. ",
       uploadedDate: this.updatedDate,
       imgURL: react,
-      link: "/blog/react-intro"
+      link: "/blog/react-introduction"
     },
     article2: {
       heading:
@@ -60,7 +60,7 @@ class Articles extends Component {
         "In this article you will learn a very basics of Node.js and Express Framework. And also how to setup a Node.js with Express project from scratch.",
       uploadedDate: this.updatedDate,
       imgURL: node,
-      link: "/blog/node-express-intro"
+      link: "/blog/node-express-introduction"
     }
   };
 

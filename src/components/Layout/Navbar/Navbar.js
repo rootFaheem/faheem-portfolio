@@ -5,7 +5,9 @@ import About from "../../About/About";
 import Portfolio from "../../Portfolio/Portfolio";
 import Blog from "../../Blog/Blog";
 import Landing from "../MainContent/Landing/Landing";
-import FullArticle from "../../../containers/FullArticle/FullArticle";
+import NextGenJs from "../../../containers/FullArticle/NextGenJs";
+import ReactIntro from "../../../containers/FullArticle/ReactIntro";
+import NodeExpressIntro from "../../../containers/FullArticle/NodeExpressIntro";
 import logo from "../../../assets/logo.png";
 
 import "./Navbar.css";
@@ -121,8 +123,12 @@ const navbar = () => {
         <Route path="/portfolio" exact component={Portfolio} />
         <Route path="/blog" exact component={Blog} />
         <Route path="/" exact component={Landing} />
-        <Route path="/blog/react-intro" component={FullArticle} />
-        <Route path="/blog/node-express-intro" component={FullArticle} />
+        <Route path="/blog/next-generation-javascript" component={NextGenJs} />
+        <Route path="/blog/react-introduction" component={ReactIntro} />
+        <Route
+          path="/blog/node-express-introduction"
+          component={NodeExpressIntro}
+        />
       </div>
     </div>
   );
