@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import "./FullArticle.css";
 import nextgenjs from "../../assets/Article/nextgenjs.jpeg";
 import Footer from "../../components/Layout/Footer/Footer";
-import letandvar from "../../assets/Article/letandvar.png";
+// import letandvar from "../../assets/Article/letandvar.png";
 import letandvar1 from "../../assets/Article/letandvar1.png";
 import letandvar2 from "../../assets/Article/letandvar2.png";
 import letandvar3 from "../../assets/Article/letandvar3.png";
@@ -63,9 +63,15 @@ class FullArticle extends Component {
             <br />
             consider the following code
             <br />
-            <div className="imgCenter">
-              <img className="imgstyle" src={letandvar} alt="let and var" />
-            </div>
+            <iframe
+              title="var"
+              width="100%"
+              height="170"
+              src="//jsfiddle.net/FaheemTech/64ura23q/62/embedded/js,html,css/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
             It will return true because var will ignore the block scope and
             behaves as global apple. <br />
             Let't try for the loop scope:
@@ -313,10 +319,28 @@ class FullArticle extends Component {
             As we can see the above code we have showName() that accepts the
             first, last name and we have used Rest operator, technically it can
             accept any number of arguments.
+            <div className="hightlight">Spread is used in most cases.</div>
             <p className="subhead h3">
               <strong>5. Destructuring </strong>
               <br />
             </p>
+            Two most data strucures used in Javascript are Object and Arrays.
+            Destructuring is used to extract array elements or object properties
+            and then store them in variables. Then we can work with individual
+            elements rather than whole array or object.
+            <iframe
+              title="Array & object destructuring"
+              width="100%"
+              height="400"
+              src="//jsfiddle.net/FaheemTech/64ura23q/57/embedded/js,html,css/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
+            In the elon array we have two elements and we are destructuring them
+            into firstName and lastName. <br /> In the companyNames object we
+            have three names and we are extracting them into one single
+            elements.
           </div>
         </div>
         <Footer />
