@@ -3,15 +3,6 @@ import React, { Component } from "react";
 import "./FullArticle.css";
 import nextgenjs from "../../assets/Article/nextgenjs.jpeg";
 import Footer from "../../components/Layout/Footer/Footer";
-// import letandvar from "../../assets/Article/letandvar.png";
-import letandvar1 from "../../assets/Article/letandvar1.png";
-import letandvar2 from "../../assets/Article/letandvar2.png";
-import letandvar3 from "../../assets/Article/letandvar3.png";
-import normalfunction from "../../assets/Article/normalfunction.png";
-import arrowfunction from "../../assets/Article/arrowfunction.png";
-import arrowfunction1 from "../../assets/Article/arrowfunction1.png";
-import arrowfunction2 from "../../assets/Article/arrowfunction2.png";
-import arrowfunction3 from "../../assets/Article/arrowfunction3.png";
 
 class FullArticle extends Component {
   render() {
@@ -75,26 +66,44 @@ class FullArticle extends Component {
             It will return true because var will ignore the block scope and
             behaves as global apple. <br />
             Let't try for the loop scope:
-            <div className="imgCenter">
-              <img className="imgstyle" src={letandvar1} alt="let and var" />
-            </div>
+            <iframe
+              title="var"
+              width="100%"
+              height="200"
+              src="//jsfiddle.net/FaheemTech/64ura23q/74/embedded/js,html,css/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
             we will get 10 because the scope will be global for the i.
             <br />
             <strong>"var" processed at start of function</strong>
             <br />
             Let try the following code: <br />
-            <div className="imgCenter">
-              <img className="imgstyle" src={letandvar2} alt="let and var" />
-            </div>
+            <iframe
+              title="var "
+              width="100%"
+              height="240"
+              src="//jsfiddle.net/FaheemTech/64ura23q/119/embedded/js,html,css/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
             The outcome will be Hi Elon Musk, because the var are processed at
             the start of the function either it is placed or not at the start of
             the function.
             <br />
             <strong>hoisting</strong> is always important to remember, conside
             the following code:
-            <div className="imgCenter">
-              <img className="imgstyle" src={letandvar3} alt="let and var" />
-            </div>
+            <iframe
+              title="var "
+              width="100%"
+              height="280"
+              src="//jsfiddle.net/FaheemTech/64ura23q/117/embedded/js,html,css,result/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
             It will also return the same rusult i.e. Hi Elon Musk becasue as we
             know the var are processed start of the function whether they are
             placed into code block or somewhere else.
@@ -113,17 +122,25 @@ class FullArticle extends Component {
             solves some problem found in the normal type of the function.
             <br /> To define a normal type of function we use something like
             following approach:
-            <div className="imgCenter">
-              <img
-                className="imgstyle"
-                src={normalfunction}
-                alt="let and var"
-              />
-            </div>
+            <iframe
+              title="normal function"
+              width="100%"
+              height="170"
+              src="//jsfiddle.net/FaheemTech/64ura23q/115/embedded/js,html,css/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
             But the arrow functions are a bit different:
-            <div className="imgCenter">
-              <img className="imgstyle" src={arrowfunction} alt="let and var" />
-            </div>
+            <iframe
+              title="arrow function"
+              width="100%"
+              height="170"
+              src="//jsfiddle.net/FaheemTech/64ura23q/113/embedded/js,html,css/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
             <strong>So, why we need arrow function?</strong>
             <br />
             Javascript is a language where we need to write a function and
@@ -154,13 +171,15 @@ class FullArticle extends Component {
               </strong>{" "}
               It will be taken from outside. See the following example
             </div>
-            <div className="imgCenter">
-              <img
-                className="imgstyle"
-                src={arrowfunction1}
-                alt="let and var"
-              />
-            </div>
+            <iframe
+              title="arrow function"
+              width="100%"
+              height="280"
+              src="//jsfiddle.net/FaheemTech/64ura23q/142/embedded/js,html,css/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
             As we can see the context has taken from outside from the arrow
             function. If we run the same code without the arrow function then it
             will show an error. <br /> Lets move on to next point that is arrow
@@ -171,25 +190,29 @@ class FullArticle extends Component {
             It means it is very useful in such cases where we want to send the
             current this and arguments. Because it will maintain the same
             context and state. Let's consider the following example
-            <div className="imgCenter">
-              <img
-                className="imgstyle"
-                src={arrowfunction2}
-                alt="let and var"
-              />
-            </div>
+            <iframe
+              title="arrow function"
+              width="100%"
+              height="290"
+              src="//jsfiddle.net/FaheemTech/64ura23q/156/embedded/js,html,css/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
             As we can see in changedCEO(), we are getting a function and it will
             returns the outcome after 3 miliseconds.
             <br />
             Last point is arrow functions dont have their super. Consider the
             following example:
-            <div className="imgCenter">
-              <img
-                className="imgstyle"
-                src={arrowfunction3}
-                alt="let and var"
-              />
-            </div>
+            <iframe
+              title="arrow parent call"
+              width="100%"
+              height="380"
+              src="//jsfiddle.net/FaheemTech/64ura23q/171/embedded/js,html,css/dark/"
+              allowfullscreen="allowfullscreen"
+              allowpaymentrequest
+              frameborder="0"
+            />
             As we can see that in Elon class we calling super, and delay is 2
             miliseconds. So it will take the outer super to call the teslaCEO()
             method from the parent class.
