@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import Footer from "../../components/Layout/Footer/Footer";
-import "./NodeExpressIntro.css";
 
 class NodeExpressIntro extends Component {
   render() {

@@ -13,6 +13,9 @@ class NextGenJs extends Component {
             <p className="h3 font-weight-bold articlehead">
               What the heck is Next-Generation Javascript?
             </p>
+            <div className="col-auto">
+              <small>{this.props.uploadedDate}</small>{" "}
+            </div>
           </div>
           <hr />
           <div>

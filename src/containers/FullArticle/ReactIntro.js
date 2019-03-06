@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import Footer from "../../components/Layout/Footer/Footer";
-import "./ReactIntro.css";
 
 class NextGenJs extends Component {
   render() {

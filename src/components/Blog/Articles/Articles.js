@@ -8,30 +8,6 @@ import react from "../../../assets/../assets/Article/react.png";
 import node from "../../../assets/../assets/Article/nodeexpress.png";
 
 class Articles extends Component {
-  monthNames = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
-  ];
-
-  // d = new Date();
-
-  // updatedDate =
-  //   this.monthNames[this.d.getMonth()] +
-  //   " " +
-  //   new Date().getDay() +
-  //   ", " +
-  //   new Date().getFullYear();
-
   updatedDate0 = "February 25, 2019";
   updatedDate1 = "February 28, 2019";
   updatedDate2 = "March 2, 2019";
