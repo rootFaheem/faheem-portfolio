@@ -20,10 +20,17 @@ class FullArticle extends Component {
           </div>
           <div>
             <p className="articleText">
-              First thing first, as we know Javascript is scripting language for
-              web-pages. Like other languages e.g. Java, PHP, Python etc. are
-              evolving and keep adding new features, fixing issues from previous
-              experience. Javascript is also doing the same. <br />
+              <strong>
+                {" "}
+                First thing first, Please dont judge me on examples taken in
+                this article :) THANKS
+              </strong>
+              <br />
+              <br />
+              As we know Javascript is scripting language for web-pages. Like
+              other languages e.g. Java, PHP, Python etc. are evolving and keep
+              adding new features, fixing issues from previous experience.
+              Javascript is also doing the same. <br />
               &nbsp;&nbsp;&nbsp;&nbsp;By the way ECMAScript is standard that is
               used to define the Javascript fetures. ECMAScript 5.1 was
               introduced in 2012. And the 6th major upgrade was done in 2015 i.e
@@ -198,20 +205,28 @@ class FullArticle extends Component {
                 <strong className="highlightkeywords">super</strong>
               </li>
             </ul>
-            <strong>Let's do this by practical examples:</strong> In the above
+            <strong>Let's do them by practical examples:</strong> In the above
             list the first point is arrow functions are shorthand to write
             funcions as you can see above pictures.
-            <br /> Second point is that arrow function dont have their this
+            <br /> Second point is that arrow function don't have their{" "}
+            <strong className="highlightkeywords">this</strong>
             keyword. So, by using arrow function there is no issues with the
-            this keyword. As we know there are lot of cases where we neen to
-            maintain the context of this of class and method. <br />
+            <strong className="highlightkeywords">this</strong> keyword. As we
+            know there are lot of cases where we neen to maintain the context of
+            <strong className="highlightkeywords">this</strong> of{" "}
+            <strong className="highlightkeywords">class</strong>, method,
+            function. <br />
+            <br />
+            <strong className="weight">
+              What happens if we try to access{" "}
+              <strong className="highlightkeywords">this</strong> in arrow
+              function?
+            </strong>
             <div className="highlight">
-              <strong>
-                {" "}
-                What happens if we try to access this in arrow function?
-              </strong>{" "}
-              It will be taken from outside. See the following example
+              It will be taken from outside. In other word that context of this
+              will be outer elements like class, method, function etc.
             </div>
+            Let's see this in following example:
             <iframe
               className="fiddlestyle"
               title="arrow function"
@@ -224,14 +239,25 @@ class FullArticle extends Component {
             />
             As we can see the context has taken from outside from the arrow
             function. If we run the same code without the arrow function then it
-            will show an error. <br /> Lets move on to next point that is arrow
-            funcions cant be called with new keyword. It is so because they dont
-            have the this keyword, se they can't be used as constructor. So they
-            cant be called with new.
-            <br /> Next point is that Arrow Functions don't have any arguments.
-            It means it is very useful in such cases where we want to send the
-            current this and arguments. Because it will maintain the same
-            context and state. Let's consider the following example
+            will show an error. <br /> Let's move on to next point that is arrow
+            funcions can't be called with{" "}
+            <strong className="highlightkeywords">new</strong> keyword. It is so
+            because they don't have their own{" "}
+            <strong className="highlightkeywords">this</strong> keyword, as
+            result they can't be used as{" "}
+            <strong className="highlightkeywords">constructor</strong>. And we
+            know constructors requires{" "}
+            <strong className="highlightkeywords">new</strong> to call it. So
+            they can't be called with{" "}
+            <strong className="highlightkeywords">new</strong>.
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp; Next point is that Arrow Functions don't
+            have any arguments. It means it is very useful in cases where we
+            want to send the current{" "}
+            <strong className="highlightkeywords">this</strong> and{" "}
+            <strong className="highlightkeywords">argumnets</strong>. Because it
+            will maintain the same context and state (data passed). Let's
+            consider the following example:
             <iframe
               className="fiddlestyle"
               title="arrow function"
@@ -242,10 +268,15 @@ class FullArticle extends Component {
               allowpaymentrequest
               frameborder="0"
             />
-            As we can see in changedCEO(), we are getting a function and it will
-            returns the outcome after 3 miliseconds.
+            As we can see in{" "}
+            <strong className="highlightkeywords">changedCEO()</strong> , we are
+            getting a function and it will returns the outcome after 3
+            miliseconds. It means it is maintaing the context of current
+            <strong className="highlightkeywords">this</strong>.
             <br />
-            Last point is arrow functions dont have their super. Consider the
+            <br />
+            Last point is arrow functions dont have their{" "}
+            <strong className="highlightkeywords">super</strong>. Consider the
             following example:
             <iframe
               className="fiddlestyle"
@@ -257,42 +288,48 @@ class FullArticle extends Component {
               allowpaymentrequest
               frameborder="0"
             />
-            As we can see that in Elon class we calling super, and delay is 2
-            miliseconds. So it will take the outer super to call the teslaCEO()
-            method from the parent class.
-            <p className="subhead h3">
+            As we can see that in{" "}
+            <strong className="highlightkeywords">Elon</strong> class we are
+            calling <strong className="highlightkeywords">super</strong>, and
+            delay is 2 miliseconds. So it will take the outer{" "}
+            <strong className="highlightkeywords">super</strong> to call the
+            <strong className="highlightkeywords">teslaCEO()</strong> method
+            from the parent class.
+            <p className="subhead h4">
               <strong>3. Exports and Imports</strong>
               <br />
             </p>
-            We write a simple program in a single file. But if we need to build
-            a big web app, we need to break it into simple and smaller files.
-            Where each file is called a Module.
+            Usually we write a simple program in a single file. But if we need
+            to build a complete web app, we need to break it into simple and
+            smaller files because if we write all the code in one single file,
+            it will be almost impossible to maintain the workflow of other
+            Software Engineering practices. So, to make it simple we do break it
+            into small files according to their roles. Where each file is called
+            a <strong className="highlightkeywords">Module</strong>.
             <br />
             <div className="highlight">
               {" "}
-              <strong>
-                {" "}
-                Note: Every file or Module runs seperately on their own.{" "}
-              </strong>
+              Note: By default every file or Module runs seperately on their
+              own.{" "}
             </div>
-            So, there should be some linking done because our modules must be
-            connected in order to work as an application. For this linking the
-            concept of Export and Import introduced. <br />{" "}
+            So, there should be some connection present in order to work as an
+            application. This problem is solved by the concept of{" "}
+            <strong className="highlightkeywords">Export</strong> and
+            <strong className="highlightkeywords">Import</strong>. <br />{" "}
             <div className="highlight">
               {" "}
-              "export" keyword is used to Export the code such as varibales,
-              functions, classes .<br /> "import" keyword is used to import and
-              use the exported code from other file.
+              <strong className="highlightkeywords">Export</strong> keyword is
+              used to Export the code such as varibales, functions, classes .
+              <br /> <strong className="highlightkeywords">Import</strong>{" "}
+              keyword is used to import and use the exported code from other
+              file.
             </div>
-            <br /> Let's consider the following:
+            <br /> <strong>Let's consider the following example:</strong> There
+            are three files and the aim is to import the data from two file to
+            in third file. <br />
             <br />
-            <br />
-            <strong>
-              {" "}
-              <u>Tesla.js</u>
-            </strong>
-            &nbsp; file looks like this: <br />
-            <br />
+            <strong> Tesla.js</strong>
+            &nbsp; file looks like this:
             <iframe
               className="fiddlestyle"
               title="Tesla file"
@@ -303,12 +340,8 @@ class FullArticle extends Component {
               allowpaymentrequest
               frameborder="0"
             />
-            <strong>
-              {" "}
-              <u>SpaceX.js</u>
-            </strong>
-            &nbsp; file looks like this: <br />
-            <br />
+            <strong> SpaceX.js</strong>
+            &nbsp; file looks like this:
             <iframe
               className="fiddlestyle"
               title="SpaceX file"
@@ -319,12 +352,8 @@ class FullArticle extends Component {
               allowpaymentrequest
               frameborder="0"
             />
-            <strong>
-              {" "}
-              <u>Elon.js</u>
-            </strong>
-            &nbsp; file looks like this: <br />
-            <br />
+            <strong> Elon.js</strong>
+            &nbsp; file looks like this:
             <iframe
               className="fiddlestyle"
               title="Elon File"
@@ -335,27 +364,30 @@ class FullArticle extends Component {
               allowpaymentrequest
               frameborder="0"
             />
-            <strong>Explaination:</strong> So, there are three files Tesla.js,
-            SpaceX.js and Elon.js. In Tesla.js we have a Javascript object i.e
-            name and we are using the default type of export. It means if we
-            import the file in some other file then we will get the default
-            export. <br />
-            &nbsp;&nbsp;&nbsp;&nbsp; In SpaceX.js we are exporting one function
-            and a variable but both are not a default export so we have to
-            import them by calling their names in the curly braces, as done in
-            the Elon.js. One thing more that if you have multiple exports in
-            some file and you want to import all of them in one go. so you can
-            do that as comment out in the Elon.js file.{" "}
-            <p className="subhead h3">
+            <div className="highlight">
+              <strong>Explaination:</strong> In Tesla.js we have a Javascript
+              object i.e name and we are using the default type of export. It
+              means if we normally import the file in some other file then we
+              will get the default export. <br />
+              &nbsp;&nbsp;&nbsp;&nbsp; In SpaceX.js we are exporting one
+              function and a variable but both are not a default export so we
+              have to import them by calling their names in the curly braces, as
+              done in the Elon.js. One thing more that if you have multiple
+              exports in some file and you want to import all of them in one go.
+              so you can do that as commented out in the Elon.js file.
+            </div>
+            <p className="subhead h4">
               <strong>4. Spread and Rest operator (...)</strong>
               <br />
             </p>
             <div className="highlight">
-              Spread is used to split up array elements or object properties.
+              Spread is used to expand an iterable object into the list of
+              arguments.
             </div>{" "}
-            For example: suppose you want to copy all elements from one array to
-            another array. So, spread is very handy way to do this. see below
-            code:
+            <strong>For example:</strong> suppose you want to copy all elements
+            from one array to another array. There are lot of ways to this. But,
+            <strong className="highlightkeywords">spread</strong> is very handy
+            way to do this. see below code:
             <iframe
               className="fiddlestyle"
               title="Spread operator"
@@ -366,18 +398,22 @@ class FullArticle extends Component {
               allowpaymentrequest
               frameborder="0"
             />
-            So as you can see in the above code, we have oldArray that has three
-            elements and we want to merge it into the newArray that has already
-            two elements. And if we see the result then we will get 1,2,3,4,5.
-            <br /> &nbsp;&nbsp;&nbsp;&nbsp; Similarly the property from object
-            elon copied to newElon.
+            So as you can see in the above code, we have{" "}
+            <strong className="highlightkeywords">oldArray</strong> that has
+            three elements and we want to merge it into the{" "}
+            <strong className="highlightkeywords">newArray</strong> that has
+            already two elements. And if we see the result then we will get
+            <strong className="highlightkeywords">1,2,3,4,5</strong>.
+            <br /> Similarly the property from{" "}
+            <strong className="highlightkeywords">elon</strong>
+            object copied to{" "}
+            <strong className="highlightkeywords">newElon</strong> object.
             <div className="highlight">
               Rest is used to merge a list of function arguments into an array.
-              In other words we can say{" "}
-              <strong>
-                a function can be called with any number of arguments.
-              </strong>
+              In other words we can say a function can be called with any number
+              of arguments.
             </div>{" "}
+            Consider the following example:
             <iframe
               className="fiddlestyle"
               title="Rest operator "
@@ -388,18 +424,23 @@ class FullArticle extends Component {
               allowpaymentrequest
               frameborder="0"
             />
-            As we can see the above code we have showName() that accepts the
-            first, last name and we have used Rest operator, technically it can
-            accept any number of arguments.
-            <div className="hightlight">Spread is used in most cases.</div>
-            <p className="subhead h3">
+            In the above code we have{" "}
+            <strong className="highlightkeywords">showName()</strong> that
+            accepts the first, last name and we have used Rest operator to get
+            any new argument, technically it can accept any number of arguments.
+            <div className="highlight">
+              Spread is used in most cases. Rest is rarely used.
+            </div>
+            <p className="subhead h4">
               <strong>5. Destructuring </strong>
               <br />
             </p>
-            Two most data strucures used in Javascript are Object and Arrays.
+            Two most data strucures used in Javascript are Objects and Arrays.
             Destructuring is used to extract array elements or object properties
-            and then store them in variables. Then we can work with individual
-            elements rather than whole array or object.
+            and then store them in variables. Goal of doing this is, so we can
+            work with individual elements rather than whole array or object.
+            <br />
+            Let's see in the following example:
             <iframe
               className="fiddlestyle"
               title="Array & object destructuring"
@@ -410,10 +451,20 @@ class FullArticle extends Component {
               allowpaymentrequest
               frameborder="0"
             />
-            In the elon array we have two elements and we are destructuring them
-            into firstName and lastName. <br /> In the companyNames object we
-            have three names and we are extracting them into one single
-            elements.
+            In the <strong className="highlightkeywords">elon</strong> array we
+            have two elements and we are destructuring them into{" "}
+            <strong className="highlightkeywords">firstName</strong> and{" "}
+            <strong className="highlightkeywords">lastName</strong>. <br /> In
+            the <strong className="highlightkeywords">companyNames</strong>{" "}
+            object we have three names and we are extracting them into one
+            single elements i.e. each property will reperesent one separate
+            value.
+            <br />
+            <br />
+            <div>
+              <strong className="h5 font-weight-bold"> Conclusion: </strong>I
+              hope this article helps. Feel free share to anyone who is needy.
+            </div>
           </div>
         </div>
         <Footer />
