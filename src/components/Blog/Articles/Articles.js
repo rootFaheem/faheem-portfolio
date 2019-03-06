@@ -23,14 +23,18 @@ class Articles extends Component {
     "December"
   ];
 
-  d = new Date();
+  // d = new Date();
 
-  updatedDate =
-    this.monthNames[this.d.getMonth()] +
-    " " +
-    new Date().getDay() +
-    ", " +
-    new Date().getFullYear();
+  // updatedDate =
+  //   this.monthNames[this.d.getMonth()] +
+  //   " " +
+  //   new Date().getDay() +
+  //   ", " +
+  //   new Date().getFullYear();
+
+  updatedDate0 = "February 25, 2019";
+  updatedDate1 = "February 28, 2019";
+  updatedDate2 = "March 2, 2019";
 
   state = {
     article0: {
@@ -38,7 +42,7 @@ class Articles extends Component {
       category: "Javascript",
       subheading:
         "In this article you will learn about next-generation javascript feature. There features are shown by example.",
-      uploadedDate: this.updatedDate,
+      uploadedDate: this.updatedDate0,
       imgURL: nextgenjs,
       link: "/blog/next-generation-javascript"
     },
@@ -48,7 +52,7 @@ class Articles extends Component {
       category: "React",
       subheading:
         "In this article you will learn a very basics of React. And also how to setup a React project from scratch. ",
-      uploadedDate: this.updatedDate,
+      uploadedDate: this.updatedDate1,
       imgURL: react,
       link: "/blog/react-introduction"
     },
@@ -58,7 +62,7 @@ class Articles extends Component {
       category: "Node",
       subheading:
         "In this article you will learn a very basics of Node.js and Express Framework. And also how to setup a Node.js with Express project from scratch.",
-      uploadedDate: this.updatedDate,
+      uploadedDate: this.updatedDate2,
       imgURL: node,
       link: "/blog/node-express-introduction"
     }
