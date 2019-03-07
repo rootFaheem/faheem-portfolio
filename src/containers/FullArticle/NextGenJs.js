@@ -73,9 +73,9 @@ class NextGenJs extends Component {
               width="100%"
               height="170"
               src="//jsfiddle.net/FaheemTech/64ura23q/62/embedded/js,html,css/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             It will return "true" because{" "}
             <strong className="highlightkeywords">var</strong> will ignore the
@@ -87,9 +87,9 @@ class NextGenJs extends Component {
               width="100%"
               height="200"
               src="//jsfiddle.net/FaheemTech/64ura23q/74/embedded/js,html,css/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             we will get "10" because the scope will be global for the{" "}
             <strong className="highlightkeywords">i</strong>.
@@ -103,9 +103,9 @@ class NextGenJs extends Component {
               width="100%"
               height="240"
               src="//jsfiddle.net/FaheemTech/64ura23q/119/embedded/js,html,css/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             The outcome will be "Hi Elon Musk", because the{" "}
             <strong className="highlightkeywords">var</strong> are processed at
@@ -124,9 +124,9 @@ class NextGenJs extends Component {
               width="100%"
               height="280"
               src="//jsfiddle.net/FaheemTech/64ura23q/117/embedded/js,html,css,result/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             It will also return the same rusult i.e. "Hi Elon Musk" becasue as
             we know the <strong className="highlightkeywords">var</strong> are
@@ -158,9 +158,9 @@ class NextGenJs extends Component {
               width="100%"
               height="170"
               src="//jsfiddle.net/FaheemTech/64ura23q/115/embedded/js,html,css/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             But the arrow functions are a bit different and we use following
             approach:
@@ -170,9 +170,9 @@ class NextGenJs extends Component {
               width="100%"
               height="170"
               src="//jsfiddle.net/FaheemTech/64ura23q/113/embedded/js,html,css/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             <strong className="weight">
               So, why do we need arrow function? Can we not just use normal
@@ -236,9 +236,9 @@ class NextGenJs extends Component {
               width="100%"
               height="280"
               src="//jsfiddle.net/FaheemTech/64ura23q/142/embedded/js,html,css/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             As we can see the context has taken from outside from the arrow
             function. If we run the same code without the arrow function then it
@@ -267,9 +267,9 @@ class NextGenJs extends Component {
               width="100%"
               height="290"
               src="//jsfiddle.net/FaheemTech/64ura23q/156/embedded/js,html,css/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             As we can see in{" "}
             <strong className="highlightkeywords">changedCEO()</strong> , we are
@@ -287,9 +287,9 @@ class NextGenJs extends Component {
               width="100%"
               height="380"
               src="//jsfiddle.net/FaheemTech/64ura23q/171/embedded/js,html,css/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             As we can see that in{" "}
             <strong className="highlightkeywords">Elon</strong> class we are
@@ -339,9 +339,9 @@ class NextGenJs extends Component {
               width="100%"
               height="170"
               src="//jsfiddle.net/FaheemTech/1zoys6j7/10/embedded/js,html,css/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             <strong> SpaceX.js</strong>
             &nbsp; file looks like this:
@@ -351,9 +351,9 @@ class NextGenJs extends Component {
               width="100%"
               height="170"
               src="//jsfiddle.net/FaheemTech/1zoys6j7/17/embedded/js,html,css/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             <strong> Elon.js</strong>
             &nbsp; file looks like this:
@@ -363,9 +363,9 @@ class NextGenJs extends Component {
               width="100%"
               height="240"
               src="//jsfiddle.net/FaheemTech/1zoys6j7/34/embedded/js,html,css/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             <div className="highlight">
               <strong>Explaination:</strong> In Tesla.js we have a Javascript
@@ -397,9 +397,9 @@ class NextGenJs extends Component {
               width="100%"
               height="400"
               src="//jsfiddle.net/FaheemTech/1zoys6j7/55/embedded/js,html,css/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             So as you can see in the above code, we have{" "}
             <strong className="highlightkeywords">oldArray</strong> that has
@@ -423,9 +423,9 @@ class NextGenJs extends Component {
               width="100%"
               height="280"
               src="//jsfiddle.net/FaheemTech/64ura23q/9/embedded/js,html,css/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             In the above code we have{" "}
             <strong className="highlightkeywords">showName()</strong> that
@@ -450,9 +450,9 @@ class NextGenJs extends Component {
               width="100%"
               height="400"
               src="//jsfiddle.net/FaheemTech/64ura23q/57/embedded/js,html,css/dark/"
-              allowfullscreen="allowfullscreen"
-              allowpaymentrequest
-              frameborder="0"
+              allowfullscreen="allowFullScreen"
+              allowpaymentrequest="false"
+              frameBorder="0"
             />
             In the <strong className="highlightkeywords">elon</strong> array we
             have two elements and we are destructuring them into{" "}
