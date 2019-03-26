@@ -38,19 +38,16 @@ class AppNavbar extends Component {
         <Navbar
           expand="md"
           light
-          className="mb-5 bg-dark"
+          className="bg-dark text-center"
           style={{ lineHeight: "2.5rem" }}
         >
           <Container>
-            <NavLink
-              className="text-danger font-bold font-weight-bold brand"
-              to="/"
-            >
+            <NavLink className="text-center" to="/">
               <img
                 src={logo}
                 alt="brand"
                 style={{
-                  height: "70px"
+                  height: "50px"
                 }}
               />
             </NavLink>
@@ -60,7 +57,7 @@ class AppNavbar extends Component {
                 <NavItem className="mr-5">
                   <NavLink
                     to="/about"
-                    className="text-light mr-5 "
+                    className="text-light mr-2 "
                     onClick={this.toggle}
                     style={{ textDecoration: "none" }}
                   >
@@ -68,7 +65,7 @@ class AppNavbar extends Component {
                   </NavLink>
                 </NavItem>
 
-                <NavItem className="mr-5">
+                <NavItem className="mr-2">
                   <NavLink
                     to="/portfolio"
                     className="text-light mr-5"
@@ -88,18 +85,60 @@ class AppNavbar extends Component {
                     <span className="align-middle hoverp">Blog</span>
                   </NavLink>
                 </NavItem>
-
                 <NavItem>
-                  <a href="www.google.com" style={{ textDecoration: "none" }}>
-                    <i class="fa fa-github-square fa-3x text-light " />
-                  </a>
-                  <NavLink
-                    to="blog"
-                    className="text-light"
-                    onClick={this.toggle}
-                  >
-                    <i className="fa fa-twitter-square text-light" />
-                  </NavLink>
+                  <ul style={{ listStyle: "none" }}>
+                    <li style={{ display: "inline" }}>
+                      <a
+                        className=" mr-5"
+                        href="https://twitter.com/rootfaheem"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i
+                          className="fa fa-twitter-square text-light"
+                          style={{ marginLeft: "-20px", marginRight: "-20px" }}
+                        />
+                      </a>
+                    </li>
+                    <li style={{ display: "inline" }}>
+                      <a
+                        className="mr-5"
+                        href="https://github.com/FaheemTech"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i
+                          className="fa fa-github-square text-light"
+                          style={{ marginLeft: "-20px", marginRight: "-20px" }}
+                        />
+                      </a>
+                    </li>
+                    <li style={{ display: "inline" }}>
+                      <a
+                        className="mr-5"
+                        href="mailto:faheemtech1@gmail.com?Subject=Hello%20faheem"
+                        rel="noopener noreferrer"
+                      >
+                        <i
+                          className="fa fa-envelope-square text-light"
+                          style={{ marginLeft: "-20px", marginRight: "-20px" }}
+                        />
+                      </a>
+                    </li>
+                    <li style={{ display: "inline" }}>
+                      <a
+                        className="mr-5"
+                        href="https://www.linkedin.com/in/faheem-ahmad-753705127/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i
+                          className="fa fa-linkedin-in text-light"
+                          style={{ marginLeft: "-20px", marginRight: "-20px" }}
+                        />
+                      </a>
+                    </li>
+                  </ul>
                 </NavItem>
               </Nav>
             </Collapse>
