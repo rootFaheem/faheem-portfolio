@@ -5,7 +5,6 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Container,
   Nav,
   NavItem
@@ -21,7 +20,7 @@ import ReactIntro from "../../../containers/FullArticle/ReactIntro";
 import NodeExpressIntro from "../../../containers/FullArticle/NodeExpressIntro";
 import logo from "../../../assets/logo.png";
 
-import "./Navbar.css";
+// import "./Navbar.css";
 
 class AppNavbar extends Component {
   state = {
@@ -39,8 +38,7 @@ class AppNavbar extends Component {
         <Navbar
           expand="md"
           light
-          className="mb-5 bg-light "
-          sticky="top"
+          className="mb-5 bg-dark"
           style={{ lineHeight: "2.5rem" }}
         >
           <Container>
@@ -59,10 +57,10 @@ class AppNavbar extends Component {
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
-                <NavItem className="mr-3">
+                <NavItem className="mr-5">
                   <NavLink
                     to="/about"
-                    className="text-dark mr-3 "
+                    className="text-light mr-5 "
                     onClick={this.toggle}
                     style={{ textDecoration: "none" }}
                   >
@@ -70,24 +68,37 @@ class AppNavbar extends Component {
                   </NavLink>
                 </NavItem>
 
-                <NavItem className="mr-3">
+                <NavItem className="mr-5">
                   <NavLink
                     to="/portfolio"
-                    className="text-dark mr-3"
+                    className="text-light mr-5"
                     onClick={this.toggle}
                     style={{ textDecoration: "none" }}
                   >
                     <span className="align-middle hoverp">Porfolio</span>
                   </NavLink>
                 </NavItem>
-                <NavItem className="mr-3">
+                <NavItem className="mr-5">
                   <NavLink
                     to="blog"
-                    className="text-dark mr-3"
+                    className="text-light mr-5"
                     onClick={this.toggle}
                     style={{ textDecoration: "none" }}
                   >
                     <span className="align-middle hoverp">Blog</span>
+                  </NavLink>
+                </NavItem>
+
+                <NavItem>
+                  <a href="www.google.com" style={{ textDecoration: "none" }}>
+                    <i class="fa fa-github-square fa-3x text-light " />
+                  </a>
+                  <NavLink
+                    to="blog"
+                    className="text-light"
+                    onClick={this.toggle}
+                  >
+                    <i className="fa fa-twitter-square text-light" />
                   </NavLink>
                 </NavItem>
               </Nav>
