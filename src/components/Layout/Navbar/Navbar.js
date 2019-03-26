@@ -1,6 +1,17 @@
 import React, { Component } from "react";
-import { Route, NavLink } from "react-router-dom";
+import { Route, NavLink, Switch, Redirect } from "react-router-dom";
 
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Container,
+  Nav,
+  NavItem
+} from "reactstrap";
+
+//  Components import
 import About from "../../About/About";
 import Portfolio from "../../Portfolio/Portfolio";
 import Blog from "../../Blog/Blog";
@@ -12,123 +23,84 @@ import logo from "../../../assets/logo.png";
 
 import "./Navbar.css";
 
-class Navbar extends Component {
+class AppNavbar extends Component {
+  state = {
+    isOpen: false
+  };
+
+  toggle = () => {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  };
   render() {
     return (
       <div>
-        <header>
-          <nav
-            className="navbar navbar-expand-sm navbar-dark  fixed-top"
-            id="myNavbar"
-          >
-            <div className="container">
-              <NavLink
-                to="/"
-                exact
-                className="navbar-brand data-toggle-collapse data-target=navbar-responsive-collapse
-"
-              >
-                <img
-                  src={logo}
-                  alt="brand"
-                  style={{
-                    height: "70px"
-                  }}
-                />
-              </NavLink>
-              <button
-                className="navbar-toggler "
-                data-toggle="collapse"
-                data-target="#navbarMenu"
-              >
-                <span className="navbar-toggler-icon container"> </span>
-              </button>
-              <div className="collapse navbar-collapse" id="navbarMenu">
-                <ul className="navbar-nav" id="myMargin">
-                  <li className="nav-item">
-                    <NavLink to="/about" exact className="nav-link">
-                      About
-                    </NavLink>
-                  </li>
-                  <li className="nav-item">
-                    <NavLink to="/portfolio" exact className="nav-link">
-                      Portfolio
-                    </NavLink>
-                  </li>
-                  <li className="nav-item">
-                    <NavLink to="/blog" exact className="nav-link">
-                      Blog
-                    </NavLink>
-                  </li>
-                </ul>
-              </div>
-              <div className="collapse navbar-collapse" id="#socialLinks">
-                <ul className="navbar-nav ml-auto">
-                  <li className="nav-item">
-                    <a
-                      className="tw-ic mr-3 cir"
-                      role="button"
-                      href="https://twitter.com/rootfaheem"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fab fa-lg fa-twitter" />
-                    </a>
-                  </li>
-                  <li className="nav-item" href="www.google.com">
-                    <a
-                      className="git-ic mr-3 cir"
-                      role="button"
-                      href="https://github.com/FaheemTech"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fab fa-lg fa-github" />
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="email-ic mr-3 cir"
-                      role="button"
-                      href="mailto:faheemtech1@gmail.com?Subject=Hello%20faheem"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="far fa-lg fa-envelope" />
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="li-ic mr-3 cir"
-                      role="button"
-                      href="https://www.linkedin.com/in/faheem-ahmad-753705127/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fab fa-lg fa-linkedin-in" />
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="dribbble-ic mr-3 cir"
-                      role="button"
-                      href="https://dribbble.com/faheemtech"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fab fa-lg fa-dribbble" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </header>
+        <Navbar
+          expand="md"
+          light
+          className="mb-5 bg-light "
+          sticky="top"
+          style={{ lineHeight: "2.5rem" }}
+        >
+          <Container>
+            <NavLink
+              className="text-danger font-bold font-weight-bold brand"
+              to="/"
+            >
+              <img
+                src={logo}
+                alt="brand"
+                style={{
+                  height: "70px"
+                }}
+              />
+            </NavLink>
+            <NavbarToggler onClick={this.toggle} />
+            <Collapse isOpen={this.state.isOpen} navbar>
+              <Nav className="ml-auto" navbar>
+                <NavItem className="mr-3">
+                  <NavLink
+                    to="/about"
+                    className="text-dark mr-3 "
+                    onClick={this.toggle}
+                    style={{ textDecoration: "none" }}
+                  >
+                    <span className="align-middle hoverp">About</span>
+                  </NavLink>
+                </NavItem>
 
-        <div>
+                <NavItem className="mr-3">
+                  <NavLink
+                    to="/portfolio"
+                    className="text-dark mr-3"
+                    onClick={this.toggle}
+                    style={{ textDecoration: "none" }}
+                  >
+                    <span className="align-middle hoverp">Porfolio</span>
+                  </NavLink>
+                </NavItem>
+                <NavItem className="mr-3">
+                  <NavLink
+                    to="blog"
+                    className="text-dark mr-3"
+                    onClick={this.toggle}
+                    style={{ textDecoration: "none" }}
+                  >
+                    <span className="align-middle hoverp">Blog</span>
+                  </NavLink>
+                </NavItem>
+              </Nav>
+            </Collapse>
+          </Container>
+        </Navbar>
+        <Switch>
           <Route path="/about" exact component={About} />
           <Route path="/portfolio" exact component={Portfolio} />
           <Route path="/blog" exact component={Blog} />
-          <Route path="/" exact component={Landing} />
+          <Redirect from="/" to="about" />
+          <Route path="/" component={Landing} />
+
           <Route
             path="/blog/next-generation-javascript"
             component={NextGenJs}
@@ -138,9 +110,12 @@ class Navbar extends Component {
             path="/blog/node-express-introduction"
             component={NodeExpressIntro}
           />
-        </div>
+        </Switch>
       </div>
     );
   }
 }
-export default Navbar;
+
+//  UPDATED NAVBAR GOES HERE
+
+export default AppNavbar;
