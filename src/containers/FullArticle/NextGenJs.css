@@ -3,9 +3,9 @@
   position: relative;
   overflow: scroll;
   min-height: 120vh;
-  margin-top: 80px;
+  margin-top: 0;
   overflow: scroll;
-  padding-top: 40px;
+  padding-top: 50px;
   width: 60%;
 }
 .articlehead {

@@ -7,7 +7,6 @@ import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from "reactstrap";
 import About from "../../About/About";
 import Portfolio from "../../Portfolio/Portfolio";
 import Blog from "../../Blog/Blog";
-import Landing from "../MainContent/Landing/Landing";
 import NextGenJs from "../../../containers/FullArticle/NextGenJs";
 import ReactIntro from "../../../containers/FullArticle/ReactIntro";
 import NodeExpressIntro from "../../../containers/FullArticle/NodeExpressIntro";
@@ -42,7 +41,7 @@ class AppNavbar extends Component {
           style={{ lineHeight: "2.5rem", background: "#24292e" }}
         >
           <div className="container">
-            <NavLink className="text-center" to="/">
+            <NavLink className="text-center" to="/about">
               <img
                 src={logo}
                 alt="brand"
@@ -88,7 +87,7 @@ class AppNavbar extends Component {
                 </NavItem>
                 <NavItem className="mr-5">
                   <NavLink
-                    to="blog"
+                    to="/blog"
                     className="text-light mr-5 align-middle"
                     onClick={this.toggle}
                     style={{
@@ -173,16 +172,16 @@ class AppNavbar extends Component {
           <Route path="/about" exact component={About} />
           <Route path="/portfolio" exact component={Portfolio} />
           <Route path="/blog" exact component={Blog} />
-          <Redirect from="/" to="about" />
-          <Route path="/" component={Landing} />
 
           <Route
             path="/blog/next-generation-javascript"
+            exact
             component={NextGenJs}
           />
           <Route path="/blog/react-introduction" component={ReactIntro} />
           <Route
             path="/blog/node-express-introduction"
+            exact
             component={NodeExpressIntro}
           />
         </Switch>
@@ -190,7 +189,5 @@ class AppNavbar extends Component {
     );
   }
 }
-
-//  UPDATED NAVBAR GOES HERE
 
 export default AppNavbar;

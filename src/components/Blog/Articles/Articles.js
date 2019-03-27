@@ -74,19 +74,6 @@ class Articles extends Component {
               link={this.state.article2.link}
             />
           </div>
-
-          <div
-            className="col-md-3 col-auto text-center"
-            style={{ color: "green" }}
-          >
-            <p>react (7)</p>
-            <p>redux (4)</p>
-            <p>node (5)</p>
-            <p>JavaScript (12)</p>
-            <p>Bootstrap (8)</p>
-            <p>Machine Learning (3)</p>
-            <p>Web Development (14)</p>
-          </div>
         </div>
       </div>
     );

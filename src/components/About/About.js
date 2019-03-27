@@ -67,7 +67,7 @@ class About extends Component {
                       write <strong>efficient</strong> and{" "}
                       <strong>clean code</strong>. I stick with{" "}
                       <strong>DRY</strong> principle. I believe code reusability
-                      is on of the most important thing for developer. is I do
+                      is on of the most important thing for developer. I do
                       always see everything as a problem to be solved. I do use
                       MERN for my tech stack. When I am not coding then you will
                       find me on twitter, watching The Big Bang Theory or Mr.
