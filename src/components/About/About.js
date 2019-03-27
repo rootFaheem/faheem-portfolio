@@ -115,10 +115,10 @@ class About extends Component {
                     <hr />
                     <div id="paddings">
                       I do spend most of (approx. 70%) my time on my Computer. I
-                      enjoy learing any tech/non-tech that can solve my problem.
-                      I mostly work on MERN stack, Cloud, Linux. So always love
-                      to hear about them. <br /> Some other stuff i like is Elon
-                      Musk vision, Crypto, InfoSec. There are lot of
+                      enjoy learning any tech/non-tech stuff that can solve my
+                      problem. I mostly work on MERN stack, Cloud, Linux. So
+                      always love to hear about them. <br /> Some other stuff i
+                      like is Elon Musk vision, InfoSec. There are lot of
                       entertainment things i like, such as The Big Bang Theory,
                       Mr. Robot, Silicon Valley, Iron Man series. Love to hear
                       about a startup that can solve the present society's
@@ -190,8 +190,8 @@ class About extends Component {
                     <div id="paddings">
                       Back-end has been always interesting to me because writing
                       server side code is always a challenging task to do. One
-                      things i like is you dont have to follow some design stuff
-                      instead you do follow logic.
+                      things i like is, you dont have to follow some design
+                      stuff instead you do follow logic.
                     </div>
 
                     <p className="text-center h5 TopColor" id="top">
@@ -231,8 +231,8 @@ class About extends Component {
                     </p>
                     <hr />
                     <div id="paddings">
-                      There are some other stuff I do such as AWS cloud,
-                      Firebase, Linux, sometimes Dev Ops, Cooking.
+                      There are some other stuff I do work with, such as AWS
+                      cloud, Firebase, Linux, sometimes Dev Ops, Cooking.
                     </div>
 
                     <p className="text-center h5 TopColor" id="top">
