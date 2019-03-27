@@ -1,14 +1,7 @@
 import React, { Component } from "react";
 import { Route, NavLink, Switch, Redirect } from "react-router-dom";
 
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  Container,
-  Nav,
-  NavItem
-} from "reactstrap";
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from "reactstrap";
 
 //  Components import
 import About from "../../About/About";
@@ -32,45 +25,63 @@ class AppNavbar extends Component {
       isOpen: !this.state.isOpen
     });
   };
+
+  brandClickHandler = () => {
+    this.setState({
+      isOpen: false
+    });
+  };
+
   render() {
     return (
       <div>
         <Navbar
           expand="md"
           light
-          className="bg-dark text-center"
-          style={{ lineHeight: "2.5rem" }}
+          className="align-middle"
+          style={{ lineHeight: "2.5rem", background: "#24292e" }}
         >
-          <Container>
+          <div className="container">
             <NavLink className="text-center" to="/">
               <img
                 src={logo}
                 alt="brand"
                 style={{
-                  height: "50px"
+                  height: "60px"
                 }}
+                onClick={this.brandClickHandler}
               />
             </NavLink>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
-                <NavItem className="mr-5">
+                <NavItem className="mr-5 text-center">
                   <NavLink
                     to="/about"
-                    className="text-light mr-2 "
+                    className="text-light mr-2 text-center"
                     onClick={this.toggle}
-                    style={{ textDecoration: "none" }}
+                    style={{
+                      textDecoration: "none",
+                      alignItems: "center",
+                      display: "flex",
+                      marginTop: "10px"
+                    }}
                   >
-                    <span className="align-middle hoverp">About</span>
+                    <span className="hoverp text-center">About</span>
                   </NavLink>
                 </NavItem>
 
                 <NavItem className="mr-2">
                   <NavLink
                     to="/portfolio"
-                    className="text-light mr-5"
+                    className="text-light mr-5 align-middle"
                     onClick={this.toggle}
-                    style={{ textDecoration: "none" }}
+                    style={{
+                      textDecoration: "none",
+                      alignItems: "center",
+                      display: "flex",
+                      marginTop: "10px"
+                    }}
                   >
                     <span className="align-middle hoverp">Porfolio</span>
                   </NavLink>
@@ -78,9 +89,14 @@ class AppNavbar extends Component {
                 <NavItem className="mr-5">
                   <NavLink
                     to="blog"
-                    className="text-light mr-5"
+                    className="text-light mr-5 align-middle"
                     onClick={this.toggle}
-                    style={{ textDecoration: "none" }}
+                    style={{
+                      textDecoration: "none",
+                      alignItems: "center",
+                      display: "flex",
+                      marginTop: "10px"
+                    }}
                   >
                     <span className="align-middle hoverp">Blog</span>
                   </NavLink>
@@ -93,10 +109,19 @@ class AppNavbar extends Component {
                         href="https://twitter.com/rootfaheem"
                         target="_blank"
                         rel="noopener noreferrer"
+                        style={{
+                          marginBottom: "-30px",
+                          marginTop: "-30px"
+                        }}
                       >
                         <i
                           className="fa fa-twitter-square text-light"
-                          style={{ marginLeft: "-20px", marginRight: "-20px" }}
+                          style={{
+                            marginLeft: "-20px",
+                            marginRight: "-20px",
+                            marginBottom: "-20px",
+                            marginTop: "-70px"
+                          }}
                         />
                       </a>
                     </li>
@@ -142,7 +167,7 @@ class AppNavbar extends Component {
                 </NavItem>
               </Nav>
             </Collapse>
-          </Container>
+          </div>
         </Navbar>
         <Switch>
           <Route path="/about" exact component={About} />

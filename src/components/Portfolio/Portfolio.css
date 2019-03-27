@@ -3,10 +3,10 @@
   position: relative;
   overflow: scroll;
   min-height: 100vh;
-  margin-top: 80px;
+  margin-top: 0;
   text-align: justify;
   overflow: scroll;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .imgcontainer {

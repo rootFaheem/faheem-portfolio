@@ -43,7 +43,14 @@ const footer = () => {
                   role="button"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa fa-google"> </i>
+                  <i
+                    className="fa fa-envelope bg-light text-danger"
+                    style={{
+                      borderRadius: "50%"
+                    }}
+                  >
+                    {" "}
+                  </i>
                 </a>
 
                 <a
@@ -54,16 +61,6 @@ const footer = () => {
                   rel="noopener noreferrer"
                 >
                   <i className="fa fa-linkedin" />
-                </a>
-                <a
-                  href="https://dribbble.com/faheemtech"
-                  id="textdecoration"
-                  role="button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <i className="fa fa-dribbble" />
                 </a>
               </div>
             </div>

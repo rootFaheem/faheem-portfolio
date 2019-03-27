@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Button } from "reactstrap";
 
 import "./About.css";
 
@@ -29,8 +30,8 @@ class About extends Component {
                   src={faheem}
                   alt="geek here"
                   style={{
-                    height: "250px",
-                    width: "250px",
+                    height: "200px",
+                    width: "200px",
                     borderRadius: "50%",
                     marginTop: "10px",
                     marginBottom: "10px"
@@ -40,10 +41,14 @@ class About extends Component {
 
               <div className="col-md-6 col-auto buttonpad ">
                 <a href={resume} download>
-                  <button className="btn-success btn-lg">
+                  <Button color="success">
+                    <i className="fa fa-download fa-xs" aria-hidden="true" />
+                    Download my Resume &nbsp;&nbsp;&nbsp;
+                  </Button>{" "}
+                  {/* <button className="btn-success">
                     <span className="fa fa-download" aria-hidden="true" />
                     Download my Resume
-                  </button>
+                  </button> */}
                 </a>
               </div>
             </div>
