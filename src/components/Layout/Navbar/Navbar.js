@@ -10,7 +10,7 @@ import Blog from "../../Blog/Blog";
 import NextGenJs from "../../../containers/FullArticle/NextGenJs";
 import ReactIntro from "../../../containers/FullArticle/ReactIntro";
 import NodeExpressIntro from "../../../containers/FullArticle/NodeExpressIntro";
-import logo from "../../../assets/logo.png";
+import logo from "../../../assets/faheem_logo.png";
 
 // import "./Navbar.css";
 
@@ -37,7 +37,7 @@ class AppNavbar extends Component {
         <Navbar
           expand="md"
           light
-          className="align-middle"
+          className="align-middle brandhover"
           style={{ lineHeight: "2.5rem", background: "#24292e" }}
         >
           <div className="container">
@@ -46,7 +46,9 @@ class AppNavbar extends Component {
                 src={logo}
                 alt="brand"
                 style={{
-                  height: "60px"
+                  height: "180px",
+                  marginTop: "-60px",
+                  marginBottom: "-50px"
                 }}
                 onClick={this.brandClickHandler}
               />

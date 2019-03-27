@@ -45,10 +45,6 @@ class About extends Component {
                     <i className="fa fa-download fa-xs" aria-hidden="true" />
                     Download my Resume &nbsp;&nbsp;&nbsp;
                   </Button>{" "}
-                  {/* <button className="btn-success">
-                    <span className="fa fa-download" aria-hidden="true" />
-                    Download my Resume
-                  </button> */}
                 </a>
               </div>
             </div>
