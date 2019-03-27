@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/FaheemTech/faheem-portfolio/precache-manifest.f53cae4ea7833e34247e60968ae60851.js"
+  "/faheem-profile/precache-manifest.ceb336cdd0739470a7bea7ca87ead19f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/FaheemTech/faheem-portfolio/index.html", {
+workbox.routing.registerNavigationRoute("/faheem-profile/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
