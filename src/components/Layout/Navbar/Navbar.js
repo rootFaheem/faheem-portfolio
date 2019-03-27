@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, NavLink, Switch } from "react-router-dom";
+import { Route, NavLink, Switch, Redirect } from "react-router-dom";
 
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from "reactstrap";
 
@@ -186,6 +186,7 @@ class AppNavbar extends Component {
             exact
             component={NodeExpressIntro}
           />
+          <Redirect path="/" to="/about" />
         </Switch>
       </div>
     );

@@ -115,7 +115,7 @@ const portfolio = () => {
                   </div>
                   <div>
                     <a
-                      href="https://github.com/FaheemTech/faheem-portfolio"
+                      href="https://faheem-profile.firebaseapp.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
