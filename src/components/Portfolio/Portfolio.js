@@ -3,8 +3,12 @@ import React from "react";
 import "./Portfolio.css";
 
 import BurgerBuilder from "../../assets/porfolio/BurgerBuilder.png";
+import BackMyItem from "../../assets/porfolio/backmyitem.png";
 import NodeShop from "../../assets/porfolio/nodeshop.png";
+import save4thpillar from "../../assets/porfolio/save4thpillar.png";
+import FaheemProfile from "../../assets/porfolio/faheemprofile.png";
 import WSN from "../../assets/porfolio/wsn.png";
+
 import Footer from "../Layout/Footer/Footer";
 
 const portfolio = () => {
@@ -46,7 +50,7 @@ const portfolio = () => {
                   <div className="imgtext">
                     <div>
                       <p className="Rbold">Burger Builder</p>
-                      <p className="fontRaleway">React+Redux</p>
+                      <p className="fontRaleway">React + Redux, Firebase</p>
                     </div>
                     <div>
                       <a
@@ -67,18 +71,21 @@ const portfolio = () => {
 
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">
               <div>
-                <img src={NodeShop} className="image" alt="burger builder" />
+                <img src={BackMyItem} className="image" alt="BackMyItem" />
               </div>
               <div>
                 <div className="overlay">
                   <div className="imgtext">
                     <div>
-                      <p className="Rbold">Node Shop</p>
-                      <p className="fontRaleway">Node.js + Express.js</p>
+                      <p className="Rbold">BackMyItem</p>
+                      <p className="fontRaleway">
+                        HTML5, CSS3, Bootstrap, JQuery, Django, Google Map,
+                        Auth, AWS
+                      </p>
                     </div>
                     <div>
                       <a
-                        href="https://github.com/FaheemTech/node-shop"
+                        href="https://backmyitem.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -93,6 +100,59 @@ const portfolio = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">
+              <img src={FaheemProfile} className="image" alt="burger builder" />
+              <div className="overlay">
+                <div className="imgtext">
+                  <div>
+                    <p className="Rbold">Faheem Profile</p>
+                    <p className="fontRaleway">
+                      React, Bootstrap, Reactstrap, Google Font, Font Awesome
+                    </p>
+                  </div>
+                  <div>
+                    <a
+                      href="https://react-my-burger-ab967.firebaseapp.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className="btn visitbutton" href="/">
+                        {" "}
+                        visit the website
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row no-gutters">
+            <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">
+              <img src={save4thpillar} className="image" alt="burger builder" />
+              <div className="overlay">
+                <div className="imgtext">
+                  <div>
+                    <p className="Rbold">Save4thpillar</p>
+                    <p className="fontRaleway">
+                      MERN stack, Redux, Bootstrap, Reactstrap, JWT-Auth,
+                      Passport, BcryptJs, Mongoose
+                    </p>
+                  </div>
+                  <div>
+                    <a
+                      href="https://github.com/FaheemTech/save4thpillar"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className="btn visitbutton" href="/">
+                        {" "}
+                        visit the website
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">
               <div>
                 <div>
                   <img src={WSN} className="image" alt="burger builder" />
@@ -101,7 +161,7 @@ const portfolio = () => {
                   <div className="imgtext">
                     <div>
                       <p className="Rbold">An ECA for WSN</p>
-                      <p className="fontRaleway">MERN stack</p>
+                      <p className="fontRaleway">MERN stack, MATLAB</p>
                     </div>
                     <div>
                       <a
@@ -119,61 +179,14 @@ const portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row no-gutters">
-            <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">
-              <img src={WSN} className="image" alt="burger builder" />
-              <div className="overlay">
-                <div className="imgtext">
-                  <div>
-                    <p className="Rbold">An ECA for WSN</p>
-                    <p className="fontRaleway">MERN stack</p>
-                  </div>
-                  <div>
-                    <a
-                      href="https://github.com/FaheemTech/An-Enhanced-Certificate-less-Algorithm-for-Wireless-Sensor-Network-React"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className="btn visitbutton" href="/">
-                        {" "}
-                        visit the website
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">
-              <img src={BurgerBuilder} className="image" alt="burger builder" />
-              <div className="overlay">
-                <div className="imgtext">
-                  <div>
-                    <p className="Rbold">Burger Builder</p>
-                    <p className="fontRaleway">React+Redux</p>
-                  </div>
-                  <div>
-                    <a
-                      href="https://react-my-burger-ab967.firebaseapp.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className="btn visitbutton" href="/">
-                        {" "}
-                        visit the website
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">
               <img src={NodeShop} className="image" alt="burger builder" />
               <div className="overlay">
                 <div className="imgtext">
                   <div>
-                    <p className="Rbold">Node Shop</p>
-                    <p className="fontRaleway">Node.js + Express.js</p>
+                    <p className="Rbold">NodeShop</p>
+                    <p className="fontRaleway">NodeJs, Express, MongoDB, EJS</p>
                   </div>
                   <div>
                     <a
