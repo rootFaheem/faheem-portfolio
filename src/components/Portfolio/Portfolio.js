@@ -17,7 +17,7 @@ const portfolio = () => {
       <div className="Portfolio">
         <div className="container">
           <div>
-            <div style={{ marginTop: "50px", fontWeight: "900" }}>
+            <div style={{ marginTop: "30px", fontWeight: "900" }}>
               <p className="h2 text-center" style={{ fontWeight: "501" }}>
                 {" "}
                 PROJECTS
@@ -35,8 +35,10 @@ const portfolio = () => {
               />
             </div>
           </div>
-
-          <div className="row no-gutters" style={{ marginTop: "80px" }}>
+          <p className="text-center" style={{ marginTop: "40px" }}>
+            Please move the cursor on projects to see details:
+          </p>
+          <div className="row no-gutters" style={{ marginTop: "20px" }}>
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">
               <div>
                 <div>
@@ -50,7 +52,9 @@ const portfolio = () => {
                   <div className="imgtext">
                     <div>
                       <p className="Rbold">Burger Builder</p>
-                      <p className="fontRaleway">React + Redux, Firebase</p>
+                      <p className="fontRaleway">
+                        React + Redux, Firebase, Axios
+                      </p>
                     </div>
                     <div>
                       <a
@@ -100,7 +104,7 @@ const portfolio = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">
-              <img src={FaheemProfile} className="image" alt="burger builder" />
+              <img src={FaheemProfile} className="image" alt="Faheem Profile" />
               <div className="overlay">
                 <div className="imgtext">
                   <div>
@@ -111,7 +115,7 @@ const portfolio = () => {
                   </div>
                   <div>
                     <a
-                      href="https://react-my-burger-ab967.firebaseapp.com/"
+                      href="https://github.com/FaheemTech/faheem-portfolio"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -127,7 +131,7 @@ const portfolio = () => {
           </div>
           <div className="row no-gutters">
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">
-              <img src={save4thpillar} className="image" alt="burger builder" />
+              <img src={save4thpillar} className="image" alt="save4thpillar" />
               <div className="overlay">
                 <div className="imgtext">
                   <div>
@@ -155,7 +159,7 @@ const portfolio = () => {
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">
               <div>
                 <div>
-                  <img src={WSN} className="image" alt="burger builder" />
+                  <img src={WSN} className="image" alt="WSN" />
                 </div>
                 <div className="overlay">
                   <div className="imgtext">
@@ -181,7 +185,7 @@ const portfolio = () => {
             </div>
 
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">
-              <img src={NodeShop} className="image" alt="burger builder" />
+              <img src={NodeShop} className="image" alt="NodeShop" />
               <div className="overlay">
                 <div className="imgtext">
                   <div>
