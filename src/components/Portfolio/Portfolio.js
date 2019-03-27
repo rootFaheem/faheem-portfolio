@@ -36,7 +36,7 @@ const portfolio = () => {
             </div>
           </div>
           <p className="text-center" style={{ marginTop: "40px" }}>
-            Please move the cursor on projects to see details:
+            Please move the cursor on image to see details:
           </p>
           <div className="row no-gutters" style={{ marginTop: "20px" }}>
             <div className="col-lg-4 col-md-4 col-sm-12 col-12 imgcontainer">

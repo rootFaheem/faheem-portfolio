@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, NavLink, Switch, Redirect } from "react-router-dom";
+import { Route, NavLink, Switch } from "react-router-dom";
 
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from "reactstrap";
 
@@ -46,7 +46,7 @@ class AppNavbar extends Component {
                 src={logo}
                 alt="brand"
                 style={{
-                  height: "180px",
+                  height: "170px",
                   marginTop: "-60px",
                   marginBottom: "-50px"
                 }}
@@ -84,7 +84,7 @@ class AppNavbar extends Component {
                       marginTop: "10px"
                     }}
                   >
-                    <span className="align-middle hoverp">Porfolio</span>
+                    <span className="align-middle hoverp">Portfolio</span>
                   </NavLink>
                 </NavItem>
                 <NavItem className="mr-5">

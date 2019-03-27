@@ -114,15 +114,15 @@ class About extends Component {
                     </p>
                     <hr />
                     <div id="paddings">
-                      I do spend most of ( approx. 70%) my time on my Computer.
-                      I enjoy learing any tech/non-tech that can solve my
-                      problem. I mostly work on MERN stack, Cloud, Linux. So
-                      always love to hear about them. <br /> Some other stuff i
-                      like is Elon Musk vision, Crypto, InfoSec. There are lot
-                      of entertainment things i like, such as The Big Bang
-                      Theory, Mr. Robot, Silicon Valley, Iron Man series. Love
-                      to hear about a startup that can solve the present
-                      society's problem.
+                      I do spend most of (approx. 70%) my time on my Computer. I
+                      enjoy learing any tech/non-tech that can solve my problem.
+                      I mostly work on MERN stack, Cloud, Linux. So always love
+                      to hear about them. <br /> Some other stuff i like is Elon
+                      Musk vision, Crypto, InfoSec. There are lot of
+                      entertainment things i like, such as The Big Bang Theory,
+                      Mr. Robot, Silicon Valley, Iron Man series. Love to hear
+                      about a startup that can solve the present society's
+                      problem.
                     </div>
                   </div>
                 </div>
@@ -158,8 +158,8 @@ class About extends Component {
                       Languages I speak
                     </p>
                     <div id="paddings">
-                      HTML/HTML5, CSS/CSS3, Javascript, NextGen JS, JQuery,
-                      Bootstrap, React, Redux, Git
+                      React, Redux, Bootstrap, Reactstrap, Javascript, NextGen
+                      JS, JQuery, HTML/HTML5, CSS/CSS3,
                     </div>
                     <p className="text-center h5 TopColor" id="top">
                       Dev Tools:
@@ -174,7 +174,7 @@ class About extends Component {
                         React DevTool <br />
                         Redux DevTools <br />
                         Terminal (iTerm & Hyper) <br />
-                        Github <br />
+                        Git / Github <br />
                       </p>
                     </div>
                   </div>
@@ -198,8 +198,8 @@ class About extends Component {
                       Languages I speak
                     </p>
                     <div id="paddings">
-                      Node.js, Express.js,Pug, EJS, Handlebars, MongoDb, Mysql,
-                      APIs, SysAdmin{" "}
+                      Node.js, Express.js, MongoDb, Mysql, APIs, SysAdmin, Pug,
+                      EJS, Handlebars (Basic){" "}
                     </div>
                     <p className="text-center h5 TopColor" id="top">
                       Dev Tools:
@@ -208,15 +208,16 @@ class About extends Component {
                       <p>
                         VS Code <br />
                         Sublime <br />
-                        Codepen <br />
                         npm <br />
                         Chrome Dev Tools <br />
                         nodemon
                         <br />
+                        axios
+                        <br />
                         Postman <br />
                         Concurrently <br />
                         Terminal (iTerm & Hyper) <br />
-                        Github <br />
+                        Git / Github <br />
                       </p>
                     </div>
                   </div>
@@ -231,17 +232,16 @@ class About extends Component {
                     <hr />
                     <div id="paddings">
                       There are some other stuff I do such as AWS cloud,
-                      Firebase, Penetration Testing, Linux, sometimes Dev Ops,
-                      Cooking.
+                      Firebase, Linux, sometimes Dev Ops, Cooking.
                     </div>
 
                     <p className="text-center h5 TopColor" id="top">
                       AWS
                     </p>
                     <div id="paddings">
-                      EC2, S3, Lambda, Load Balancers, auto scaling, VPC,
-                      Route53, CloudWatch, CLI, IAM roles, Security and Identity
-                      Compliance
+                      EC2, S3, Load Balancers, auto scaling, VPC, Route53,
+                      CloudWatch, CLI, IAM roles, Security and Identity
+                      Compliance etc.
                     </div>
                     <p className="text-center h5 TopColor" id="top">
                       Firebase
@@ -249,14 +249,12 @@ class About extends Component {
                     <div id="paddings">
                       Realtime Database, Authentication, Firebase Hosting
                     </div>
-                    <p className="text-center h5 TopColor" id="top">
-                      CMS
-                    </p>
-                    <div id="paddings">Drupal and Wordpress</div>
+
                     <p className="text-center h5 TopColor" id="top">
                       Helpers
                     </p>
                     <div id="paddings">localtunnel</div>
+                    <div id="paddings">Coffee</div>
                   </div>
                 </div>
               </div>
