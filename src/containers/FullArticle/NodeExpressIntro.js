@@ -16,7 +16,7 @@ class NodeExpressIntro extends Component {
           <hr />
           <div>
             <p className="h2 text-center" style={{ marginTop: "15%" }}>
-              comming soon...
+              coming soon...
             </p>
           </div>
         </div>

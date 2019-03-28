@@ -43,7 +43,7 @@ class About extends Component {
                 <a href={resume} download>
                   <Button color="success">
                     <i className="fa fa-download fa-xs" aria-hidden="true" />
-                    Download my Resume &nbsp;&nbsp;&nbsp;
+                    Download Resume &nbsp;&nbsp;&nbsp;
                   </Button>{" "}
                 </a>
               </div>
